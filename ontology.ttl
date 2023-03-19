@@ -16,7 +16,7 @@
 	dc:modified "2023-03-19".
 	
 :Pastor rdf:type owl:Class ;
-  rdfs:label "Pfarrer"@de ;
+  rdfs:label "Pfarrer"@de ,
 	rdfs:comment "Stellt ein Person dar, die in einem Pfarrebuch verzeichneit ist."@de .				
 		
 :Place rdf:type owl:Class ;
