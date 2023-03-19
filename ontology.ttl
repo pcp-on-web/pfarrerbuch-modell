@@ -37,20 +37,20 @@
 
 
 :hasStageOfLife rdf:type owl:ObjectProperty ;
-                rdfs:domain :Pfarrer ;
+                rdfs:domain :Pastor ;
                 rdfs:range :StageOfLife ;
                 rdfs:label "hat Lebensabschnitt"@de ;
                 rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
 
 
 :forename rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Pfarrer ;
+          rdfs:domain :Pastor ;
           rdfs:range rdfs:Literal ;
           rdfs:label "Vorname"@de ;
           rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
           
 :surname rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Pfarrer ;
+         rdfs:domain :Pastor ;
          rdfs:range rdfs:Literal ;
          rdfs:label "Nachname"@de ;
          rdfs:comment "Nachname einer Person"@de .
