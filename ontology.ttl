@@ -29,6 +29,35 @@
 	
 :Postion rdf:type owl:Class ;
   rdfs:label "Pfarstelle"@de ;
-	rdfs:comment "Eine Pfarstelle innerhalb einer Kirchgemeinde"@de .
+	rdfs:comment "Eine Pfarrstelle innerhalb einer Kirchgemeinde"@de .
 	
+:StageOfLife rdf:type owl:Class ;
+  rdfs:label "Lebensabschnitt"@de ;
+	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
+
+
+:hasStageOfLife rdf:type owl:ObjectProperty ;
+                rdfs:domain :Pfarrer ;
+                rdfs:range :StageOfLife ;
+                rdfs:label "hat Lebensabschnitt"@de ;
+                rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
+
+
+:forename rdf:type owl:DatatypeProperty ;
+          rdfs:domain :Person ;
+          rdfs:range rdfs:Literal ;
+          rdfs:label "Vorname"@de ;
+          rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
+          
+:surname rdf:type owl:DatatypeProperty ;
+         rdfs:domain :Person ;
+         rdfs:range rdfs:Literal ;
+         rdfs:label "Nachname"@de ;
+         rdfs:comment "Nachname einer Person"@de .
+          
+          
+
+
+
+
 
