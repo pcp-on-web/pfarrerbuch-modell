@@ -44,13 +44,13 @@
 
 
 :forename rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Person ;
+          rdfs:domain :Pfarrer ;
           rdfs:range rdfs:Literal ;
           rdfs:label "Vorname"@de ;
           rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
           
 :surname rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Person ;
+         rdfs:domain :Pfarrer ;
          rdfs:range rdfs:Literal ;
          rdfs:label "Nachname"@de ;
          rdfs:comment "Nachname einer Person"@de .
