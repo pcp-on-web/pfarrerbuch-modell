@@ -15,9 +15,9 @@
 	dc:license "http://creativecommons.org/licenses/by/4.0/" ;
 	dc:modified "2023-03-19".
 	
-:Pastor rdf:type owl:Class ;
-  rdfs:label "Pfarrer"@de ;
-	rdfs:comment "Stellt ein Person dar, die in einem Pfarrebuch verzeichneit ist."@de .				
+:Pfarrer rdf:type owl:Class ;
+  rdfs:label "Pfarrer, Pastor, "@de ;
+	rdfs:comment "Stellt ein Person dar, die in einem Pfarrerbuch verzeichneit ist."@de .				
 		
 :Place rdf:type owl:Class ;
   rdfs:label "Ort"@de ;
@@ -37,20 +37,20 @@
 
 
 :hasStageOfLife rdf:type owl:ObjectProperty ;
-                rdfs:domain :Pastor ;
+                rdfs:domain :Pfarrer ;
                 rdfs:range :StageOfLife ;
                 rdfs:label "hat Lebensabschnitt"@de ;
                 rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
 
 
 :forename rdf:type owl:DatatypeProperty ;
-          rdfs:domain :Pastor ;
+          rdfs:domain :Pfarrer ;
           rdfs:range rdfs:Literal ;
           rdfs:label "Vorname"@de ;
           rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
           
 :surname rdf:type owl:DatatypeProperty ;
-         rdfs:domain :Pastor ;
+         rdfs:domain :Pfarrer ;
          rdfs:range rdfs:Literal ;
          rdfs:label "Nachname"@de ;
          rdfs:comment "Nachname einer Person"@de .
