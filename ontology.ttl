@@ -31,6 +31,10 @@
   rdfs:label "Pfarstelle"@de ;
 	rdfs:comment "Eine Pfarrstelle innerhalb einer Kirchgemeinde"@de .
 
+:Famile rdf:type owl:Class . 
+
+
+
 ## Lebensabschnitte
 	
 :Lebensabschnitt rdf:type owl:Class ;
@@ -47,7 +51,6 @@
 	rdfs:label "Periode"@de ;
 	rdfs:comment "Periode"@de .
 
-
 :Geburt rdf:type owl:Class ; 
 	owl:subClassOf :Event; 
 	rdfs:label "Geburt"@de ;
@@ -58,12 +61,21 @@
 	rdfs:label "Ordination"@de ;
 	rdfs:comment "Ordination"@de .
 
+:Eheschliessung rdf:type owl:Class ; 
+	owl:subClassOf :Event; 
+
+:Familienzugehoerigkeit rdf:type owl:Class ; 
+	owl:subClassOf :Periode. 
 
 :hatLebensabschnitt rdf:type owl:ObjectProperty ;
                 rdfs:domain :Pfarrer ;
                 rdfs:range :Lebensabschnitt ;
                 rdfs:label "hat Lebensabschnitt"@de ;
                 rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
+
+:gehoertzuFamilie rdf:type owl:ObjectProperty ;
+                rdfs:domain :Pfarrer ;
+                rdfs:range :Familie ;
 
 
 :forename rdf:type owl:DatatypeProperty ;
