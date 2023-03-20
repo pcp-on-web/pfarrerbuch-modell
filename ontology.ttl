@@ -30,12 +30,10 @@
 :Postion rdf:type owl:Class ;
   rdfs:label "Pfarstelle"@de ;
 	rdfs:comment "Eine Pfarrstelle innerhalb einer Kirchgemeinde"@de .
+
+## Lebensabschnitte
 	
 :Lebensabschnitt rdf:type owl:Class ;
-  rdfs:label "Lebensabschnitt"@de ;
-	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
-
-:Lebensabschnitt rdf:type owl:Class ; 
   rdfs:label "Lebensabschnitt"@de ;
 	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
 
@@ -45,7 +43,7 @@
 	rdfs:comment "Event"@de .
 
 :Periode rdf:type owl:Class ; 
-	owl:subClassOf :Periode; 
+	owl:subClassOf :Lebensabschnitt; 
 	rdfs:label "Periode"@de ;
 	rdfs:comment "Periode"@de .
 
