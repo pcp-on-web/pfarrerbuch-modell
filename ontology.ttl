@@ -16,7 +16,7 @@
 	dc:modified "2023-03-19".
 	
 :Pfarrer rdf:type owl:Class ;
-  rdfs:label "Pfarrer, Pastor, "@de ;
+  rdfs:label "Pfarrer oder Pastor, "@de ;
 	rdfs:comment "Stellt ein Person dar, die in einem Pfarrerbuch verzeichneit ist."@de .				
 		
 :Place rdf:type owl:Class ;
@@ -31,14 +31,39 @@
   rdfs:label "Pfarstelle"@de ;
 	rdfs:comment "Eine Pfarrstelle innerhalb einer Kirchgemeinde"@de .
 	
-:StageOfLife rdf:type owl:Class ;
+:Lebensabschnitt rdf:type owl:Class ;
   rdfs:label "Lebensabschnitt"@de ;
 	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
 
+:Lebensabschnitt rdf:type owl:Class ; 
+  rdfs:label "Lebensabschnitt"@de ;
+	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
 
-:hasStageOfLife rdf:type owl:ObjectProperty ;
+:Event rdf:type owl:Class ; 
+	owl:subClassOf :Lebensabschnitt; 
+	rdfs:label "Event"@de ;
+	rdfs:comment "Event"@de .
+
+:Periode rdf:type owl:Class ; 
+	owl:subClassOf :Periode; 
+	rdfs:label "Periode"@de ;
+	rdfs:comment "Periode"@de .
+
+
+:Geburt rdf:type owl:Class ; 
+	owl:subClassOf :Event; 
+	rdfs:label "Geburt"@de ;
+	rdfs:comment "Geburt"@de .
+
+:Ordination rdf:type owl:Class ; 
+	owl:subClassOf :Event; 
+	rdfs:label "Ordination"@de ;
+	rdfs:comment "Ordination"@de .
+
+
+:hatLebensabschnitt rdf:type owl:ObjectProperty ;
                 rdfs:domain :Pfarrer ;
-                rdfs:range :StageOfLife ;
+                rdfs:range :Lebensabschnitt ;
                 rdfs:label "hat Lebensabschnitt"@de ;
                 rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
 
