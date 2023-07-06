@@ -1,7 +1,7 @@
-## This is the model interlinking Pfarrerbücher
+## Modell der zur Verknüpfung von Pfarrerbüchern (Meta-Pfarrerbuch)
 
-@prefix : <http://pfarrerbuch.de/ontology#> .
-@prefix pbo: <http://pfarrerbuch.de/ontology#> .
+@prefix : <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> .
+@prefix pbv: <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
@@ -9,60 +9,68 @@
 @prefix dc: <http://purl.org/dc/terms/>.
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
-<http://pfarrerbuch.de/ontology#> rdf:type owl:Ontology ;
+pbv: rdf:type owl:Ontology ;
 	<http://creativecommons.org/ns#attributionName> "Participants of Workshop" ;
 	dc:title "Vokabular Pfarrerbücher"@de ;
 	dc:license "http://creativecommons.org/licenses/by/4.0/" ;
-	dc:modified "2023-03-19".
+	dc:modified "2023-04-21".
 	
+
+## Basisklassen: Pfarrer, Lebensabschnitte (Ereignis, Periode), Ort, Kirchgemeinde, Pfarrstelle Familie
+
 :Pfarrer rdf:type owl:Class ;
   rdfs:label "Pfarrer oder Pastor, "@de ;
-	rdfs:comment "Stellt ein Person dar, die in einem Pfarrerbuch verzeichneit ist."@de .				
+	rdfs:comment "Stellt eine Person dar, die in einem Pfarrerbuch verzeichnet ist."@de .				
 		
-:Place rdf:type owl:Class ;
+:Ort rdf:type owl:Class ;
   rdfs:label "Ort"@de ;
-	rdfs:comment "Ort in einem Pfarrerbuch"@de .
+	rdfs:comment "Geografischer Ort in einem Pfarrerbuch"@de .
 					
-:Church rdf:type owl:Class ;
-  rdfs:label "Kirche"@de ;
+:Kirchgemeinde rdf:type owl:Class ;
+  rdfs:label "Kirchgemeinde"@de ;
 	rdfs:comment "Kirche in einem Pfarrerbuch"@de .
 	
-:Postion rdf:type owl:Class ;
-  rdfs:label "Pfarstelle"@de ;
+:Pfarrstelle rdf:type owl:Class ;
+  rdfs:label "Pfarrstelle"@de ;
 	rdfs:comment "Eine Pfarrstelle innerhalb einer Kirchgemeinde"@de .
 
 :Famile rdf:type owl:Class . 
 
-
-
-## Lebensabschnitte
-	
 :Lebensabschnitt rdf:type owl:Class ;
   rdfs:label "Lebensabschnitt"@de ;
 	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
 
-:Event rdf:type owl:Class ; 
+:Ereignis rdf:type owl:Class ; 
 	owl:subClassOf :Lebensabschnitt; 
-	rdfs:label "Event"@de ;
-	rdfs:comment "Event"@de .
+	rdfs:label "Ereignis"@de ;
+	rdfs:comment "Ereignis im im Leben eines Pfarrers."@de .
 
 :Periode rdf:type owl:Class ; 
 	owl:subClassOf :Lebensabschnitt; 
 	rdfs:label "Periode"@de ;
-	rdfs:comment "Periode"@de .
+	rdfs:comment "Zeitabschnitt im Leben eines Pfarrers."@de .
+
+### Unterklassen
 
 :Geburt rdf:type owl:Class ; 
-	owl:subClassOf :Event; 
+	owl:subClassOf :Ereignis; 
 	rdfs:label "Geburt"@de ;
 	rdfs:comment "Geburt"@de .
 
+:Tod rdf:type owl:Class ; 
+	owl:subClassOf :Ereignis; 
+	rdfs:label "Tod"@de ;
+	rdfs:comment "Tod"@de .
+
 :Ordination rdf:type owl:Class ; 
-	owl:subClassOf :Event; 
+	owl:subClassOf :Ereignis; 
 	rdfs:label "Ordination"@de ;
 	rdfs:comment "Ordination"@de .
 
 :Eheschliessung rdf:type owl:Class ; 
-	owl:subClassOf :Event; 
+	owl:subClassOf :Ereignis.
+	rdfs:label "Eheschliessung"@de ;
+	rdfs:comment "Eheschliessung"@de .
 
 :Familienzugehoerigkeit rdf:type owl:Class ; 
 	owl:subClassOf :Periode. 
@@ -73,26 +81,38 @@
                 rdfs:label "hat Lebensabschnitt"@de ;
                 rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
 
+
 :gehoertzuFamilie rdf:type owl:ObjectProperty ;
                 rdfs:domain :Pfarrer ;
-                rdfs:range :Familie ;
+				rdfs:range :Familie ;
+                rdfs:label "gehoert zu Familie"@de ;
+                rdfs:comment "Gehört einer Famile an"@de .
+
+:istEltern rdf:type owl:ObjectProperty ;
+                owl:subProperty gehoertzuFamilie ;
+                rdfs:label "ist ELtern"@de ;
+                rdfs:comment "Vater oder Mutter in einer Familie"@de .
+
+:istKind rdf:type owl:ObjectProperty ;
+                owl:subProperty gehoertzuFamilie ;
+                rdfs:label "ist Kind"@de ;
+                rdfs:comment "Kind in einer Familie"@de .
 
 
-:forename rdf:type owl:DatatypeProperty ;
+
+:vorname rdf:type owl:DatatypeProperty ;
           rdfs:domain :Pfarrer ;
           rdfs:range rdfs:Literal ;
           rdfs:label "Vorname"@de ;
           rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
           
-:surname rdf:type owl:DatatypeProperty ;
+:nachname rdf:type owl:DatatypeProperty ;
          rdfs:domain :Pfarrer ;
          rdfs:range rdfs:Literal ;
          rdfs:label "Nachname"@de ;
          rdfs:comment "Nachname einer Person"@de .
           
           
-
-
 
 
 
