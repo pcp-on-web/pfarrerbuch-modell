@@ -68,7 +68,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Ordination"@de .
 
 :Eheschliessung rdf:type owl:Class ; 
-	owl:subClassOf :Ereignis.
+	owl:subClassOf :Ereignis;
 	rdfs:label "Eheschliessung"@de ;
 	rdfs:comment "Eheschliessung"@de .
 
@@ -89,12 +89,12 @@ pbv: rdf:type owl:Ontology ;
                 rdfs:comment "Gehört einer Famile an"@de .
 
 :istEltern rdf:type owl:ObjectProperty ;
-                owl:subProperty gehoertzuFamilie ;
+                owl:subProperty :gehoertzuFamilie ;
                 rdfs:label "ist ELtern"@de ;
                 rdfs:comment "Vater oder Mutter in einer Familie"@de .
 
 :istKind rdf:type owl:ObjectProperty ;
-                owl:subProperty gehoertzuFamilie ;
+                owl:subProperty :gehoertzuFamilie ;
                 rdfs:label "ist Kind"@de ;
                 rdfs:comment "Kind in einer Familie"@de .
 
