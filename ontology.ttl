@@ -96,17 +96,21 @@ pbv: rdf:type owl:Ontology ;
 
 :istEltern rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf :gehoertzuFamilie ;
+	rdfs:domain :Familie ;
+	rdfs:range	:Person ;
 	rdfs:label "ist ELtern"@de ;
 	rdfs:comment "Vater oder Mutter in einer Familie"@de .
 
 :istKind rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf :gehoertzuFamilie ;
+	rdfs:domain :Familie ;
+	rdfs:range	:Person ;
 	rdfs:label "ist Kind"@de ;
 	rdfs:comment "Kind in einer Familie"@de .
 
 
 :Lebensabschnitt rdf:type owl:Class ;
-  rdfs:label "Lebensabschnitt"@de ;
+	rdfs:label "Lebensabschnitt"@de ;
 	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
 
 ### Unterklassen :Lebensabschnitt
