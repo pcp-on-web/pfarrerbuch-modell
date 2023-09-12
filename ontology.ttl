@@ -83,7 +83,9 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Geographischer Ort einer Stelle"@de .
 
 
-:Famile rdf:type owl:Class . 
+:Familie rdf:type owl:Class ;
+	rdfs:label "Familie"@de ;
+	rdfs:comment "Beschreibt eine Familienkonstilation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"@de .
 
 :gehoertzuFamilie rdf:type owl:ObjectProperty ;
 	rdfs:domain :Familie ;
