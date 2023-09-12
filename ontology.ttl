@@ -64,17 +64,18 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Kirchgemeinde"@de ;
 	rdfs:comment "Kirchegemeinde in einem Pfarrerbuch"@de .
 
-:hatStelle rdf:type owl:ObjectProperty ;
-	rdfs:domain	:Kirchgemeinde ;
-	rdfs:range	:Stelle ;
-	rdfs:label "hat Stelle"@de ;
-	rdfs:comment "Stelle einer Kirchgemeinde"@de .
-
 ### Stelle
 
 :Stelle rdf:type owl:Class ;
 	rdfs:label "Stelle"@de ;
 	rdfs:comment "Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchgemeinde"@de .
+
+:zugeordneteKirchgemeinde rdf:type owl:ObjectProperty ;
+	rdfs:domain	:Stelle ;
+	rdfs:range	:Kirchegemeinde ;
+	rdfs:label "zugeordnete Kirchgemeinde"@de ;
+	rdfs:comment "Kirchgemeinde die einer Stelle zugeordnet ist"@de .
+
 
 :hatOrt rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Stelle ;
@@ -153,7 +154,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Pfarrstelle"@de ;
 	rdfs:comment "Periode in der ein Pfarrer eine Stelle besetzt."@de .
 
-:zugeordneteStelle rdf:type owl:ObjectProperty ;
+:hatStelle rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Pfarrstelle ;
 	rdfs:range	:Stelle ;
 	rdfs:label "zugeordnete Stelle"@de ;
