@@ -153,6 +153,12 @@ pbv: rdf:type owl:Ontology ;
 :Familienzugehoerigkeit rdf:type owl:Class ; 
 	rdfs:subClassOf :Periode. 
 
+:inFamilie rdf:type owl:ObjectProperty ;
+	rdfs:domain :Familienzugehörigkeit ;
+	rdfs:range	:Familie ;
+	rdfs:label "zugeordnete Familie"@de ;
+	rdfs:comment "zugeordnete Famile"@de .
+
 :Pfarrstelle rdf:type owl:Class ; 
 	rdfs:subClassOf :Periode; 
 	rdfs:label "Pfarrstelle"@de ;
