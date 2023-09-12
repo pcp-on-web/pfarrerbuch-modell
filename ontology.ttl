@@ -27,7 +27,7 @@ pbv: rdf:type owl:Ontology ;
 
 
 :Pfarrer rdf:type owl:Class ;
-	owl:subClassOf :Person ; 
+	rdfs:subClassOf :Person ; 
 	rdfs:label "Pfarrer oder Pastor"@de ;
 	rdfs:comment "Stellt einen Pfarrer oder Pastor dar, die in einem Pfarrerbuch verzeichnet ist."@de .				
 
@@ -94,12 +94,12 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Gehört einer Famile an"@de .
 
 :istEltern rdf:type owl:ObjectProperty ;
-	owl:subProperty :gehoertzuFamilie ;
+	rdfs:subProperty :gehoertzuFamilie ;
 	rdfs:label "ist ELtern"@de ;
 	rdfs:comment "Vater oder Mutter in einer Familie"@de .
 
 :istKind rdf:type owl:ObjectProperty ;
-	owl:subProperty :gehoertzuFamilie ;
+	rdfs:subProperty :gehoertzuFamilie ;
 	rdfs:label "ist Kind"@de ;
 	rdfs:comment "Kind in einer Familie"@de .
 
@@ -111,45 +111,45 @@ pbv: rdf:type owl:Ontology ;
 ### Unterklassen :Lebensabschnitt
 
 :Ereignis rdf:type owl:Class ; 
-	owl:subClassOf :Lebensabschnitt; 
+	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Ereignis"@de ;
 	rdfs:comment "Ereignis im im Leben eines Pfarrers."@de .
 
 :Periode rdf:type owl:Class ; 
-	owl:subClassOf :Lebensabschnitt; 
+	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Periode"@de ;
 	rdfs:comment "Zeitabschnitt im Leben eines Pfarrers."@de .
 
 ### Unterklassen :Ereignis
 
 :Geburt rdf:type owl:Class ; 
-	owl:subClassOf :Ereignis; 
+	rdfs:subClassOf :Ereignis; 
 	rdfs:label "Geburt"@de ;
 	rdfs:comment "Geburt"@de .
 
 :Tod rdf:type owl:Class ; 
-	owl:subClassOf :Ereignis; 
+	rdfs:subClassOf :Ereignis; 
 	rdfs:label "Tod"@de ;
 	rdfs:comment "Tod"@de .
 
 :Eheschliessung rdf:type owl:Class ; 
-	owl:subClassOf :Ereignis;
+	rdfs:subClassOf :Ereignis;
 	rdfs:label "Eheschliessung"@de ;
 	rdfs:comment "Eheschliessung"@de .
 
 
 :Ordination rdf:type owl:Class ; 
-	owl:subClassOf :Ereignis; 
+	rdfs:subClassOf :Ereignis; 
 	rdfs:label "Ordination"@de ;
 	rdfs:comment "Ordination"@de .
 
 ### Unterklassen :Periode
 
 :Familienzugehoerigkeit rdf:type owl:Class ; 
-	owl:subClassOf :Periode. 
+	rdfs:subClassOf :Periode. 
 
 :Pfarrstelle rdf:type owl:Class ; 
-	owl:subClassOf :Periode; 
+	rdfs:subClassOf :Periode; 
 	rdfs:label "Pfarrstelle"@de ;
 	rdfs:comment "Periode in der ein Pfarrer eine Stelle besetzt."@de .
 
