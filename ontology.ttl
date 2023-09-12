@@ -25,6 +25,30 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Person"@de ;
 	rdfs:comment "Stellt eine Person dar, die in der Datenbank verzeichnet u.a. Pfarrer,  Familienmitglieder ist."@de .				
 
+:vorname rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Person ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Vorname"@de ;
+	rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
+	
+:nachname rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Person ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Nachname"@de ;
+	rdfs:comment "Nachname einer Person"@de .
+
+:geburt rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Person ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Geburtsdatum"@de ;
+	rdfs:comment "Geburtsdatum einer Person"@de .
+
+:tod rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Person ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Sterbedatum"@de ;
+	rdfs:comment "Sterbedatum einer Person"@de .
+
 
 :Pfarrer rdf:type owl:Class ;
 	rdfs:subClassOf :Person ; 
@@ -38,17 +62,6 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
 
 
-:vorname rdf:type owl:DatatypeProperty ;
-	rdfs:domain :Pfarrer ;
-	rdfs:range rdfs:Literal ;
-	rdfs:label "Vorname"@de ;
-	rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
-	
-:nachname rdf:type owl:DatatypeProperty ;
-	rdfs:domain :Pfarrer ;
-	rdfs:range rdfs:Literal ;
-	rdfs:label "Nachname"@de ;
-	rdfs:comment "Nachname einer Person"@de .
 	
 
 ### Ort
