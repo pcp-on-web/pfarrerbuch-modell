@@ -153,4 +153,10 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Pfarrstelle"@de ;
 	rdfs:comment "Periode in der ein Pfarrer eine Stelle besetzt."@de .
 
+:hatStelle rdf:type owl:ObjectProperty ;
+	rdfs:domain	:Pfarrstelle ;
+	rdfs:range	:Stelle ;
+	rdfs:label "zugeordnete Stelle"@de ;
+	rdfs:comment "Zugeordnete Stelle für Stelleninhaber:in"@de .
+
 
