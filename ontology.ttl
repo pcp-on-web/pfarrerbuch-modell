@@ -37,6 +37,12 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Nachname"@de ;
 	rdfs:comment "Nachname einer Person"@de .
 
+:akademischerTitel rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Person ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Akademischer Titel"@de ;
+	rdfs:comment "Akademischer Titel einer Person"@de .
+
 :geburt rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
 	rdfs:range rdfs:Literal ;
@@ -61,8 +67,6 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "hat Lebensabschnitt"@de ;
 	rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
 
-
-	
 
 ### Ort
 
@@ -126,6 +130,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Lebensabschnitt"@de ;
 	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
 
+
 ### Unterklassen :Lebensabschnitt
 
 :Ereignis rdf:type owl:Class ; 
@@ -133,10 +138,27 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Ereignis"@de ;
 	rdfs:comment "Ereignis im im Leben eines Pfarrers."@de .
 
+:datum rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Ereignis ;
+	rdfs:range xsd:date  ;
+	rdfs:label "datum"@de .
+
 :Periode rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Periode"@de ;
 	rdfs:comment "Zeitabschnitt im Leben eines Pfarrers."@de .
+
+:von rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Periode ;
+	rdfs:range xsd:date  ;
+	rdfs:label "von"@de .
+
+:bis rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Periode ;
+	rdfs:range xsd:date  ;
+	rdfs:label "bis"@de .
+
+
 
 ### Unterklassen :Ereignis
 
