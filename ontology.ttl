@@ -62,7 +62,7 @@ pbv: rdf:type owl:Ontology ;
 
 :Kirchgemeinde rdf:type owl:Class ;
 	rdfs:label "Kirchgemeinde"@de ;
-	rdfs:comment "Kirchegemeinde in einem Pfarrerbuch"@de .
+	rdfs:comment "Kirchgemeinde in einem Pfarrerbuch"@de .
 
 ### Stelle
 
@@ -72,7 +72,7 @@ pbv: rdf:type owl:Ontology ;
 
 :zugeordneteKirchgemeinde rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Stelle ;
-	rdfs:range	:Kirchegemeinde ;
+	rdfs:range	:Kirchgemeinde ;
 	rdfs:label "zugeordnete Kirchgemeinde"@de ;
 	rdfs:comment "Kirchgemeinde die einer Stelle zugeordnet ist"@de .
 
