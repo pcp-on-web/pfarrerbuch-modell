@@ -41,13 +41,13 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain :Person ;
 	rdfs:range rdfs:Literal ;
 	rdfs:label "Geburtsdatum"@de ;
-	rdfs:comment "Geburtsdatum einer Person"@de .
+	rdfs:comment "Geburtsdatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."@de .
 
 :tod rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
 	rdfs:range rdfs:Literal ;
 	rdfs:label "Sterbedatum"@de ;
-	rdfs:comment "Sterbedatum einer Person"@de .
+	rdfs:comment "Sterbedatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."@de .
 
 
 :Pfarrer rdf:type owl:Class ;
