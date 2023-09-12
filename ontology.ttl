@@ -154,7 +154,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:subClassOf :Periode. 
 
 :inFamilie rdf:type owl:ObjectProperty ;
-	rdfs:domain :Familienzugehörigkeit ;
+	rdfs:domain :Familienzugehoerigkeit ;
 	rdfs:range	:Familie ;
 	rdfs:label "zugeordnete Familie"@de ;
 	rdfs:comment "zugeordnete Famile"@de .
