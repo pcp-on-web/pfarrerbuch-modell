@@ -81,6 +81,12 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Kirchgemeinde"@de ;
 	rdfs:comment "Kirchgemeinde in einem Pfarrerbuch"@de .
 
+### Bildungseinrichtung
+
+:Bildungseinrichtung rdf:type owl:Class ;
+	rdfs:label "Bildungseinrichtung"@de ;
+	rdfs:comment "Bildungseinrichtung in einem Pfarrerbuch"@de .
+
 ### Stelle
 
 :Stelle rdf:type owl:Class ;
@@ -93,9 +99,15 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "zugeordnete Kirchgemeinde"@de ;
 	rdfs:comment "Kirchgemeinde die einer Stelle zugeordnet ist"@de .
 
+:inKirchgemeinde rdf:type owl:ObjectProperty ;
+	rdfs:domain	:ErsteEntsendung, :Ordination ;
+	rdfs:range	:Kirchgemeinde ;
+	rdfs:label "in einer Kirchgemeinde"@de ;
+	rdfs:comment "Kirchgemeinde einer Entsendung oder Ordination"@de .
+
 
 :hatOrt rdf:type owl:ObjectProperty ;
-	rdfs:domain	:Stelle , :Lebensabschnitt;
+	rdfs:domain	:Stelle , :Lebensabschnitt, :Bildungseinrichtung;
 	rdfs:range	:Ort ;
 	rdfs:label "hat Ort"@de ;
 	rdfs:comment "Geographischer Ort einer Stelle oder eines Lebensabschnittes."@de .
@@ -176,6 +188,27 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Fachliche Angaben im Leben eines Pfarrers."@de .
 
 #### Unterklassen :Fachlich
+
+:Schulabschluss rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Ereignis; 
+	rdfs:label "Schulabschluss"@de ;
+	rdfs:comment "Schulabschluss"@de .
+
+:Studium rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Periode; 
+	rdfs:label "Schulabschluss"@de ;
+	rdfs:comment "Schulabschluss"@de .
+
+:StudiumAbschluss rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Ereignis; 
+	rdfs:label "Studienabschluss"@de ;
+	rdfs:comment "Studienabschluss"@de .
+
+:hatBildungseinrichtung rdf:type owl:ObjectProperty ;
+	rdfs:domain	:Schulabschluss, :Studium, :StudiumAbschluss ;
+	rdfs:range	:Bildungseinrichtung ;
+	rdfs:label "zugeordnete Bildungseinrichtung"@de ;
+	rdfs:comment "Zugeordnete Bildungseinrichtung für Schule oder Studium"@de .
 
 :Ordination rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
@@ -274,7 +307,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain :Familienzugehoerigkeit ;
 	rdfs:range	:Familie ;
 	rdfs:label "zugeordnete Familie"@de ;
-	rdfs:comment "zugeordnete Famile"@de .
+	rdfs:comment "zugeordnete Familie"@de .
 
 
 

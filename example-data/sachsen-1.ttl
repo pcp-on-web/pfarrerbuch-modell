@@ -1,0 +1,119 @@
+## Beispieldatensatz Datenbank Sachsen
+
+@prefix : <http://meta-pfarrerbuch.evangelische-archive.de/data/sachsen#> .
+@prefix pbv: <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix dc: <http://purl.org/dc/terms/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:id_1 a pbv:Pfarrer ;
+	rdfs:label "Ackermann, Johann Friedrich" ;
+	pbv:namensvariante "Ackermann, Johannes Friedrich"; 
+	pbv:name "Ackermann" ;
+	pbv:vorname "Johann Friedrich" ;
+	pbv:quellen """Literatur: Beierlein II, 126.153 (Stadtschule Reichenbach. Gest. 31.03.1847); Vollert, 5/1458, S. 57.; Kreyßig, Album, 155;KAL Ordiniertenbuch Thomaskirche Bl. 57 Quellen, Recherchen und Unklares: Dr. Weiß 17.1.83; Junghähnel: "nur Reichenbach - nicht Meißen" """ .
+
+## Private Daten werden hier veröffentlicht da historische Person
+
+:id_1 pbv:hatLebensabschnitt :eguyahV2oo, :aKaiZie3wu.
+
+:eguyahV2oo a pbv:Geburt;
+	pbv:datum "1779-04-03";
+	pbv:hatOrt :Waldkirchen_n_Lengenfeld.
+
+:Waldkirchen_n_Lengenfeld a pbv:Ort;
+	rdfs:label "Waldkirchen nö. Lengenfeld.".
+
+:aKaiZie3wu a pbv:Tod;
+	pbv:datum "1848-01-31".
+
+:id_1 pbv:hatLebensabschnitt :FohH1rohda, :OochuiNo7A.
+
+:FohH1rohda a pbv:Schulabschluss;
+	rdfs:label "1793 St. Afra in Meißen";
+	pbv:date "1793";
+	pbv:hatBildungseinrichtung :StAfraMeissen.
+
+:StAfraMeissen a pbv:Bildungseinrichtung;
+	rdfs:label "St. Afra in Meißen";
+	pbv:hatOrt :Meissen_nw_Dresden.
+
+:Meissen_nw_Dresden a pbv:Ort;
+	rdfs:label "Meißen nw. Dresden".
+
+:OochuiNo7A a pbv:Ordination;
+	pbv:dadatumte "1814-01-01" ;
+	pbv:inKirchgemeinde :Kirche_Elsterberg .
+
+:Kirche_Elsterberg a pbv:Kirchgemeinde; 
+	rdfs:label "Kirchgemeinde Elsterberg";
+	pbv:hatOrt :Elsterberg_n_Plauen.
+
+:Elsterberg_n_Plauen  a pbv:Ort;
+	rdfs:label "Elsterberg n. Plauen".
+	
+
+:id_1 pbv:hatLebensabschnitt :yohh5ser6W, :Owohthah7e, :aey2nohGhu .
+
+:yohh5ser6W a pbv:Pfarrstelle;
+	rdfs:label "1814 3. Stelle (2. Diakon) in Elsterberg";
+	pbv:von "1814";
+	pbv:hatStelle :Yoo4CuinoW.
+
+:Yoo4CuinoW a pbv:Stelle;
+	rdfs:label "3. Stelle (2. Diakon) in Elsterberg";
+	pbv:zugeordneteKirchgemeinde :Kirche_Elsterberg.
+
+:Kirche_Elsterberg a pbv:Kirchgemeinde;
+	rdfs:label "Kirchgemeinde Elsterberg";
+	pbv:hatOrt :Elsterberg_n_Plauen.
+
+:Owohthah7e a pbv:Pfarrstelle;
+	rdfs:label "1822 2. Stelle (Archidiakon) in Elsterberg";
+	pbv:von "1822";
+	pbv:hatStelle :she8Nakaer.
+
+:she8Nakaer a pbv:Stelle;
+	rdfs:label "2. Stelle (Archidiakon, bis 1549 Prediger, bis 1606 Diakon) in Elsterberg";
+	pbv:zugeordneteKirchgemeinde :Kirche_Elsterberg.
+
+:aey2nohGhu a pbv:Pfarrstelle;
+	rdfs:label "1837 1. Stelle (Pfarrer) in Elsterberg";
+	pbv:von "1837";
+	pbv:hatStelle :Iengahthe6.
+
+:Iengahthe6 a pbv:Stelle;
+	rdfs:label "1. Stelle (Pfarrer) in Elsterberg";
+	pbv:zugeordneteKirchgemeinde :Kirche_Elsterberg.
+
+
+:id_1 pbv:hatLebensabschnitt :ia0oig5Chu, :quim2Ai6Oh.
+
+:peiyoiPa5a a pbv:Familie;
+	rdfs:label "Vater: Ackermann, Johann Paul";
+	:istEltern :id_2.
+
+:id_2 a pbv:Pfarrer;
+	rdfs:label "Ackermann, Johann Friedrich".
+
+:Iu3Oovah7e a pbv:Familie;
+	rdfs:label "Kinder: Ackermann, Hermann, Ackermann, Karl Julius";
+	pbv:istKind :id_3, :id_4.
+
+:id_3 a pbv:Pfarrer;
+	rdfs:label "Ackermann, Hermann".
+
+:id_4 a pbv:Pfarrer;
+	rdfs:label "Ackermann, Karl Julius".
+
+
+:ia0oig5Chu a pbv:Familienzugehoerigkeit ;
+	pbv:inFamilie :peiyoiPa5a.
+
+
+:quim2Ai6Oh a pbv:Familienzugehoerigkeit ;
+	pbv:inFamilie :Iu3Oovah7e.
+

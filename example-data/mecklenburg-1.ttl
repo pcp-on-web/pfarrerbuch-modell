@@ -59,7 +59,12 @@
 :iFoo7awiem a pbv:Pfarrstelle;
 	pbv:von "2009-06-01";
 	pbv:bis "2010-05-31";
+	pbv:hatStelle :eedoo3Ap4i;
 	pbv:anmerkungen "Dienstverhältnis auf Probe".
+
+:eedoo3Ap4i a pbv:Stelle;
+	rdfs:label "Pfarrstelle in Schwerin Petrus";
+	pbv:zugeordneteKirchgemeinde :Schwerin_Petrus.
 
 :eiFaiHahc1 a pbv:Krankenhausseelsorge;
 	pbv:von "2010-06-01";
