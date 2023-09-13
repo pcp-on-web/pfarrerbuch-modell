@@ -100,6 +100,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "hat Ort"@de ;
 	rdfs:comment "Geographischer Ort einer Stelle"@de .
 
+### Familie wird unter Umständen nicht benötigt
 
 :Familie rdf:type owl:Class ;
 	rdfs:label "Familie"@de ;
@@ -133,20 +134,26 @@ pbv: rdf:type owl:Ontology ;
 
 ### Unterklassen :Lebensabschnitt
 
+#### Klassifizierung nach Ereignis und Periode
+
+
 :Ereignis rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Ereignis"@de ;
 	rdfs:comment "Ereignis im im Leben eines Pfarrers."@de .
+
 
 :datum rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Ereignis ;
 	rdfs:range xsd:date  ;
 	rdfs:label "datum"@de .
 
+
 :Periode rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Periode"@de ;
 	rdfs:comment "Zeitabschnitt im Leben eines Pfarrers."@de .
+
 
 :von rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Periode ;
@@ -158,6 +165,23 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:range xsd:date  ;
 	rdfs:label "bis"@de .
 
+
+### Klassifizierung nach Fachlich, Dienstliche, Familär
+
+:FachlicheAngaben rdf:type owl:Class ; 
+	rdfs:subClassOf :Lebensabschnitt; 
+	rdfs:label "Fachliche Angaben"@de ;
+	rdfs:comment "Fachliche Angaben im Leben eines Pfarrers."@de .
+
+:DienstlicheAngaben rdf:type owl:Class ; 
+	rdfs:subClassOf :Lebensabschnitt; 
+	rdfs:label "Dienstliche Angaben"@de ;
+	rdfs:comment "Dienstliche Angaben im Leben eines Pfarrers."@de .
+
+:FamilaereAngaben rdf:type owl:Class ; 
+	rdfs:subClassOf :Lebensabschnitt; 
+	rdfs:label "Familäre Angaben"@de ;
+	rdfs:comment "Familäre Angaben im Leben eines Pfarrers."@de .
 
 
 ### Unterklassen :Ereignis
