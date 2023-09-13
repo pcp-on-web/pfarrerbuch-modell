@@ -95,10 +95,10 @@ pbv: rdf:type owl:Ontology ;
 
 
 :hatOrt rdf:type owl:ObjectProperty ;
-	rdfs:domain	:Stelle ;
+	rdfs:domain	:Stelle , :Lebensabschnitt;
 	rdfs:range	:Ort ;
 	rdfs:label "hat Ort"@de ;
-	rdfs:comment "Geographischer Ort einer Stelle"@de .
+	rdfs:comment "Geographischer Ort einer Stelle oder eines Lebensabschnittes."@de .
 
 ### Familie wird unter Umständen nicht benötigt
 
@@ -168,58 +168,51 @@ pbv: rdf:type owl:Ontology ;
 
 ### Klassifizierung nach Fachlich, Dienstliche, Familär
 
+### ---
+
 :Fachlich rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Fachliche Angaben"@de ;
 	rdfs:comment "Fachliche Angaben im Leben eines Pfarrers."@de .
+
+#### Unterklassen :Fachlich
+
+:Ordination rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Ereignis; 
+	rdfs:label "Ordination"@de ;
+	rdfs:comment "Ordination"@de .
+
+:Vikariat rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Periode; 
+	rdfs:label "Vikariat"@de ;
+	rdfs:comment "Vikariat"@de .
+
+:ErstesTheologischesExamen rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Ereignis; 
+	rdfs:label "Erstes Theologisches Examen"@de ;
+	rdfs:comment "Erstes Theologisches Examen"@de .
+
+:ZweitesTheologischesExamen rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Ereignis; 
+	rdfs:label "Zweites Theologisches Examen Theologisches Examen"@de ;
+	rdfs:comment "Zweites Theologisches Examen"@de .
+
+:ErsteEntsendung rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Periode; 
+	rdfs:label "Erstes Entsendung"@de ;
+	rdfs:comment "Erstes Entsendung"@de .
+
+### ---
 
 :Dienstlich rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Dienstliche Angaben"@de ;
 	rdfs:comment "Dienstliche Angaben im Leben eines Pfarrers."@de .
 
-:Familaer rdf:type owl:Class ; 
-	rdfs:subClassOf :Lebensabschnitt; 
-	rdfs:label "Familäre Angaben"@de ;
-	rdfs:comment "Familäre Angaben im Leben eines Pfarrers."@de .
-
-
-### Unterklassen :Ereignis
-
-:Geburt rdf:type owl:Class ; 
-	rdfs:subClassOf :Ereignis; 
-	rdfs:label "Geburt"@de ;
-	rdfs:comment "Geburt"@de .
-
-:Tod rdf:type owl:Class ; 
-	rdfs:subClassOf :Ereignis; 
-	rdfs:label "Tod"@de ;
-	rdfs:comment "Tod"@de .
-
-:Eheschliessung rdf:type owl:Class ; 
-	rdfs:subClassOf :Ereignis;
-	rdfs:label "Eheschliessung"@de ;
-	rdfs:comment "Eheschliessung"@de .
-
-
-:Ordination rdf:type owl:Class ; 
-	rdfs:subClassOf :Ereignis; 
-	rdfs:label "Ordination"@de ;
-	rdfs:comment "Ordination"@de .
-
-### Unterklassen :Periode
-
-:Familienzugehoerigkeit rdf:type owl:Class ; 
-	rdfs:subClassOf :Periode. 
-
-:inFamilie rdf:type owl:ObjectProperty ;
-	rdfs:domain :Familienzugehoerigkeit ;
-	rdfs:range	:Familie ;
-	rdfs:label "zugeordnete Familie"@de ;
-	rdfs:comment "zugeordnete Famile"@de .
+### Unterklassen :Dienstlich
 
 :Pfarrstelle rdf:type owl:Class ; 
-	rdfs:subClassOf :Periode; 
+	rdfs:subClassOf :Dienstlich, :Periode; 
 	rdfs:label "Pfarrstelle"@de ;
 	rdfs:comment "Periode in der ein Pfarrer eine Stelle besetzt."@de .
 
@@ -228,5 +221,62 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:range	:Stelle ;
 	rdfs:label "zugeordnete Stelle"@de ;
 	rdfs:comment "Zugeordnete Stelle für Stelleninhaber:in"@de .
+
+:Krankenhausseelsorge rdf:type owl:Class ; 
+	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:label "Krankenhausseelsorge"@de ;
+	rdfs:comment "Krankenhausseelsorge."@de .
+
+:Referent rdf:type owl:Class ; 
+	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:label "Referent"@de ;
+	rdfs:comment "Referent."@de .
+
+:Vakanzverwalter rdf:type owl:Class ; 
+	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:label "Vakanzverwalter"@de ;
+	rdfs:comment "Vakanzverwalter."@de .
+
+:Leitung rdf:type owl:Class ; 
+	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:label "Leitung"@de ;
+	rdfs:comment "Leitung einer Institution."@de .
+
+### ---
+
+:Persoenlich rdf:type owl:Class ; 
+	rdfs:subClassOf :Lebensabschnitt; 
+	rdfs:label "Persönliche Angaben"@de ;
+	rdfs:comment "Persönliche Angaben im Leben eines Pfarrers."@de .
+
+
+### Unterklassen :Persoenlich
+
+:Geburt rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoenlich, :Ereignis; 
+	rdfs:label "Geburt"@de ;
+	rdfs:comment "Geburt"@de .
+
+:Tod rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoenlich, :Ereignis; 
+	rdfs:label "Tod"@de ;
+	rdfs:comment "Tod"@de .
+
+:Eheschliessung rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoenlich, :Ereignis;
+	rdfs:label "Eheschliessung"@de ;
+	rdfs:comment "Eheschliessung"@de .
+
+:Familienzugehoerigkeit rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoenlich, :Periode. 
+
+:inFamilie rdf:type owl:ObjectProperty ;
+	rdfs:domain :Familienzugehoerigkeit ;
+	rdfs:range	:Familie ;
+	rdfs:label "zugeordnete Familie"@de ;
+	rdfs:comment "zugeordnete Famile"@de .
+
+
+
 
 
