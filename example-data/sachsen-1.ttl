@@ -46,10 +46,10 @@
 
 :OochuiNo7A a pbv:Ordination;
 	pbv:dadatumte "1814-01-01" ;
-	pbv:inKirchgemeinde :Kirche_Elsterberg .
+	pbv:inKirchengemeinde :Kirche_Elsterberg .
 
-:Kirche_Elsterberg a pbv:Kirchgemeinde; 
-	rdfs:label "Kirchgemeinde Elsterberg";
+:Kirche_Elsterberg a pbv:Kirchengemeinde; 
+	rdfs:label "Kirchengemeinde Elsterberg";
 	pbv:hatOrt :Elsterberg_n_Plauen.
 
 :Elsterberg_n_Plauen  a pbv:Ort;
@@ -65,10 +65,10 @@
 
 :Yoo4CuinoW a pbv:Stelle;
 	rdfs:label "3. Stelle (2. Diakon) in Elsterberg";
-	pbv:zugeordneteKirchgemeinde :Kirche_Elsterberg.
+	pbv:zugeordneteKirchengemeinde :Kirche_Elsterberg.
 
-:Kirche_Elsterberg a pbv:Kirchgemeinde;
-	rdfs:label "Kirchgemeinde Elsterberg";
+:Kirche_Elsterberg a pbv:Kirchengemeinde;
+	rdfs:label "Kirchengemeinde Elsterberg";
 	pbv:hatOrt :Elsterberg_n_Plauen.
 
 :Owohthah7e a pbv:Pfarrstelle;
@@ -78,7 +78,7 @@
 
 :she8Nakaer a pbv:Stelle;
 	rdfs:label "2. Stelle (Archidiakon, bis 1549 Prediger, bis 1606 Diakon) in Elsterberg";
-	pbv:zugeordneteKirchgemeinde :Kirche_Elsterberg.
+	pbv:zugeordneteKirchengemeinde :Kirche_Elsterberg.
 
 :aey2nohGhu a pbv:Pfarrstelle;
 	rdfs:label "1837 1. Stelle (Pfarrer) in Elsterberg";
@@ -87,7 +87,7 @@
 
 :Iengahthe6 a pbv:Stelle;
 	rdfs:label "1. Stelle (Pfarrer) in Elsterberg";
-	pbv:zugeordneteKirchgemeinde :Kirche_Elsterberg.
+	pbv:zugeordneteKirchengemeinde :Kirche_Elsterberg.
 
 
 :id_1 pbv:hatLebensabschnitt :ia0oig5Chu, :quim2Ai6Oh.

@@ -16,7 +16,7 @@ pbv: rdf:type owl:Ontology ;
 	dc:modified "2023-09-12".
 	
 
-## Basisklassen: Pfarrer, Lebensabschnitte (Ereignis, Periode), Ort, Kirchgemeinde, Pfarrstelle Familie
+## Basisklassen: Pfarrer, Lebensabschnitte (Ereignis, Periode), Ort, Kirchengemeinde, Pfarrstelle Familie
 
 
 ### Pfarrer
@@ -75,11 +75,11 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Geografischer Ort in einem Pfarrerbuch"@de .
 
 
-### Kirchgemeinde
+### Kirchengemeinde
 
-:Kirchgemeinde rdf:type owl:Class ;
-	rdfs:label "Kirchgemeinde"@de ;
-	rdfs:comment "Kirchgemeinde in einem Pfarrerbuch"@de .
+:Kirchengemeinde rdf:type owl:Class ;
+	rdfs:label "Kirchengemeinde"@de ;
+	rdfs:comment "Kirchengemeinde in einem Pfarrerbuch"@de .
 
 ### Bildungseinrichtung
 
@@ -91,19 +91,19 @@ pbv: rdf:type owl:Ontology ;
 
 :Stelle rdf:type owl:Class ;
 	rdfs:label "Stelle"@de ;
-	rdfs:comment "Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchgemeinde"@de .
+	rdfs:comment "Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchengemeinde"@de .
 
-:zugeordneteKirchgemeinde rdf:type owl:ObjectProperty ;
+:zugeordneteKirchengemeinde rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Stelle ;
-	rdfs:range	:Kirchgemeinde ;
-	rdfs:label "zugeordnete Kirchgemeinde"@de ;
-	rdfs:comment "Kirchgemeinde die einer Stelle zugeordnet ist"@de .
+	rdfs:range	:Kirchengemeinde ;
+	rdfs:label "zugeordnete Kirchengemeinde"@de ;
+	rdfs:comment "Kirchengemeinde die einer Stelle zugeordnet ist"@de .
 
-:inKirchgemeinde rdf:type owl:ObjectProperty ;
+:inKirchengemeinde rdf:type owl:ObjectProperty ;
 	rdfs:domain	:ErsteEntsendung, :Ordination ;
-	rdfs:range	:Kirchgemeinde ;
-	rdfs:label "in einer Kirchgemeinde"@de ;
-	rdfs:comment "Kirchgemeinde einer Entsendung oder Ordination"@de .
+	rdfs:range	:Kirchengemeinde ;
+	rdfs:label "in einer Kirchengemeinde"@de ;
+	rdfs:comment "Kirchengemeinde einer Entsendung oder Ordination"@de .
 
 
 :hatOrt rdf:type owl:ObjectProperty ;
@@ -178,7 +178,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "bis"@de .
 
 
-### Klassifizierung nach Fachlich, Dienstliche, Familär
+### Klassifizierung nach Fachlich, Dienstliche, Persönlich
 
 ### ---
 
@@ -188,11 +188,6 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Fachliche Angaben im Leben eines Pfarrers."@de .
 
 #### Unterklassen :Fachlich
-
-:Schulabschluss rdf:type owl:Class ; 
-	rdfs:subClassOf :Fachlich, :Ereignis; 
-	rdfs:label "Schulabschluss"@de ;
-	rdfs:comment "Schulabschluss"@de .
 
 :Studium rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Periode; 
@@ -284,6 +279,11 @@ pbv: rdf:type owl:Ontology ;
 
 
 ### Unterklassen :Persoenlich
+
+:Schulabschluss rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoehnlich, :Ereignis; 
+	rdfs:label "Schulabschluss"@de ;
+	rdfs:comment "Schulabschluss"@de .
 
 :Geburt rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis; 
