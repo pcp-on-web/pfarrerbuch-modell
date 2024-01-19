@@ -1,0 +1,683 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#"
+     xml:base="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary"
+     xmlns:ns="http://creativecommons.org/ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/">
+    <owl:Ontology rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#">
+        <ns:attributionName>Participants of Workshop</ns:attributionName>
+        <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
+        <terms:modified>2023-09-12</terms:modified>
+        <terms:title xml:lang="de">Vokabular Pfarrerbücher</terms:title>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://creativecommons.org/ns#attributionName -->
+
+
+    <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#attributionName"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:comment xml:lang="de">Gehört einer Famile an</rdfs:comment>
+        <rdfs:label xml:lang="de">gehoert zu Familie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss"/>
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium"/>
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung"/>
+        <rdfs:comment xml:lang="de">Zugeordnete Bildungseinrichtung für Schule oder Studium</rdfs:comment>
+        <rdfs:label xml:lang="de">zugeordnete Bildungseinrichtung</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"/>
+        <rdfs:comment xml:lang="de">Lebensabschnitt zu einem Pfarrer</rdfs:comment>
+        <rdfs:label xml:lang="de">hat Lebensabschnitt</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung"/>
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"/>
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ort"/>
+        <rdfs:comment xml:lang="de">Geographischer Ort einer Stelle oder eines Lebensabschnittes.</rdfs:comment>
+        <rdfs:label xml:lang="de">hat Ort</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle"/>
+        <rdfs:comment xml:lang="de">Zugeordnete Stelle für Stelleninhaber:in</rdfs:comment>
+        <rdfs:label xml:lang="de">zugeordnete Stelle</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"/>
+        <rdfs:comment xml:lang="de">zugeordnete Familie</rdfs:comment>
+        <rdfs:label xml:lang="de">zugeordnete Familie</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung"/>
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde"/>
+        <rdfs:comment xml:lang="de">Kirchengemeinde einer Entsendung oder Ordination</rdfs:comment>
+        <rdfs:label xml:lang="de">in einer Kirchengemeinde</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern">
+        <rdfs:subPropertyOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie"/>
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:comment xml:lang="de">Vater oder Mutter in einer Familie</rdfs:comment>
+        <rdfs:label xml:lang="de">ist ELtern</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind">
+        <rdfs:subPropertyOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie"/>
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:comment xml:lang="de">Kind in einer Familie</rdfs:comment>
+        <rdfs:label xml:lang="de">ist Kind</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde -->
+
+
+    <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle"/>
+        <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde"/>
+        <rdfs:comment xml:lang="de">Kirchengemeinde die einer Stelle zugeordnet ist</rdfs:comment>
+        <rdfs:label xml:lang="de">zugeordnete Kirchengemeinde</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel -->
+
+
+    <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="de">Akademischer Titel einer Person</rdfs:comment>
+        <rdfs:label xml:lang="de">Akademischer Titel</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis -->
+
+
+    <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="de">bis</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum -->
+
+
+    <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="de">datum</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geburt -->
+
+
+    <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geburt">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="de">Geburtsdatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert.</rdfs:comment>
+        <rdfs:label xml:lang="de">Geburtsdatum</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname -->
+
+
+    <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="de">Nachname einer Person</rdfs:comment>
+        <rdfs:label xml:lang="de">Nachname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#tod -->
+
+
+    <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#tod">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="de">Sterbedatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert.</rdfs:comment>
+        <rdfs:label xml:lang="de">Sterbedatum</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von -->
+
+
+    <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+        <rdfs:label xml:lang="de">von</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname -->
+
+
+    <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname">
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <rdfs:comment xml:lang="de">Vorname(n) einer Person, getrennt mit Leerzeichen</rdfs:comment>
+        <rdfs:label xml:lang="de">Vorname</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung">
+        <rdfs:comment xml:lang="de">Bildungseinrichtung in einem Pfarrerbuch</rdfs:comment>
+        <rdfs:label xml:lang="de">Bildungseinrichtung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"/>
+        <rdfs:comment xml:lang="de">Dienstliche Angaben im Leben eines Pfarrers.</rdfs:comment>
+        <rdfs:label xml:lang="de">Dienstliche Angaben</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Eheschliessung -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Eheschliessung">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"/>
+        <rdfs:comment xml:lang="de">Eheschliessung</rdfs:comment>
+        <rdfs:label xml:lang="de">Eheschliessung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"/>
+        <rdfs:comment xml:lang="de">Ereignis im im Leben eines Pfarrers.</rdfs:comment>
+        <rdfs:label xml:lang="de">Ereignis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Erstes Entsendung</rdfs:comment>
+        <rdfs:label xml:lang="de">Erstes Entsendung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErstesTheologischesExamen -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErstesTheologischesExamen">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:comment xml:lang="de">Erstes Theologisches Examen</rdfs:comment>
+        <rdfs:label xml:lang="de">Erstes Theologisches Examen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"/>
+        <rdfs:comment xml:lang="de">Fachliche Angaben im Leben eines Pfarrers.</rdfs:comment>
+        <rdfs:label xml:lang="de">Fachliche Angaben</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie">
+        <rdfs:comment xml:lang="de">Beschreibt eine Familienkonstilation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)</rdfs:comment>
+        <rdfs:label xml:lang="de">Familie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"/>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geburt -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geburt">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"/>
+        <rdfs:comment xml:lang="de">Geburt</rdfs:comment>
+        <rdfs:label xml:lang="de">Geburt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde">
+        <rdfs:comment xml:lang="de">Kirchengemeinde in einem Pfarrerbuch</rdfs:comment>
+        <rdfs:label xml:lang="de">Kirchengemeinde</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Krankenhausseelsorge.</rdfs:comment>
+        <rdfs:label xml:lang="de">Krankenhausseelsorge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt">
+        <rdfs:comment xml:lang="de">Lebensabschnitt eines Pfarrers</rdfs:comment>
+        <rdfs:label xml:lang="de">Lebensabschnitt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Leitung einer Institution.</rdfs:comment>
+        <rdfs:label xml:lang="de">Leitung</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:comment xml:lang="de">Ordination</rdfs:comment>
+        <rdfs:label xml:lang="de">Ordination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ort -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ort">
+        <rdfs:comment xml:lang="de">Geografischer Ort in einem Pfarrerbuch</rdfs:comment>
+        <rdfs:label xml:lang="de">Ort</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"/>
+        <rdfs:comment xml:lang="de">Zeitabschnitt im Leben eines Pfarrers.</rdfs:comment>
+        <rdfs:label xml:lang="de">Periode</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoehnlich -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoehnlich"/>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"/>
+        <rdfs:comment xml:lang="de">Persönliche Angaben im Leben eines Pfarrers.</rdfs:comment>
+        <rdfs:label xml:lang="de">Persönliche Angaben</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person">
+        <rdfs:comment xml:lang="de">Stellt eine Person dar, die in der Datenbank verzeichnet u.a. Pfarrer,  Familienmitglieder ist.</rdfs:comment>
+        <rdfs:label xml:lang="de">Person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
+        <rdfs:comment xml:lang="de">Stellt einen Pfarrer oder Pastor dar, die in einem Pfarrerbuch verzeichnet ist.</rdfs:comment>
+        <rdfs:label xml:lang="de">Pfarrer oder Pastor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Periode in der ein Pfarrer eine Stelle besetzt.</rdfs:comment>
+        <rdfs:label xml:lang="de">Pfarrstelle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Referent.</rdfs:comment>
+        <rdfs:label xml:lang="de">Referent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoehnlich"/>
+        <rdfs:comment xml:lang="de">Schulabschluss</rdfs:comment>
+        <rdfs:label xml:lang="de">Schulabschluss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle">
+        <rdfs:comment xml:lang="de">Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchengemeinde</rdfs:comment>
+        <rdfs:label xml:lang="de">Stelle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Schulabschluss</rdfs:comment>
+        <rdfs:label xml:lang="de">Schulabschluss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:comment xml:lang="de">Studienabschluss</rdfs:comment>
+        <rdfs:label xml:lang="de">Studienabschluss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Tod -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Tod">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"/>
+        <rdfs:comment xml:lang="de">Tod</rdfs:comment>
+        <rdfs:label xml:lang="de">Tod</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Vakanzverwalter.</rdfs:comment>
+        <rdfs:label xml:lang="de">Vakanzverwalter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vikariat -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vikariat">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Vikariat</rdfs:comment>
+        <rdfs:label xml:lang="de">Vikariat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ZweitesTheologischesExamen -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ZweitesTheologischesExamen">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:comment xml:lang="de">Zweites Theologisches Examen</rdfs:comment>
+        <rdfs:label xml:lang="de">Zweites Theologisches Examen Theologisches Examen</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+

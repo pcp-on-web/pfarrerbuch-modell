@@ -1,0 +1,770 @@
+[ {
+  "@id" : "http://creativecommons.org/ns#attributionName",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#attributionName" : [ {
+    "@value" : "Participants of Workshop"
+  } ],
+  "http://purl.org/dc/terms/license" : [ {
+    "@value" : "http://creativecommons.org/licenses/by/4.0/"
+  } ],
+  "http://purl.org/dc/terms/modified" : [ {
+    "@value" : "2023-09-12"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "de",
+    "@value" : "Vokabular Pfarrerbücher"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Bildungseinrichtung in einem Pfarrerbuch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Bildungseinrichtung"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Dienstliche Angaben im Leben eines Pfarrers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Dienstliche Angaben"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Eheschliessung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Eheschliessung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Eheschliessung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Ereignis im im Leben eines Pfarrers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ereignis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Erstes Entsendung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Erstes Entsendung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErstesTheologischesExamen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Erstes Theologisches Examen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Erstes Theologisches Examen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Fachliche Angaben im Leben eines Pfarrers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Fachliche Angaben"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Beschreibt eine Familienkonstilation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Familie"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geburt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Geburt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Geburt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Kirchengemeinde in einem Pfarrerbuch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Kirchengemeinde"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Krankenhausseelsorge."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Krankenhausseelsorge"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Lebensabschnitt eines Pfarrers"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Lebensabschnitt"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Leitung einer Institution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Leitung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Ordination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ordination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ort",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Geografischer Ort in einem Pfarrerbuch"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ort"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Zeitabschnitt im Leben eines Pfarrers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Periode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoehnlich",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Persönliche Angaben im Leben eines Pfarrers."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Persönliche Angaben"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Stellt eine Person dar, die in der Datenbank verzeichnet u.a. Pfarrer,  Familienmitglieder ist."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Person"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Stellt einen Pfarrer oder Pastor dar, die in einem Pfarrerbuch verzeichnet ist."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Pfarrer oder Pastor"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Periode in der ein Pfarrer eine Stelle besetzt."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Pfarrstelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Referent."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Referent"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Schulabschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Schulabschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoehnlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchengemeinde"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Stelle"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Schulabschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Schulabschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Studienabschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Studienabschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Tod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Tod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Tod"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Vakanzverwalter."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Vakanzverwalter"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vikariat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Vikariat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Vikariat"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ZweitesTheologischesExamen",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Zweites Theologisches Examen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Zweites Theologisches Examen Theologisches Examen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Akademischer Titel einer Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Akademischer Titel"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "bis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "datum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geburt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Geburtsdatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Geburtsdatum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Gehört einer Famile an"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "gehoert zu Familie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Zugeordnete Bildungseinrichtung für Schule oder Studium"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "zugeordnete Bildungseinrichtung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Lebensabschnitt zu einem Pfarrer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat Lebensabschnitt"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Geographischer Ort einer Stelle oder eines Lebensabschnittes."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "hat Ort"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ort"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Zugeordnete Stelle für Stelleninhaber:in"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "zugeordnete Stelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "zugeordnete Familie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "zugeordnete Familie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Kirchengemeinde einer Entsendung oder Ordination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "in einer Kirchengemeinde"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Vater oder Mutter in einer Familie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "ist ELtern"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Kind in einer Familie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "ist Kind"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Nachname einer Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Nachname"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#tod",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Sterbedatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Sterbedatum"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "von"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#date"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Vorname(n) einer Person, getrennt mit Leerzeichen"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Vorname"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2000/01/rdf-schema#Literal"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Kirchengemeinde die einer Stelle zugeordnet ist"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "zugeordnete Kirchengemeinde"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde"
+  } ]
+}, {
+  "@id" : "http://purl.org/dc/terms/license",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/modified",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#date",
+  "@type" : [ "http://www.w3.org/2000/01/rdf-schema#Datatype" ]
+} ]
