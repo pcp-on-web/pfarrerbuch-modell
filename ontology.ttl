@@ -57,7 +57,7 @@ pbv: rdf:type owl:Ontology ;
 
 :Pfarrer-in rdf:type owl:Class ;
 	rdfs:subClassOf :Person ; 
-	rdfs:label "Pfarrer oder Pastor"@de ;
+	rdfs:label "Pfarrer:in oder Pastor:in"@de ;
 	rdfs:comment "Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."@de .				
 
 :hatLebensabschnitt rdf:type owl:ObjectProperty ;
