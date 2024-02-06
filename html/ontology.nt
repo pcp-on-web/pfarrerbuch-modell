@@ -313,7 +313,7 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in> <http://www.w3.org/2000/01/rdf-schema#comment> "Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in> <http://www.w3.org/2000/01/rdf-schema#label> "Pfarrer oder Pastor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in> <http://www.w3.org/2000/01/rdf-schema#label> "Pfarrer:in oder Pastor:in"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

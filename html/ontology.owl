@@ -552,7 +552,7 @@
     <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in">
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
         <rdfs:comment xml:lang="de">Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist.</rdfs:comment>
-        <rdfs:label xml:lang="de">Pfarrer oder Pastor</rdfs:label>
+        <rdfs:label xml:lang="de">Pfarrer:in oder Pastor:in</rdfs:label>
     </owl:Class>
     
 

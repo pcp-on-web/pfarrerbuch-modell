@@ -283,7 +283,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : "Pfarrer oder Pastor"
+    "@value" : "Pfarrer:in oder Pastor:in"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
