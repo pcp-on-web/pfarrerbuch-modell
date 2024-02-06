@@ -190,7 +190,7 @@ pbv: rdf:type owl:Ontology ;
 #### Unterklassen :Fachlich
 
 :Studium rdf:type owl:Class ; 
-	rdfs:subClassOf :Fachlich, :Periode; 
+	rdfs:subClassOf :Fachlich, :Ereignis; 
 	rdfs:label "Schulabschluss"@de ;
 	rdfs:comment "Schulabschluss"@de .
 
