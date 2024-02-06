@@ -221,12 +221,12 @@ pbv: rdf:type owl:Ontology ;
 
 
 :ErstesTheologischesExamen rdf:type owl:Class ; 
-	rdfs:subClassOf :TheologischesExamen 
+	rdfs:subClassOf :TheologischesExamen; 
 	rdfs:label "Erstes Theologisches Examen"@de ;
 	rdfs:comment "Erstes Theologisches Examen"@de .
 
 :ZweitesTheologischesExamen rdf:type owl:Class ; 
-	rdfs:subClassOf :TheologischesExamen
+	rdfs:subClassOf :TheologischesExamen;
 	rdfs:label "Zweites Theologisches Examen"@de ;
 	rdfs:comment "Zweites Theologisches Examen"@de .
 
@@ -261,22 +261,22 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Anderer Tätigkeit."@de .
 
 :Krankenhausseelsorge rdf:type owl:Class ; 
-	rdfs:subClassOf :Taetigkeit
+	rdfs:subClassOf :Taetigkeit;
 	rdfs:label "Krankenhausseelsorge"@de ;
 	rdfs:comment "Krankenhausseelsorge."@de .
 
 :Referent rdf:type owl:Class ; 
-	rdfs:subClassOf :Taetigkeit
+	rdfs:subClassOf :Taetigkeit;
 	rdfs:label "Referent"@de ;
 	rdfs:comment "Referent."@de .
 
 :Vakanzverwalter rdf:type owl:Class ; 
-	rdfs:subClassOf :Taetigkeit
+	rdfs:subClassOf :Taetigkeit;
 	rdfs:label "Vakanzverwalter"@de ;
 	rdfs:comment "Vakanzverwalter."@de .
 
 :Leitung rdf:type owl:Class ; 
-	rdfs:subClassOf :Taetigkeit
+	rdfs:subClassOf :Taetigkeit;
 	rdfs:label "Leitung"@de ;
 	rdfs:comment "Leitung einer Institution."@de .
 
