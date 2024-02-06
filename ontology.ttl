@@ -43,26 +43,25 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Akademischer Titel"@de ;
 	rdfs:comment "Akademischer Titel einer Person"@de .
 
-:geburt rdf:type owl:DatatypeProperty ;
+:person-geburt rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
-	rdfs:range rdfs:Literal ;
+	rdfs:range xsd:date  ;
 	rdfs:label "Geburtsdatum"@de ;
 	rdfs:comment "Geburtsdatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."@de .
 
-:tod rdf:type owl:DatatypeProperty ;
+:person-tod rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
-	rdfs:range rdfs:Literal ;
+	rdfs:range xsd:date  ;
 	rdfs:label "Sterbedatum"@de ;
 	rdfs:comment "Sterbedatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."@de .
 
-
-:Pfarrer rdf:type owl:Class ;
+:Pfarrer-in rdf:type owl:Class ;
 	rdfs:subClassOf :Person ; 
 	rdfs:label "Pfarrer oder Pastor"@de ;
-	rdfs:comment "Stellt einen Pfarrer oder Pastor dar, die in einem Pfarrerbuch verzeichnet ist."@de .				
+	rdfs:comment "Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."@de .				
 
 :hatLebensabschnitt rdf:type owl:ObjectProperty ;
-	rdfs:domain :Pfarrer ;
+	rdfs:domain :Pfarrer-in ;
 	rdfs:range :Lebensabschnitt ;
 	rdfs:label "hat Lebensabschnitt"@de ;
 	rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
@@ -141,7 +140,7 @@ pbv: rdf:type owl:Ontology ;
 
 :Lebensabschnitt rdf:type owl:Class ;
 	rdfs:label "Lebensabschnitt"@de ;
-	rdfs:comment "Lebensabschnitt eines Pfarrers"@de .
+	rdfs:comment "Lebensabschnitt einer Pfarrerin oder eines Pfarrers, bzw. Pastorin oder Pastor"@de .
 
 
 ### Unterklassen :Lebensabschnitt
@@ -152,7 +151,7 @@ pbv: rdf:type owl:Ontology ;
 :Ereignis rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Ereignis"@de ;
-	rdfs:comment "Ereignis im im Leben eines Pfarrers."@de .
+	rdfs:comment "Ereignis im Leben einer Pfarrerin oder eines Pfarrers."@de .
 
 
 :datum rdf:type owl:DatatypeProperty ;
@@ -164,7 +163,7 @@ pbv: rdf:type owl:Ontology ;
 :Periode rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Periode"@de ;
-	rdfs:comment "Zeitabschnitt im Leben eines Pfarrers."@de .
+	rdfs:comment "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers."@de .
 
 
 :von rdf:type owl:DatatypeProperty ;
@@ -185,7 +184,7 @@ pbv: rdf:type owl:Ontology ;
 :Fachlich rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Fachliche Angaben"@de ;
-	rdfs:comment "Fachliche Angaben im Leben eines Pfarrers."@de .
+	rdfs:comment "Fachliche Angaben im Leben einer Pfarrerin oder eines Pfarrers."@de .
 
 #### Unterklassen :Fachlich
 
@@ -215,20 +214,26 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Vikariat"@de ;
 	rdfs:comment "Vikariat"@de .
 
-:ErstesTheologischesExamen rdf:type owl:Class ; 
+:TheologischesExamen rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
+	rdfs:label "Theologisches Examen"@de ;
+	rdfs:comment "Dieses fast das erste und zweite Theologisches Examen zusammen"@de .
+
+
+:ErstesTheologischesExamen rdf:type owl:Class ; 
+	rdfs:subClassOf :TheologischesExamen 
 	rdfs:label "Erstes Theologisches Examen"@de ;
 	rdfs:comment "Erstes Theologisches Examen"@de .
 
 :ZweitesTheologischesExamen rdf:type owl:Class ; 
-	rdfs:subClassOf :Fachlich, :Ereignis; 
-	rdfs:label "Zweites Theologisches Examen Theologisches Examen"@de ;
+	rdfs:subClassOf :TheologischesExamen
+	rdfs:label "Zweites Theologisches Examen"@de ;
 	rdfs:comment "Zweites Theologisches Examen"@de .
 
-:ErsteEntsendung rdf:type owl:Class ; 
+:Entsendung rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Periode; 
-	rdfs:label "Erstes Entsendung"@de ;
-	rdfs:comment "Erstes Entsendung"@de .
+	rdfs:label "Entsendung"@de ;
+	rdfs:comment "Entsendung"@de .
 
 ### ---
 
@@ -242,7 +247,7 @@ pbv: rdf:type owl:Ontology ;
 :Pfarrstelle rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
 	rdfs:label "Pfarrstelle"@de ;
-	rdfs:comment "Periode in der ein Pfarrer eine Stelle besetzt."@de .
+	rdfs:comment "Periode in der eine Pfarrerin oder ein Pfarrer eine Stelle besetzt."@de .
 
 :hatStelle rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Pfarrstelle ;
@@ -250,23 +255,28 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "zugeordnete Stelle"@de ;
 	rdfs:comment "Zugeordnete Stelle für Stelleninhaber:in"@de .
 
-:Krankenhausseelsorge rdf:type owl:Class ; 
+:Taetigkeit rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:label "Anderer Tätigkeit"@de ;
+	rdfs:comment "Anderer Tätigkeit."@de .
+
+:Krankenhausseelsorge rdf:type owl:Class ; 
+	rdfs:subClassOf :Taetigkeit
 	rdfs:label "Krankenhausseelsorge"@de ;
 	rdfs:comment "Krankenhausseelsorge."@de .
 
 :Referent rdf:type owl:Class ; 
-	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:subClassOf :Taetigkeit
 	rdfs:label "Referent"@de ;
 	rdfs:comment "Referent."@de .
 
 :Vakanzverwalter rdf:type owl:Class ; 
-	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:subClassOf :Taetigkeit
 	rdfs:label "Vakanzverwalter"@de ;
 	rdfs:comment "Vakanzverwalter."@de .
 
 :Leitung rdf:type owl:Class ; 
-	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:subClassOf :Taetigkeit
 	rdfs:label "Leitung"@de ;
 	rdfs:comment "Leitung einer Institution."@de .
 
@@ -279,11 +289,6 @@ pbv: rdf:type owl:Ontology ;
 
 
 ### Unterklassen :Persoenlich
-
-:Schulabschluss rdf:type owl:Class ; 
-	rdfs:subClassOf :Persoehnlich, :Ereignis; 
-	rdfs:label "Schulabschluss"@de ;
-	rdfs:comment "Schulabschluss"@de .
 
 :Geburt rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis; 
@@ -301,6 +306,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Eheschliessung"@de .
 
 :Familienzugehoerigkeit rdf:type owl:Class ; 
+	rdfs:label "Familienzugehörigkeit"@de ;
 	rdfs:subClassOf :Persoenlich, :Periode. 
 
 :inFamilie rdf:type owl:ObjectProperty ;
