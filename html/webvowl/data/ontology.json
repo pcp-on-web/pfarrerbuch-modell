@@ -39,16 +39,52 @@
     "id" : "7",
     "type" : "owl:Class"
   }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
     "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "31",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
     "type" : "owl:Class"
   }, {
     "id" : "20",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "34",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
     "type" : "owl:Class"
   }, {
     "id" : "1",
@@ -57,109 +93,79 @@
     "id" : "42",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
+    "id" : "30",
     "type" : "owl:Class"
   }, {
-    "id" : "2",
+    "id" : "65",
     "type" : "owl:Class"
   }, {
-    "id" : "53",
-    "type" : "owl:Class"
-  }, {
-    "id" : "62",
-    "type" : "owl:Class"
-  }, {
-    "id" : "45",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "28",
+    "id" : "74",
     "type" : "owl:Class"
   }, {
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "40",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
     "id" : "51",
     "type" : "owl:Class"
   }, {
-    "id" : "78",
-    "type" : "owl:Class"
-  }, {
-    "id" : "57",
-    "type" : "owl:Class"
-  }, {
-    "id" : "9",
-    "type" : "owl:Class"
-  }, {
-    "id" : "31",
-    "type" : "owl:Class"
-  }, {
-    "id" : "33",
-    "type" : "owl:Class"
-  }, {
-    "id" : "54",
-    "type" : "owl:Class"
-  }, {
     "id" : "38",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "28",
     "type" : "owl:Class"
   }, {
     "id" : "4",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
+    "id" : "40",
     "type" : "owl:Class"
   }, {
-    "id" : "91",
+    "id" : "87",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "24",
+    "id" : "89",
     "type" : "rdfs:Literal"
   }, {
     "id" : "93",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "11",
-    "type" : "rdfs:Literal"
-  }, {
-    "id" : "96",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "97",
-    "type" : "rdfs:Literal"
+    "id" : "37",
+    "type" : "rdfs:Datatype"
   }, {
-    "id" : "88",
-    "type" : "owl:Class"
-  }, {
-    "id" : "61",
-    "type" : "owl:Class"
-  }, {
-    "id" : "48",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "rdfs:Literal"
+    "id" : "94",
+    "type" : "rdfs:Datatype"
   }, {
     "id" : "95",
-    "type" : "rdfs:Datatype"
+    "type" : "rdfs:Literal"
   }, {
-    "id" : "22",
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
     "type" : "owl:Class"
   }, {
     "id" : "67",
     "type" : "owl:Class"
   }, {
-    "id" : "36",
+    "id" : "10",
+    "type" : "rdfs:Literal"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
     "type" : "owl:Class"
   }, {
-    "id" : "30",
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "19",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -171,10 +177,23 @@
       "IRI-based" : "Pfarrstelle"
     },
     "comment" : {
-      "de" : "Periode in der ein Pfarrer eine Stelle besetzt."
+      "de" : "Periode in der eine Pfarrerin oder ein Pfarrer eine Stelle besetzt."
     },
     "id" : "7",
-    "superClasses" : [ "8", "9" ]
+    "superClasses" : [ "1", "8" ]
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Pfarrer oder Pastor",
+      "IRI-based" : "Pfarrer-in"
+    },
+    "comment" : {
+      "de" : "Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."
+    },
+    "id" : "24",
+    "superClasses" : [ "5" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -183,7 +202,7 @@
       "de" : "Person",
       "IRI-based" : "Person"
     },
-    "subClasses" : [ "31" ],
+    "subClasses" : [ "24" ],
     "comment" : {
       "de" : "Stellt eine Person dar, die in der Datenbank verzeichnet u.a. Pfarrer,  Familienmitglieder ist."
     },
@@ -193,14 +212,14 @@
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
-      "de" : "Zweites Theologisches Examen Theologisches Examen",
+      "de" : "Zweites Theologisches Examen",
       "IRI-based" : "ZweitesTheologischesExamen"
     },
     "comment" : {
       "de" : "Zweites Theologisches Examen"
     },
-    "id" : "20",
-    "superClasses" : [ "1", "36" ]
+    "id" : "31",
+    "superClasses" : [ "32" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -212,7 +231,21 @@
     "comment" : {
       "de" : "Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchengemeinde"
     },
-    "id" : "15"
+    "id" : "12"
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#TheologischesExamen",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Theologisches Examen",
+      "IRI-based" : "TheologischesExamen"
+    },
+    "subClasses" : [ "38", "31" ],
+    "comment" : {
+      "de" : "Dieses fast das erste und zweite Theologisches Examen zusammen"
+    },
+    "id" : "32",
+    "superClasses" : [ "20", "17" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Tod",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -224,35 +257,8 @@
     "comment" : {
       "de" : "Tod"
     },
-    "id" : "18",
-    "superClasses" : [ "1", "33" ]
-  }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "label" : {
-      "de" : "Ereignis",
-      "IRI-based" : "Ereignis"
-    },
-    "subClasses" : [ "40", "38", "26", "22", "30", "28", "20", "18" ],
-    "comment" : {
-      "de" : "Ereignis im im Leben eines Pfarrers."
-    },
-    "id" : "1",
-    "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "label" : {
-      "de" : "Leitung",
-      "IRI-based" : "Leitung"
-    },
-    "comment" : {
-      "de" : "Leitung einer Institution."
-    },
-    "id" : "42",
-    "superClasses" : [ "8", "9" ]
+    "id" : "26",
+    "superClasses" : [ "20", "15" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -264,7 +270,34 @@
     "comment" : {
       "de" : "Kirchengemeinde in einem Pfarrerbuch"
     },
-    "id" : "16"
+    "id" : "13"
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Leitung",
+      "IRI-based" : "Leitung"
+    },
+    "comment" : {
+      "de" : "Leitung einer Institution."
+    },
+    "id" : "41",
+    "superClasses" : [ "42" ]
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Ereignis",
+      "IRI-based" : "Ereignis"
+    },
+    "subClasses" : [ "30", "28", "32", "34", "22", "19", "26" ],
+    "comment" : {
+      "de" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers."
+    },
+    "id" : "20",
+    "superClasses" : [ "2" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -273,29 +306,24 @@
       "de" : "Lebensabschnitt",
       "IRI-based" : "Lebensabschnitt"
     },
-    "subClasses" : [ "1", "36", "33", "8", "9" ],
+    "subClasses" : [ "20", "17", "15", "1", "8" ],
     "comment" : {
-      "de" : "Lebensabschnitt eines Pfarrers"
+      "de" : "Lebensabschnitt einer Pfarrerin oder eines Pfarrers, bzw. Pastorin oder Pastor"
     },
     "id" : "2"
   }, {
     "instances" : 0,
-    "union" : [ "15", "54", "2" ],
+    "union" : [ "12", "51", "2" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "53"
+    "id" : "50"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
-      "de" : "Erstes Entsendung",
       "IRI-based" : "ErsteEntsendung"
     },
-    "comment" : {
-      "de" : "Erstes Entsendung"
-    },
-    "id" : "62",
-    "superClasses" : [ "36", "8" ]
+    "id" : "57"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -307,8 +335,8 @@
     "comment" : {
       "de" : "Krankenhausseelsorge."
     },
-    "id" : "45",
-    "superClasses" : [ "8", "9" ]
+    "id" : "58",
+    "superClasses" : [ "42" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Eheschliessung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -320,21 +348,29 @@
     "comment" : {
       "de" : "Eheschliessung"
     },
-    "id" : "26",
-    "superClasses" : [ "1", "33" ]
+    "id" : "34",
+    "superClasses" : [ "20", "15" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
-      "de" : "Schulabschluss",
       "IRI-based" : "Schulabschluss"
     },
-    "comment" : {
-      "de" : "Schulabschluss"
+    "id" : "63"
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Entsendung",
+      "IRI-based" : "Entsendung"
     },
-    "id" : "28",
-    "superClasses" : [ "1", "57" ]
+    "comment" : {
+      "de" : "Entsendung"
+    },
+    "id" : "62",
+    "superClasses" : [ "17", "1" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -343,12 +379,26 @@
       "de" : "Periode",
       "IRI-based" : "Periode"
     },
-    "subClasses" : [ "42", "71", "48", "62", "7", "51", "45", "67", "35" ],
+    "subClasses" : [ "7", "70", "40", "62", "42" ],
     "comment" : {
-      "de" : "Zeitabschnitt im Leben eines Pfarrers."
+      "de" : "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers."
     },
-    "id" : "8",
+    "id" : "1",
     "superClasses" : [ "2" ]
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Anderer T?tigkeit",
+      "IRI-based" : "Taetigkeit"
+    },
+    "subClasses" : [ "41", "67", "65", "58" ],
+    "comment" : {
+      "de" : "Anderer T?tigkeit."
+    },
+    "id" : "42",
+    "superClasses" : [ "1", "8" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -360,8 +410,8 @@
     "comment" : {
       "de" : "Studienabschluss"
     },
-    "id" : "40",
-    "superClasses" : [ "1", "36" ]
+    "id" : "30",
+    "superClasses" : [ "20", "17" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -373,8 +423,8 @@
     "comment" : {
       "de" : "Referent."
     },
-    "id" : "51",
-    "superClasses" : [ "8", "9" ]
+    "id" : "65",
+    "superClasses" : [ "42" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ort",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -386,16 +436,7 @@
     "comment" : {
       "de" : "Geografischer Ort in einem Pfarrerbuch"
     },
-    "id" : "78"
-  }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoehnlich",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Persoehnlich"
-    },
-    "subClasses" : [ "28" ],
-    "id" : "57"
+    "id" : "74"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -404,25 +445,12 @@
       "de" : "Dienstliche Angaben",
       "IRI-based" : "Dienstlich"
     },
-    "subClasses" : [ "42", "48", "7", "51", "45" ],
+    "subClasses" : [ "7", "42" ],
     "comment" : {
       "de" : "Dienstliche Angaben im Leben eines Pfarrers."
     },
-    "id" : "9",
+    "id" : "8",
     "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "label" : {
-      "de" : "Pfarrer oder Pastor",
-      "IRI-based" : "Pfarrer"
-    },
-    "comment" : {
-      "de" : "Stellt einen Pfarrer oder Pastor dar, die in einem Pfarrerbuch verzeichnet ist."
-    },
-    "id" : "31",
-    "superClasses" : [ "5" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -431,11 +459,11 @@
       "de" : "Pers?nliche Angaben",
       "IRI-based" : "Persoenlich"
     },
-    "subClasses" : [ "26", "22", "35", "18" ],
+    "subClasses" : [ "34", "22", "40", "26" ],
     "comment" : {
       "de" : "Pers?nliche Angaben im Leben eines Pfarrers."
     },
-    "id" : "33",
+    "id" : "15",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung",
@@ -448,7 +476,7 @@
     "comment" : {
       "de" : "Bildungseinrichtung in einem Pfarrerbuch"
     },
-    "id" : "54"
+    "id" : "51"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErstesTheologischesExamen",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -461,7 +489,7 @@
       "de" : "Erstes Theologisches Examen"
     },
     "id" : "38",
-    "superClasses" : [ "1", "36" ]
+    "superClasses" : [ "32" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -473,8 +501,8 @@
     "comment" : {
       "de" : "Schulabschluss"
     },
-    "id" : "71",
-    "superClasses" : [ "36", "8" ]
+    "id" : "28",
+    "superClasses" : [ "20", "17" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -492,66 +520,65 @@
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
+      "de" : "Familienzugeh?rigkeit",
       "IRI-based" : "Familienzugehoerigkeit"
     },
-    "id" : "35",
-    "superClasses" : [ "33", "8" ]
+    "id" : "40",
+    "superClasses" : [ "15", "1" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#date",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "91",
+    "id" : "87",
     "label" : {
       "IRI-based" : "date"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "24",
+    "id" : "89",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
     "id" : "93",
     "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
-    }
-  }, {
-    "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "11",
-    "label" : {
-      "IRI-based" : "Literal",
-      "undefined" : "Literal"
+      "IRI-based" : "date"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#date",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "96",
+    "id" : "37",
+    "label" : {
+      "IRI-based" : "date"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#date",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
     "label" : {
       "IRI-based" : "date"
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "97",
+    "id" : "95",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
     }
   }, {
     "instances" : 0,
-    "union" : [ "40", "71", "28" ],
+    "union" : [ "30", "28", "63" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "88"
+    "id" : "84"
   }, {
     "instances" : 0,
-    "union" : [ "62", "30" ],
+    "union" : [ "57", "19" ],
     "attributes" : [ "anonymous", "union" ],
-    "id" : "61"
+    "id" : "56"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -563,12 +590,12 @@
     "comment" : {
       "de" : "Vakanzverwalter."
     },
-    "id" : "48",
-    "superClasses" : [ "8", "9" ]
+    "id" : "67",
+    "superClasses" : [ "42" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "13",
+    "id" : "10",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -576,7 +603,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#date",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "95",
+    "id" : "91",
     "label" : {
       "IRI-based" : "date"
     }
@@ -592,7 +619,7 @@
       "de" : "Geburt"
     },
     "id" : "22",
-    "superClasses" : [ "1", "33" ]
+    "superClasses" : [ "20", "15" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vikariat",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -604,8 +631,8 @@
     "comment" : {
       "de" : "Vikariat"
     },
-    "id" : "67",
-    "superClasses" : [ "36", "8" ]
+    "id" : "70",
+    "superClasses" : [ "17", "1" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -614,11 +641,11 @@
       "de" : "Fachliche Angaben",
       "IRI-based" : "Fachlich"
     },
-    "subClasses" : [ "40", "71", "62", "38", "67", "30", "20" ],
+    "subClasses" : [ "30", "28", "32", "70", "19", "62" ],
     "comment" : {
-      "de" : "Fachliche Angaben im Leben eines Pfarrers."
+      "de" : "Fachliche Angaben im Leben einer Pfarrerin oder eines Pfarrers."
     },
-    "id" : "36",
+    "id" : "17",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination",
@@ -631,8 +658,8 @@
     "comment" : {
       "de" : "Ordination"
     },
-    "id" : "30",
-    "superClasses" : [ "1", "36" ]
+    "id" : "19",
+    "superClasses" : [ "20", "17" ]
   } ],
   "property" : [ {
     "id" : "0",
@@ -641,26 +668,26 @@
     "id" : "3",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "10",
+    "id" : "9",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "12",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "14",
+    "id" : "11",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "17",
+    "id" : "14",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "19",
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "18",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "21",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "23",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "25",
     "type" : "rdfs:SubClassOf"
@@ -671,19 +698,16 @@
     "id" : "29",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "32",
+    "id" : "33",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "34",
+    "id" : "35",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "37",
-    "type" : "rdfs:SubClassOf"
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "39",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "41",
     "type" : "owl:objectProperty"
   }, {
     "id" : "43",
@@ -692,43 +716,43 @@
     "id" : "44",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "45",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "46",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "47",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "49",
+    "id" : "48",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "50",
+    "id" : "49",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "52",
     "type" : "rdfs:SubClassOf"
   }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "54",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "55",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "56",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "58",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "59",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "60",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "63",
+    "id" : "61",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "64",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "65",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "66",
@@ -740,26 +764,26 @@
     "id" : "69",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "70",
+    "id" : "71",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "72",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "73",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "74",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "75",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "76",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "77",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "78",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "79",
     "type" : "rdfs:SubClassOf"
@@ -774,22 +798,16 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "83",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "84",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "85",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "86",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
-    "id" : "87",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "89",
-    "type" : "owl:objectProperty"
+    "id" : "88",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "90",
     "type" : "owl:datatypeProperty"
@@ -797,22 +815,19 @@
     "id" : "92",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "94",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "98",
+    "id" : "96",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "6",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "99",
+    "id" : "97",
     "type" : "owl:datatypeProperty"
   } ],
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "0"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern",
@@ -830,23 +845,9 @@
     "attributes" : [ "object" ],
     "id" : "3"
   }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#tod",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "11",
-    "label" : {
-      "de" : "Sterbedatum",
-      "IRI-based" : "tod"
-    },
-    "domain" : "5",
-    "comment" : {
-      "de" : "Sterbedatum einer Person, f?r Pfarrer wird dieses auch als Lebensabschnitt repr?sentiert."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "10"
-  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "13",
+    "range" : "10",
     "label" : {
       "de" : "Akademischer Titel",
       "IRI-based" : "akademischerTitel"
@@ -856,85 +857,85 @@
       "de" : "Akademischer Titel einer Person"
     },
     "attributes" : [ "datatype" ],
-    "id" : "12"
+    "id" : "9"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "16",
+    "range" : "13",
     "label" : {
       "de" : "zugeordnete Kirchengemeinde",
       "IRI-based" : "zugeordneteKirchengemeinde"
     },
-    "domain" : "15",
+    "domain" : "12",
     "comment" : {
       "de" : "Kirchengemeinde die einer Stelle zugeordnet ist"
     },
     "attributes" : [ "object" ],
+    "id" : "11"
+  }, {
+    "range" : "2",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "14"
   }, {
-    "range" : "1",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "17"
+    "range" : "2",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
   }, {
-    "range" : "1",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "19"
+    "range" : "20",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "18"
   }, {
-    "range" : "1",
+    "range" : "20",
     "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "21"
   }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geburt",
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "23"
+  }, {
+    "range" : "20",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "25"
+  }, {
+    "range" : "20",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "27"
+  }, {
+    "range" : "20",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "20",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "33"
+  }, {
+    "range" : "20",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "35"
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#person-tod",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "24",
+    "range" : "37",
     "label" : {
-      "de" : "Geburtsdatum",
-      "IRI-based" : "geburt"
+      "de" : "Sterbedatum",
+      "IRI-based" : "person-tod"
     },
     "domain" : "5",
     "comment" : {
-      "de" : "Geburtsdatum einer Person, f?r Pfarrer wird dieses auch als Lebensabschnitt repr?sentiert."
+      "de" : "Sterbedatum einer Person, f?r Pfarrer wird dieses auch als Lebensabschnitt repr?sentiert."
     },
     "attributes" : [ "datatype" ],
-    "id" : "23"
-  }, {
-    "range" : "1",
-    "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "25"
-  }, {
-    "range" : "1",
-    "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "27"
-  }, {
-    "range" : "1",
-    "domain" : "30",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "29"
-  }, {
-    "range" : "33",
-    "domain" : "18",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "32"
-  }, {
-    "range" : "33",
-    "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "34"
-  }, {
-    "range" : "1",
-    "domain" : "38",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "37"
-  }, {
-    "range" : "1",
-    "domain" : "40",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "39"
+    "id" : "36"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -943,62 +944,57 @@
       "de" : "zugeordnete Familie",
       "IRI-based" : "inFamilie"
     },
-    "domain" : "35",
+    "domain" : "40",
     "comment" : {
       "de" : "zugeordnete Familie"
     },
     "attributes" : [ "object" ],
-    "id" : "41"
+    "id" : "39"
   }, {
-    "range" : "33",
-    "domain" : "26",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "32",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "43"
   }, {
-    "range" : "9",
-    "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "15",
+    "domain" : "26",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "44"
   }, {
-    "range" : "33",
-    "domain" : "22",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "32",
+    "domain" : "31",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "45"
+  }, {
+    "range" : "15",
+    "domain" : "34",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "46"
   }, {
-    "range" : "9",
-    "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "8",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "47"
   }, {
-    "range" : "9",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "15",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "15",
+    "domain" : "22",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "49"
   }, {
-    "range" : "9",
-    "domain" : "51",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "50"
-  }, {
-    "range" : "9",
+    "range" : "8",
     "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "52"
   }, {
     "range" : "5",
-    "domain" : "31",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "55"
-  }, {
-    "range" : "57",
-    "domain" : "28",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "56"
-  }, {
-    "range" : "36",
-    "domain" : "20",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "58"
+    "domain" : "24",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "53"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1013,80 +1009,65 @@
       "de" : "Kind in einer Familie"
     },
     "attributes" : [ "object" ],
-    "id" : "59"
+    "id" : "54"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "16",
+    "range" : "13",
     "label" : {
       "de" : "in einer Kirchengemeinde",
       "IRI-based" : "inKirchengemeinde"
     },
-    "domain" : "61",
+    "domain" : "56",
     "comment" : {
       "de" : "Kirchengemeinde einer Entsendung oder Ordination"
     },
     "attributes" : [ "object" ],
+    "id" : "55"
+  }, {
+    "range" : "42",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "59"
+  }, {
+    "range" : "42",
+    "domain" : "41",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "60"
   }, {
-    "range" : "36",
-    "domain" : "38",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "63"
-  }, {
-    "range" : "36",
+    "range" : "17",
     "domain" : "62",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "61"
+  }, {
+    "range" : "42",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "64"
   }, {
-    "range" : "36",
-    "domain" : "30",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "65"
-  }, {
-    "range" : "36",
+    "range" : "42",
     "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "66"
   }, {
-    "range" : "8",
-    "domain" : "35",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "17",
+    "domain" : "19",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "68"
   }, {
-    "range" : "8",
-    "domain" : "67",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "17",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "69"
   }, {
-    "range" : "36",
-    "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "70"
-  }, {
-    "range" : "36",
-    "domain" : "40",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "72"
-  }, {
-    "range" : "8",
-    "domain" : "45",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "73"
-  }, {
-    "range" : "8",
-    "domain" : "51",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "74"
-  }, {
-    "range" : "8",
-    "domain" : "7",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "75"
+    "range" : "17",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "71"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "15",
+    "range" : "12",
     "label" : {
       "de" : "zugeordnete Stelle",
       "IRI-based" : "hatStelle"
@@ -1096,75 +1077,75 @@
       "de" : "Zugeordnete Stelle f?r Stelleninhaber:in"
     },
     "attributes" : [ "object" ],
-    "id" : "76"
+    "id" : "72"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "78",
+    "range" : "74",
     "label" : {
       "de" : "hat Ort",
       "IRI-based" : "hatOrt"
     },
-    "domain" : "53",
+    "domain" : "50",
     "comment" : {
       "de" : "Geographischer Ort einer Stelle oder eines Lebensabschnittes."
     },
     "attributes" : [ "object" ],
+    "id" : "73"
+  }, {
+    "range" : "1",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "75"
+  }, {
+    "range" : "1",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "76"
+  }, {
+    "range" : "17",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "77"
   }, {
-    "range" : "8",
-    "domain" : "71",
-    "attributes" : [ "anonymous", "object" ],
+    "range" : "17",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
+  }, {
+    "range" : "1",
+    "domain" : "7",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "79"
-  }, {
-    "range" : "8",
-    "domain" : "42",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "80"
-  }, {
-    "range" : "8",
-    "domain" : "62",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "81"
-  }, {
-    "range" : "8",
-    "domain" : "48",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "82"
-  }, {
-    "range" : "2",
-    "domain" : "33",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "83"
-  }, {
-    "range" : "2",
-    "domain" : "36",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "84"
-  }, {
-    "range" : "2",
-    "domain" : "9",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "85"
   }, {
     "range" : "2",
     "domain" : "8",
-    "attributes" : [ "anonymous", "object" ],
-    "id" : "86"
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "80"
+  }, {
+    "range" : "1",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "81"
+  }, {
+    "range" : "1",
+    "domain" : "70",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "82"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "54",
+    "range" : "51",
     "label" : {
       "de" : "zugeordnete Bildungseinrichtung",
       "IRI-based" : "hatBildungseinrichtung"
     },
-    "domain" : "88",
+    "domain" : "84",
     "comment" : {
       "de" : "Zugeordnete Bildungseinrichtung f?r Schule oder Studium"
     },
     "attributes" : [ "object" ],
-    "id" : "87"
+    "id" : "83"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1173,27 +1154,27 @@
       "de" : "hat Lebensabschnitt",
       "IRI-based" : "hatLebensabschnitt"
     },
-    "domain" : "31",
+    "domain" : "24",
     "comment" : {
       "de" : "Lebensabschnitt zu einem Pfarrer"
     },
     "attributes" : [ "object" ],
-    "id" : "89"
+    "id" : "85"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "91",
+    "range" : "87",
     "label" : {
       "de" : "datum",
       "IRI-based" : "datum"
     },
-    "domain" : "1",
+    "domain" : "20",
     "attributes" : [ "datatype" ],
-    "id" : "90"
+    "id" : "86"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "93",
+    "range" : "89",
     "label" : {
       "de" : "Nachname",
       "IRI-based" : "nachname"
@@ -1203,22 +1184,36 @@
       "de" : "Nachname einer Person"
     },
     "attributes" : [ "datatype" ],
-    "id" : "92"
+    "id" : "88"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "95",
+    "range" : "91",
     "label" : {
       "de" : "bis",
       "IRI-based" : "bis"
     },
-    "domain" : "8",
+    "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "94"
+    "id" : "90"
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#person-geburt",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "range" : "93",
+    "label" : {
+      "de" : "Geburtsdatum",
+      "IRI-based" : "person-geburt"
+    },
+    "domain" : "5",
+    "comment" : {
+      "de" : "Geburtsdatum einer Person, f?r Pfarrer wird dieses auch als Lebensabschnitt repr?sentiert."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "92"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "97",
+    "range" : "95",
     "label" : {
       "de" : "Vorname",
       "IRI-based" : "vorname"
@@ -1228,7 +1223,7 @@
       "de" : "Vorname(n) einer Person, getrennt mit Leerzeichen"
     },
     "attributes" : [ "datatype" ],
-    "id" : "98"
+    "id" : "96"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1238,7 +1233,7 @@
       "IRI-based" : "gehoertzuFamilie"
     },
     "domain" : "4",
-    "subproperty" : [ "3", "59" ],
+    "subproperty" : [ "3", "54" ],
     "comment" : {
       "de" : "Geh?rt einer Famile an"
     },
@@ -1247,13 +1242,13 @@
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "96",
+    "range" : "94",
     "label" : {
       "de" : "von",
       "IRI-based" : "von"
     },
-    "domain" : "8",
+    "domain" : "1",
     "attributes" : [ "datatype" ],
-    "id" : "99"
+    "id" : "97"
   } ]
 }
