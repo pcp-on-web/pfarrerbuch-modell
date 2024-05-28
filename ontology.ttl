@@ -188,15 +188,21 @@ pbv: rdf:type owl:Ontology ;
 
 #### Unterklassen :Fachlich
 
-:Studium rdf:type owl:Class ; 
+:Schulabschluss rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
 	rdfs:label "Schulabschluss"@de ;
 	rdfs:comment "Schulabschluss"@de .
 
-:StudiumAbschluss rdf:type owl:Class ; 
+:Studienabschluss rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
 	rdfs:label "Studienabschluss"@de ;
 	rdfs:comment "Studienabschluss"@de .
+
+:Ausbildung rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Periode; 
+	rdfs:label "Ausbildung"@de ;
+	rdfs:comment "Ausbildung"@de .
+
 
 :hatBildungseinrichtung rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Schulabschluss, :Studium, :StudiumAbschluss ;
@@ -294,6 +300,11 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:subClassOf :Persoenlich, :Ereignis; 
 	rdfs:label "Geburt"@de ;
 	rdfs:comment "Geburt"@de .
+
+:Taufe rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoenlich, :Ereignis; 
+	rdfs:label "Taufe"@de ;
+	rdfs:comment "Taufe"@de .
 
 :Tod rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis; 
