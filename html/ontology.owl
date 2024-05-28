@@ -332,6 +332,18 @@
     
 
 
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <rdfs:comment xml:lang="de">Ausbildung</rdfs:comment>
+        <rdfs:label xml:lang="de">Ausbildung</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung -->
 
 
@@ -583,7 +595,12 @@
     <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss -->
 
 
-    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss"/>
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:comment xml:lang="de">Schulabschluss</rdfs:comment>
+        <rdfs:label xml:lang="de">Schulabschluss</rdfs:label>
+    </owl:Class>
     
 
 
@@ -597,27 +614,29 @@
     
 
 
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
+        <rdfs:comment xml:lang="de">Studienabschluss</rdfs:comment>
+        <rdfs:label xml:lang="de">Studienabschluss</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium -->
 
 
-    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium">
-        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
-        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
-        <rdfs:comment xml:lang="de">Schulabschluss</rdfs:comment>
-        <rdfs:label xml:lang="de">Schulabschluss</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium"/>
     
 
 
     <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss -->
 
 
-    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss">
-        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
-        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"/>
-        <rdfs:comment xml:lang="de">Studienabschluss</rdfs:comment>
-        <rdfs:label xml:lang="de">Studienabschluss</rdfs:label>
-    </owl:Class>
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss"/>
     
 
 
@@ -629,6 +648,18 @@
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
         <rdfs:comment xml:lang="de">Anderer Tätigkeit.</rdfs:comment>
         <rdfs:label xml:lang="de">Anderer Tätigkeit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"/>
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"/>
+        <rdfs:comment xml:lang="de">Taufe</rdfs:comment>
+        <rdfs:label xml:lang="de">Taufe</rdfs:label>
     </owl:Class>
     
 

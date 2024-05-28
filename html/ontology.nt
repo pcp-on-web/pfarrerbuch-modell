@@ -55,9 +55,10 @@
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#comment> "Zugeordnete Bildungseinrichtung für Schule oder Studium"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#label> "zugeordnete Bildungseinrichtung"@de .
@@ -195,6 +196,13 @@
 # #################################################################
 # 
 # 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/2000/01/rdf-schema#comment> "Ausbildung"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/2000/01/rdf-schema#label> "Ausbildung"@de .
+# 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#comment> "Bildungseinrichtung in einem Pfarrerbuch"@de .
@@ -329,25 +337,27 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent> <http://www.w3.org/2000/01/rdf-schema#label> "Referent"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/2000/01/rdf-schema#comment> "Schulabschluss"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/2000/01/rdf-schema#label> "Schulabschluss"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle> <http://www.w3.org/2000/01/rdf-schema#comment> "Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchengemeinde"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle> <http://www.w3.org/2000/01/rdf-schema#label> "Stelle"@de .
 # 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss> <http://www.w3.org/2000/01/rdf-schema#comment> "Studienabschluss"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss> <http://www.w3.org/2000/01/rdf-schema#label> "Studienabschluss"@de .
+# 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/2000/01/rdf-schema#comment> "Schulabschluss"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/2000/01/rdf-schema#label> "Schulabschluss"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> <http://www.w3.org/2000/01/rdf-schema#comment> "Studienabschluss"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> <http://www.w3.org/2000/01/rdf-schema#label> "Studienabschluss"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -355,6 +365,13 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/2000/01/rdf-schema#comment> "Anderer Tätigkeit."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/2000/01/rdf-schema#label> "Anderer Tätigkeit"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe> <http://www.w3.org/2000/01/rdf-schema#comment> "Taufe"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe> <http://www.w3.org/2000/01/rdf-schema#label> "Taufe"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#TheologischesExamen
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#TheologischesExamen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

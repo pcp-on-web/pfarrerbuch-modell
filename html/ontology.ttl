@@ -200,6 +200,14 @@ xsd:date rdf:type rdfs:Datatype .
 #    Classes
 #################################################################
 
+###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung
+:Ausbildung rdf:type owl:Class ;
+            rdfs:subClassOf :Fachlich ,
+                            :Periode ;
+            rdfs:comment "Ausbildung"@de ;
+            rdfs:label "Ausbildung"@de .
+
+
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung
 :Bildungseinrichtung rdf:type owl:Class ;
                      rdfs:comment "Bildungseinrichtung in einem Pfarrerbuch"@de ;
@@ -358,7 +366,11 @@ xsd:date rdf:type rdfs:Datatype .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss
-:Schulabschluss rdf:type owl:Class .
+:Schulabschluss rdf:type owl:Class ;
+                rdfs:subClassOf :Ereignis ,
+                                :Fachlich ;
+                rdfs:comment "Schulabschluss"@de ;
+                rdfs:label "Schulabschluss"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle
@@ -367,20 +379,20 @@ xsd:date rdf:type rdfs:Datatype .
         rdfs:label "Stelle"@de .
 
 
-###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium
-:Studium rdf:type owl:Class ;
-         rdfs:subClassOf :Ereignis ,
-                         :Fachlich ;
-         rdfs:comment "Schulabschluss"@de ;
-         rdfs:label "Schulabschluss"@de .
-
-
-###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss
-:StudiumAbschluss rdf:type owl:Class ;
+###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss
+:Studienabschluss rdf:type owl:Class ;
                   rdfs:subClassOf :Ereignis ,
                                   :Fachlich ;
                   rdfs:comment "Studienabschluss"@de ;
                   rdfs:label "Studienabschluss"@de .
+
+
+###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium
+:Studium rdf:type owl:Class .
+
+
+###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss
+:StudiumAbschluss rdf:type owl:Class .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit
@@ -389,6 +401,14 @@ xsd:date rdf:type rdfs:Datatype .
                             :Periode ;
             rdfs:comment "Anderer Tätigkeit."@de ;
             rdfs:label "Anderer Tätigkeit"@de .
+
+
+###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe
+:Taufe rdf:type owl:Class ;
+       rdfs:subClassOf :Ereignis ,
+                       :Persoenlich ;
+       rdfs:comment "Taufe"@de ;
+       rdfs:label "Taufe"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#TheologischesExamen

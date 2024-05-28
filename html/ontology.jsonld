@@ -18,6 +18,22 @@
     "@value" : "Vokabular Pfarrerbücher"
   } ]
 }, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Ausbildung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Ausbildung"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -320,7 +336,20 @@
   } ]
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Schulabschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Schulabschluss"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
+  } ]
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -333,15 +362,15 @@
     "@value" : "Stelle"
   } ]
 }, {
-  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium",
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Schulabschluss"
+    "@value" : "Studienabschluss"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : "Schulabschluss"
+    "@value" : "Studienabschluss"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
@@ -349,21 +378,11 @@
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
   } ]
 }, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss",
-  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
-  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
-    "@language" : "de",
-    "@value" : "Studienabschluss"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
-    "@language" : "de",
-    "@value" : "Studienabschluss"
-  } ],
-  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
-    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
-  }, {
-    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich"
-  } ]
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
@@ -379,6 +398,22 @@
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"
   }, {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Taufe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Taufe"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis"
+  }, {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich"
   } ]
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#TheologischesExamen",
