@@ -147,6 +147,12 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain :Ereignis ;
 	rdfs:range xsd:date  ;
 	rdfs:label "datum"@de .
+	
+:jahr rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Ereignis ;
+	rdfs:range xsd:int  ;
+	rdfs:label "jahr"@de .
+
 
 
 :Periode rdf:type owl:Class ; 
