@@ -17,7 +17,7 @@ pbv: rdf:type owl:Ontology ;
 	dc:modified "2026-06-01".
 	
 
-## Basisklassen: Pfarrer, Lebensabschnitte (Ereignis, Periode), Ort, Kirchengemeinde, Pfarrstelle Familie
+## Basisklassen: Pfarrer, Lebensabschnitte (Ereignis, Periode), Ort, Kirchengemeinde, Pfarrstelle, Familie
 
 
 ### Pfarrer
@@ -109,14 +109,14 @@ pbv: rdf:type owl:Ontology ;
 :gehoertzuFamilie rdf:type owl:ObjectProperty ;
 	rdfs:domain :Familie ;
 	rdfs:range	:Person ;
-	rdfs:label "gehoert zu Familie"@de ;
+	rdfs:label "gehört zu Familie"@de ;
 	rdfs:comment "Gehört einer Famile an"@de .
 
 :istEltern rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf :gehoertzuFamilie ;
 	rdfs:domain :Familie ;
 	rdfs:range	:Person ;
-	rdfs:label "ist ELtern"@de ;
+	rdfs:label "ist Eltern"@de ;
 	rdfs:comment "Vater oder Mutter in einer Familie"@de .
 
 :istKind rdf:type owl:ObjectProperty ;
@@ -302,8 +302,8 @@ pbv: rdf:type owl:Ontology ;
 
 :Eheschliessung rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis;
-	rdfs:label "Eheschliessung"@de ;
-	rdfs:comment "Eheschliessung"@de .
+	rdfs:label "Eheschließung"@de ;
+	rdfs:comment "Eheschließung"@de .
 
 :Familienzugehoerigkeit rdf:type owl:Class ; 
 	rdfs:label "Familienzugehörigkeit"@de ;
