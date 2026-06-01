@@ -14,6 +14,7 @@ pbv: rdf:type owl:Ontology ;
 	dc:title "Vokabular Pfarrerbücher"@de ;
 	dc:license "http://creativecommons.org/licenses/by/4.0/" ;
 	dc:modified "2023-09-12".
+	dc:modified "2026-06-01".
 	
 
 ## Basisklassen: Pfarrer, Lebensabschnitte (Ereignis, Periode), Ort, Kirchengemeinde, Pfarrstelle Familie
@@ -42,18 +43,6 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:range rdfs:Literal ;
 	rdfs:label "Akademischer Titel"@de ;
 	rdfs:comment "Akademischer Titel einer Person"@de .
-
-:person-geburt rdf:type owl:DatatypeProperty ;
-	rdfs:domain :Person ;
-	rdfs:range xsd:date  ;
-	rdfs:label "Geburtsdatum"@de ;
-	rdfs:comment "Geburtsdatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."@de .
-
-:person-tod rdf:type owl:DatatypeProperty ;
-	rdfs:domain :Person ;
-	rdfs:range xsd:date  ;
-	rdfs:label "Sterbedatum"@de ;
-	rdfs:comment "Sterbedatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."@de .
 
 :Pfarrer-in rdf:type owl:Class ;
 	rdfs:subClassOf :Person ; 
