@@ -53,7 +53,7 @@
     "id" : "34",
     "type" : "owl:Class"
   }, {
-    "id" : "14",
+    "id" : "16",
     "type" : "owl:Class"
   }, {
     "id" : "31",
@@ -65,13 +65,13 @@
     "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
     "type" : "owl:Class"
   }, {
     "id" : "11",
-    "type" : "owl:Class"
-  }, {
-    "id" : "42",
     "type" : "owl:Class"
   }, {
     "id" : "33",
@@ -161,7 +161,7 @@
     "id" : "61",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "14",
     "type" : "rdfs:Literal"
   }, {
     "id" : "98",
@@ -242,7 +242,7 @@
     "comment" : {
       "de" : "Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchengemeinde"
     },
-    "id" : "14"
+    "id" : "16"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -284,6 +284,19 @@
     "id" : "26",
     "superClasses" : [ "11", "1" ]
   }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Leitung",
+      "IRI-based" : "Leitung"
+    },
+    "comment" : {
+      "de" : "Leitung einer Institution."
+    },
+    "id" : "42",
+    "superClasses" : [ "43" ]
+  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
@@ -294,7 +307,7 @@
     "comment" : {
       "de" : "Kirchengemeinde in einem Pfarrerbuch"
     },
-    "id" : "15"
+    "id" : "17"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -309,19 +322,6 @@
     },
     "id" : "11",
     "superClasses" : [ "2" ]
-  }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "label" : {
-      "de" : "Leitung",
-      "IRI-based" : "Leitung"
-    },
-    "comment" : {
-      "de" : "Leitung einer Institution."
-    },
-    "id" : "42",
-    "superClasses" : [ "43" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -605,17 +605,17 @@
   }, {
     "instances" : 0,
     "union" : [ "87", "92", "29" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "89"
   }, {
     "instances" : 0,
     "union" : [ "58", "22" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "57"
   }, {
     "instances" : 0,
-    "union" : [ "14", "90", "2" ],
-    "attributes" : [ "union", "anonymous" ],
+    "union" : [ "16", "90", "2" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "77"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter",
@@ -633,7 +633,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "17",
+    "id" : "14",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -710,10 +710,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "13",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "16",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "15",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "18",
     "type" : "rdfs:SubClassOf"
@@ -874,7 +874,7 @@
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern",
@@ -903,23 +903,9 @@
     "attributes" : [ "datatype" ],
     "id" : "10"
   }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "15",
-    "label" : {
-      "de" : "zugeordnete Kirchengemeinde",
-      "IRI-based" : "zugeordneteKirchengemeinde"
-    },
-    "domain" : "14",
-    "comment" : {
-      "de" : "Kirchengemeinde die einer Stelle zugeordnet ist"
-    },
-    "attributes" : [ "object" ],
-    "id" : "13"
-  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "17",
+    "range" : "14",
     "label" : {
       "de" : "Akademischer Titel",
       "IRI-based" : "akademischerTitel"
@@ -929,56 +915,70 @@
       "de" : "Akademischer Titel einer Person"
     },
     "attributes" : [ "datatype" ],
-    "id" : "16"
+    "id" : "13"
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "range" : "17",
+    "label" : {
+      "de" : "zugeordnete Kirchengemeinde",
+      "IRI-based" : "zugeordneteKirchengemeinde"
+    },
+    "domain" : "16",
+    "comment" : {
+      "de" : "Kirchengemeinde die einer Stelle zugeordnet ist"
+    },
+    "attributes" : [ "object" ],
+    "id" : "15"
   }, {
     "range" : "2",
     "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "18"
   }, {
     "range" : "2",
     "domain" : "11",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "20"
   }, {
     "range" : "11",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "21"
   }, {
     "range" : "11",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "23"
   }, {
     "range" : "11",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "25"
   }, {
     "range" : "11",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "28"
   }, {
     "range" : "11",
     "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "30"
   }, {
     "range" : "11",
     "domain" : "33",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "32"
   }, {
     "range" : "11",
     "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "36"
   }, {
     "range" : "11",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "38"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie",
@@ -997,52 +997,52 @@
   }, {
     "range" : "35",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "44"
   }, {
     "range" : "1",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "45"
   }, {
     "range" : "35",
     "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "46"
   }, {
     "range" : "1",
     "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "47"
   }, {
     "range" : "1",
     "domain" : "33",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "48"
   }, {
     "range" : "1",
     "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "49"
   }, {
     "range" : "1",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "50"
   }, {
     "range" : "5",
     "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "51"
   }, {
     "range" : "9",
     "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "52"
   }, {
     "range" : "9",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "53"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind",
@@ -1062,7 +1062,7 @@
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "15",
+    "range" : "17",
     "label" : {
       "de" : "in einer Kirchengemeinde",
       "IRI-based" : "inKirchengemeinde"
@@ -1076,62 +1076,62 @@
   }, {
     "range" : "43",
     "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "60"
   }, {
     "range" : "43",
     "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "62"
   }, {
     "range" : "43",
     "domain" : "59",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "63"
   }, {
     "range" : "43",
     "domain" : "65",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "64"
   }, {
     "range" : "19",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "66"
   }, {
     "range" : "19",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "67"
   }, {
     "range" : "19",
     "domain" : "70",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "69"
   }, {
     "range" : "19",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "71"
   }, {
     "range" : "19",
     "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "72"
   }, {
     "range" : "19",
     "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "73"
   }, {
     "range" : "19",
     "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "74"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "14",
+    "range" : "16",
     "label" : {
       "de" : "zugeordnete Stelle",
       "IRI-based" : "hatStelle"
@@ -1159,42 +1159,42 @@
   }, {
     "range" : "8",
     "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "79"
   }, {
     "range" : "8",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "80"
   }, {
     "range" : "8",
     "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "81"
   }, {
     "range" : "8",
     "domain" : "70",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "82"
   }, {
     "range" : "2",
     "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "83"
   }, {
     "range" : "2",
     "domain" : "8",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "84"
   }, {
     "range" : "8",
     "domain" : "7",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "85"
   }, {
     "range" : "8",
     "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "86"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung",
