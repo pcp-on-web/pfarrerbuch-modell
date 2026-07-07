@@ -104,13 +104,13 @@ pbv: rdf:type owl:Ontology ;
 
 :Familie rdf:type owl:Class ;
 	rdfs:label "Familie"@de ;
-	rdfs:comment "Beschreibt eine Familienkonstilation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"@de .
+	rdfs:comment "Beschreibt eine Familienkonstellation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"@de .
 
 :gehoertzuFamilie rdf:type owl:ObjectProperty ;
 	rdfs:domain :Familie ;
 	rdfs:range	:Person ;
 	rdfs:label "gehört zu Familie"@de ;
-	rdfs:comment "Gehört einer Famile an"@de .
+	rdfs:comment "Gehört einer Familie an"@de .
 
 :istEltern rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf :gehoertzuFamilie ;
