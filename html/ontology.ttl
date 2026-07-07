@@ -9,7 +9,8 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> rdf:type owl:Ontology ;
                                                                <http://creativecommons.org/ns#attributionName> "Participants of Workshop" ;
                                                                <http://purl.org/dc/terms/license> "http://creativecommons.org/licenses/by/4.0/" ;
-                                                               <http://purl.org/dc/terms/modified> "2023-09-12" ;
+                                                               <http://purl.org/dc/terms/modified> "2023-09-12" ,
+                                                                                                   "2026-06-01" ;
                                                                <http://purl.org/dc/terms/title> "Vokabular Pfarrerbücher"@de .
 
 #################################################################
@@ -48,8 +49,8 @@ xsd:date rdf:type rdfs:Datatype .
 :gehoertzuFamilie rdf:type owl:ObjectProperty ;
                   rdfs:domain :Familie ;
                   rdfs:range :Person ;
-                  rdfs:comment "Gehört einer Famile an"@de ;
-                  rdfs:label "gehoert zu Familie"@de .
+                  rdfs:comment "Gehört einer Familie an"@de ;
+                  rdfs:label "gehört zu Familie"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung
@@ -111,7 +112,7 @@ xsd:date rdf:type rdfs:Datatype .
            rdfs:domain :Familie ;
            rdfs:range :Person ;
            rdfs:comment "Vater oder Mutter in einer Familie"@de ;
-           rdfs:label "ist ELtern"@de .
+           rdfs:label "ist Eltern"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind
@@ -157,28 +158,19 @@ xsd:date rdf:type rdfs:Datatype .
        rdfs:label "datum"@de .
 
 
+###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr
+:jahr rdf:type owl:DatatypeProperty ;
+      rdfs:domain :Ereignis ;
+      rdfs:range xsd:int ;
+      rdfs:label "jahr"@de .
+
+
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname
 :nachname rdf:type owl:DatatypeProperty ;
           rdfs:domain :Person ;
           rdfs:range rdfs:Literal ;
           rdfs:comment "Nachname einer Person"@de ;
           rdfs:label "Nachname"@de .
-
-
-###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#person-geburt
-:person-geburt rdf:type owl:DatatypeProperty ;
-               rdfs:domain :Person ;
-               rdfs:range xsd:date ;
-               rdfs:comment "Geburtsdatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."@de ;
-               rdfs:label "Geburtsdatum"@de .
-
-
-###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#person-tod
-:person-tod rdf:type owl:DatatypeProperty ;
-            rdfs:domain :Person ;
-            rdfs:range xsd:date ;
-            rdfs:comment "Sterbedatum einer Person, für Pfarrer wird dieses auch als Lebensabschnitt repräsentiert."@de ;
-            rdfs:label "Sterbedatum"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von
@@ -225,8 +217,8 @@ xsd:date rdf:type rdfs:Datatype .
 :Eheschliessung rdf:type owl:Class ;
                 rdfs:subClassOf :Ereignis ,
                                 :Persoenlich ;
-                rdfs:comment "Eheschliessung"@de ;
-                rdfs:label "Eheschliessung"@de .
+                rdfs:comment "Eheschließung"@de ;
+                rdfs:label "Eheschließung"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung
@@ -264,7 +256,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie
 :Familie rdf:type owl:Class ;
-         rdfs:comment "Beschreibt eine Familienkonstilation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"@de ;
+         rdfs:comment "Beschreibt eine Familienkonstellation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"@de ;
          rdfs:label "Familie"@de .
 
 
