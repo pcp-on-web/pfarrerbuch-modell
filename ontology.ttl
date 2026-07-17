@@ -24,7 +24,7 @@ pbv: rdf:type owl:Ontology ;
 
 :Person rdf:type owl:Class ;
 	rdfs:label "Person"@de ;
-	rdfs:comment "Stellt eine Person dar, die in der Datenbank verzeichnet u.a. Pfarrer,  Familienmitglieder ist."@de .				
+	rdfs:comment "Stellt eine Person dar, die in der Datenbank verzeichnet ist, z.B. Pfarrer, Familienmitglieder."@de .				
 
 :vorname rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
@@ -47,7 +47,7 @@ pbv: rdf:type owl:Ontology ;
 :Pfarrer-in rdf:type owl:Class ;
 	rdfs:subClassOf :Person ; 
 	rdfs:label "Pfarrer:in oder Pastor:in"@de ;
-	rdfs:comment "Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."@de .				
+	rdfs:comment "Stellt eine Pfarrerin oder einen Pfarrer, bzw. Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."@de .				
 
 :hatLebensabschnitt rdf:type owl:ObjectProperty ;
 	rdfs:domain :Pfarrer-in ;
@@ -116,8 +116,8 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:subPropertyOf :gehoertzuFamilie ;
 	rdfs:domain :Familie ;
 	rdfs:range	:Person ;
-	rdfs:label "ist Eltern"@de ;
-	rdfs:comment "Vater oder Mutter in einer Familie"@de .
+	rdfs:label "ist Elternteil"@de ;
+	rdfs:comment "Vater oder Mutter in einer Familie."@de .
 
 :istKind rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf :gehoertzuFamilie ;
@@ -129,7 +129,7 @@ pbv: rdf:type owl:Ontology ;
 
 :Lebensabschnitt rdf:type owl:Class ;
 	rdfs:label "Lebensabschnitt"@de ;
-	rdfs:comment "Lebensabschnitt einer Pfarrerin oder eines Pfarrers, bzw. Pastorin oder Pastor"@de .
+	rdfs:comment "Lebensabschnitt einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors"@de .
 
 
 ### Unterklassen :Lebensabschnitt
@@ -140,25 +140,25 @@ pbv: rdf:type owl:Ontology ;
 :Ereignis rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Ereignis"@de ;
-	rdfs:comment "Ereignis im Leben einer Pfarrerin oder eines Pfarrers."@de .
+	rdfs:comment "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."@de .
 
 
 :datum rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Ereignis ;
 	rdfs:range xsd:date  ;
-	rdfs:label "datum"@de .
+	rdfs:label "Datum"@de .
 	
 :jahr rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Ereignis ;
 	rdfs:range xsd:int  ;
-	rdfs:label "jahr"@de .
+	rdfs:label "Jahr"@de .
 
 
 
 :Periode rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Periode"@de ;
-	rdfs:comment "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers."@de .
+	rdfs:comment "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."@de .
 
 
 :von rdf:type owl:DatatypeProperty ;
@@ -218,18 +218,18 @@ pbv: rdf:type owl:Ontology ;
 :TheologischesExamen rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
 	rdfs:label "Theologisches Examen"@de ;
-	rdfs:comment "Dieses fast das erste und zweite Theologisches Examen zusammen"@de .
+	rdfs:comment "Hierunter sind erstes und zweites Theologisches Examen zusammengefasst."@de .
 
 
 :ErstesTheologischesExamen rdf:type owl:Class ; 
 	rdfs:subClassOf :TheologischesExamen; 
 	rdfs:label "Erstes Theologisches Examen"@de ;
-	rdfs:comment "Erstes Theologisches Examen"@de .
+	rdfs:comment "Erstes Theologisches Examen."@de .
 
 :ZweitesTheologischesExamen rdf:type owl:Class ; 
 	rdfs:subClassOf :TheologischesExamen;
 	rdfs:label "Zweites Theologisches Examen"@de ;
-	rdfs:comment "Zweites Theologisches Examen"@de .
+	rdfs:comment "Zweites Theologisches Examen."@de .
 
 :Entsendung rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Periode; 
@@ -258,8 +258,8 @@ pbv: rdf:type owl:Ontology ;
 
 :Taetigkeit rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
-	rdfs:label "Anderer Tätigkeit"@de ;
-	rdfs:comment "Anderer Tätigkeit."@de .
+	rdfs:label "Andere Tätigkeit"@de ;
+	rdfs:comment "Andere Tätigkeit."@de .
 
 :Krankenhausseelsorge rdf:type owl:Class ; 
 	rdfs:subClassOf :Taetigkeit;
@@ -268,13 +268,13 @@ pbv: rdf:type owl:Ontology ;
 
 :Referent rdf:type owl:Class ; 
 	rdfs:subClassOf :Taetigkeit;
-	rdfs:label "Referent"@de ;
-	rdfs:comment "Referent."@de .
+	rdfs:label "Referent:in"@de ;
+	rdfs:comment "Referent:in."@de .
 
 :Vakanzverwalter rdf:type owl:Class ; 
 	rdfs:subClassOf :Taetigkeit;
-	rdfs:label "Vakanzverwalter"@de ;
-	rdfs:comment "Vakanzverwalter."@de .
+	rdfs:label "Vakanzverwalter:in"@de ;
+	rdfs:comment "Vakanzverwalter:in."@de .
 
 :Leitung rdf:type owl:Class ; 
 	rdfs:subClassOf :Taetigkeit;
@@ -309,7 +309,7 @@ pbv: rdf:type owl:Ontology ;
 :Eheschliessung rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis;
 	rdfs:label "Eheschließung"@de ;
-	rdfs:comment "Eheschließung"@de .
+	rdfs:comment "Eheschließung."@de .
 
 :Familienzugehoerigkeit rdf:type owl:Class ; 
 	rdfs:label "Familienzugehörigkeit"@de ;
