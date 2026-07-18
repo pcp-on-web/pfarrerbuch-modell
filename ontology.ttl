@@ -15,6 +15,7 @@ pbv: rdf:type owl:Ontology ;
 	dc:license "http://creativecommons.org/licenses/by/4.0/" ;
 	dc:modified "2023-09-12";
 	dc:modified "2026-06-01".
+	dc:modified "2026-07-17".
 	
 
 ## Basisklassen: Pfarrer, Lebensabschnitte (Ereignis, Periode), Ort, Kirchengemeinde, Pfarrstelle, Familie
@@ -186,34 +187,34 @@ pbv: rdf:type owl:Ontology ;
 :Schulabschluss rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
 	rdfs:label "Schulabschluss"@de ;
-	rdfs:comment "Schulabschluss"@de .
+	rdfs:comment "Schulabschluss."@de .
 
 :Studienabschluss rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
 	rdfs:label "Studienabschluss"@de ;
-	rdfs:comment "Studienabschluss"@de .
+	rdfs:comment "Studienabschluss."@de .
 
 :Ausbildung rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Periode; 
 	rdfs:label "Ausbildung"@de ;
-	rdfs:comment "Ausbildung"@de .
+	rdfs:comment "Ausbildung."@de .
 
 
 :hatBildungseinrichtung rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Schulabschluss, :Studium, :StudiumAbschluss ;
 	rdfs:range	:Bildungseinrichtung ;
 	rdfs:label "zugeordnete Bildungseinrichtung"@de ;
-	rdfs:comment "Zugeordnete Bildungseinrichtung für Schule oder Studium"@de .
+	rdfs:comment "Zugeordnete Bildungseinrichtung für Schule oder Studium."@de .
 
 :Ordination rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
 	rdfs:label "Ordination"@de ;
-	rdfs:comment "Ordination"@de .
+	rdfs:comment "Ordination."@de .
 
 :Vikariat rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Periode; 
 	rdfs:label "Vikariat"@de ;
-	rdfs:comment "Vikariat"@de .
+	rdfs:comment "Vikariat."@de .
 
 :TheologischesExamen rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
@@ -234,7 +235,7 @@ pbv: rdf:type owl:Ontology ;
 :Entsendung rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Periode; 
 	rdfs:label "Entsendung"@de ;
-	rdfs:comment "Entsendung"@de .
+	rdfs:comment "Entsendung."@de .
 
 ### ---
 
@@ -254,7 +255,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain	:Pfarrstelle ;
 	rdfs:range	:Stelle ;
 	rdfs:label "zugeordnete Stelle"@de ;
-	rdfs:comment "Zugeordnete Stelle für Stelleninhaber:in"@de .
+	rdfs:comment "Zugeordnete Stelle für Stelleninhaber:in."@de .
 
 :Taetigkeit rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
@@ -294,17 +295,17 @@ pbv: rdf:type owl:Ontology ;
 :Geburt rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis; 
 	rdfs:label "Geburt"@de ;
-	rdfs:comment "Geburt"@de .
+	rdfs:comment "Geburt."@de .
 
 :Taufe rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis; 
 	rdfs:label "Taufe"@de ;
-	rdfs:comment "Taufe"@de .
+	rdfs:comment "Taufe."@de .
 
 :Tod rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis; 
 	rdfs:label "Tod"@de ;
-	rdfs:comment "Tod"@de .
+	rdfs:comment "Tod."@de .
 
 :Eheschliessung rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis;
@@ -319,7 +320,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain :Familienzugehoerigkeit ;
 	rdfs:range	:Familie ;
 	rdfs:label "zugeordnete Familie"@de ;
-	rdfs:comment "zugeordnete Familie"@de .
+	rdfs:comment "zugeordnete Familie."@de .
 
 
 
