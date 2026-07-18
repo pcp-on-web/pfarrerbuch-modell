@@ -97,8 +97,7 @@
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde einer Entsendung oder Ordination"@de .
@@ -227,8 +226,6 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> <http://www.w3.org/2000/01/rdf-schema#comment> "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> <http://www.w3.org/2000/01/rdf-schema#label> "Ereignis"@de .
-# 
-# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErstesTheologischesExamen
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErstesTheologischesExamen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .

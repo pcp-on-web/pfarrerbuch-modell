@@ -170,7 +170,7 @@
 
 
     <owl:ObjectProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde">
-        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung"/>
+        <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung"/>
         <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination"/>
         <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde"/>
         <rdfs:comment xml:lang="de">Kirchengemeinde einer Entsendung oder Ordination</rdfs:comment>
@@ -386,13 +386,6 @@
         <rdfs:comment xml:lang="de">Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors.</rdfs:comment>
         <rdfs:label xml:lang="de">Ereignis</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung -->
-
-
-    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErsteEntsendung"/>
     
 
 
