@@ -23,12 +23,17 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-06-01",
+        "value" : "2023-09-12",
         "type" : "label"
       }, {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2023-09-12",
+        "value" : "2026-07-17",
+        "type" : "label"
+      }, {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2026-06-01",
         "type" : "label"
       } ],
       "title" : [ {
@@ -68,10 +73,10 @@
     "id" : "42",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "11",
     "type" : "owl:Class"
   }, {
-    "id" : "11",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
     "id" : "33",
@@ -201,7 +206,7 @@
       "IRI-based" : "Pfarrer-in"
     },
     "comment" : {
-      "de" : "Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."
+      "de" : "Stellt eine Pfarrerin oder einen Pfarrer, bzw. Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."
     },
     "id" : "27",
     "superClasses" : [ "5" ]
@@ -215,7 +220,7 @@
     },
     "subClasses" : [ "27" ],
     "comment" : {
-      "de" : "Stellt eine Person dar, die in der Datenbank verzeichnet u.a. Pfarrer,  Familienmitglieder ist."
+      "de" : "Stellt eine Person dar, die in der Datenbank verzeichnet ist, z.B. Pfarrer, Familienmitglieder."
     },
     "id" : "5"
   }, {
@@ -227,7 +232,7 @@
       "IRI-based" : "ZweitesTheologischesExamen"
     },
     "comment" : {
-      "de" : "Zweites Theologisches Examen"
+      "de" : "Zweites Theologisches Examen."
     },
     "id" : "34",
     "superClasses" : [ "35" ]
@@ -252,7 +257,7 @@
       "IRI-based" : "Studienabschluss"
     },
     "comment" : {
-      "de" : "Studienabschluss"
+      "de" : "Studienabschluss."
     },
     "id" : "31",
     "superClasses" : [ "11", "19" ]
@@ -266,7 +271,7 @@
     },
     "subClasses" : [ "39", "34" ],
     "comment" : {
-      "de" : "Dieses fast das erste und zweite Theologisches Examen zusammen"
+      "de" : "Hierunter sind erstes und zweites Theologisches Examen zusammengefasst."
     },
     "id" : "35",
     "superClasses" : [ "11", "19" ]
@@ -279,7 +284,7 @@
       "IRI-based" : "Tod"
     },
     "comment" : {
-      "de" : "Tod"
+      "de" : "Tod."
     },
     "id" : "26",
     "superClasses" : [ "11", "1" ]
@@ -297,6 +302,20 @@
     "id" : "42",
     "superClasses" : [ "43" ]
   }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Ereignis",
+      "IRI-based" : "Ereignis"
+    },
+    "subClasses" : [ "33", "31", "35", "37", "24", "22", "29", "26" ],
+    "comment" : {
+      "de" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
+    },
+    "id" : "11",
+    "superClasses" : [ "2" ]
+  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
@@ -309,20 +328,6 @@
     },
     "id" : "17"
   }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "label" : {
-      "de" : "Ereignis",
-      "IRI-based" : "Ereignis"
-    },
-    "subClasses" : [ "33", "31", "35", "37", "24", "22", "29", "26" ],
-    "comment" : {
-      "de" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers."
-    },
-    "id" : "11",
-    "superClasses" : [ "2" ]
-  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
@@ -331,7 +336,7 @@
       "IRI-based" : "Taufe"
     },
     "comment" : {
-      "de" : "Taufe"
+      "de" : "Taufe."
     },
     "id" : "33",
     "superClasses" : [ "11", "1" ]
@@ -345,7 +350,7 @@
     },
     "subClasses" : [ "11", "19", "1", "8", "9" ],
     "comment" : {
-      "de" : "Lebensabschnitt einer Pfarrerin oder eines Pfarrers, bzw. Pastorin oder Pastor"
+      "de" : "Lebensabschnitt einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors"
     },
     "id" : "2"
   }, {
@@ -357,7 +362,7 @@
       "IRI-based" : "Ausbildung"
     },
     "comment" : {
-      "de" : "Ausbildung"
+      "de" : "Ausbildung."
     },
     "id" : "55",
     "superClasses" : [ "19", "8" ]
@@ -391,7 +396,7 @@
       "IRI-based" : "Eheschliessung"
     },
     "comment" : {
-      "de" : "Eheschlie?ung"
+      "de" : "Eheschlie?ung."
     },
     "id" : "37",
     "superClasses" : [ "11", "1" ]
@@ -404,7 +409,7 @@
       "IRI-based" : "Schulabschluss"
     },
     "comment" : {
-      "de" : "Schulabschluss"
+      "de" : "Schulabschluss."
     },
     "id" : "29",
     "superClasses" : [ "11", "19" ]
@@ -417,7 +422,7 @@
       "IRI-based" : "Entsendung"
     },
     "comment" : {
-      "de" : "Entsendung"
+      "de" : "Entsendung."
     },
     "id" : "70",
     "superClasses" : [ "19", "8" ]
@@ -431,7 +436,7 @@
     },
     "subClasses" : [ "55", "7", "68", "41", "70", "43" ],
     "comment" : {
-      "de" : "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers."
+      "de" : "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
     },
     "id" : "8",
     "superClasses" : [ "2" ]
@@ -440,12 +445,12 @@
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
-      "de" : "Anderer T?tigkeit",
+      "de" : "Andere T?tigkeit",
       "IRI-based" : "Taetigkeit"
     },
     "subClasses" : [ "42", "61", "65", "59" ],
     "comment" : {
-      "de" : "Anderer T?tigkeit."
+      "de" : "Andere T?tigkeit."
     },
     "id" : "43",
     "superClasses" : [ "8", "9" ]
@@ -462,11 +467,11 @@
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
-      "de" : "Referent",
+      "de" : "Referent:in",
       "IRI-based" : "Referent"
     },
     "comment" : {
-      "de" : "Referent."
+      "de" : "Referent:in."
     },
     "id" : "65",
     "superClasses" : [ "43" ]
@@ -531,7 +536,7 @@
       "IRI-based" : "ErstesTheologischesExamen"
     },
     "comment" : {
-      "de" : "Erstes Theologisches Examen"
+      "de" : "Erstes Theologisches Examen."
     },
     "id" : "39",
     "superClasses" : [ "35" ]
@@ -622,11 +627,11 @@
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
-      "de" : "Vakanzverwalter",
+      "de" : "Vakanzverwalter:in",
       "IRI-based" : "Vakanzverwalter"
     },
     "comment" : {
-      "de" : "Vakanzverwalter."
+      "de" : "Vakanzverwalter:in."
     },
     "id" : "61",
     "superClasses" : [ "43" ]
@@ -654,7 +659,7 @@
       "IRI-based" : "Geburt"
     },
     "comment" : {
-      "de" : "Geburt"
+      "de" : "Geburt."
     },
     "id" : "24",
     "superClasses" : [ "11", "1" ]
@@ -667,7 +672,7 @@
       "IRI-based" : "Vikariat"
     },
     "comment" : {
-      "de" : "Vikariat"
+      "de" : "Vikariat."
     },
     "id" : "68",
     "superClasses" : [ "19", "8" ]
@@ -694,7 +699,7 @@
       "IRI-based" : "Ordination"
     },
     "comment" : {
-      "de" : "Ordination"
+      "de" : "Ordination."
     },
     "id" : "22",
     "superClasses" : [ "11", "19" ]
@@ -881,13 +886,13 @@
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "range" : "5",
     "label" : {
-      "de" : "ist Eltern",
+      "de" : "ist Elternteil",
       "IRI-based" : "istEltern"
     },
     "superproperty" : [ "6" ],
     "domain" : "4",
     "comment" : {
-      "de" : "Vater oder Mutter in einer Familie"
+      "de" : "Vater oder Mutter in einer Familie."
     },
     "attributes" : [ "object" ],
     "id" : "3"
@@ -896,7 +901,7 @@
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "range" : "12",
     "label" : {
-      "de" : "jahr",
+      "de" : "Jahr",
       "IRI-based" : "jahr"
     },
     "domain" : "11",
@@ -990,7 +995,7 @@
     },
     "domain" : "41",
     "comment" : {
-      "de" : "zugeordnete Familie"
+      "de" : "zugeordnete Familie."
     },
     "attributes" : [ "object" ],
     "id" : "40"
@@ -1138,7 +1143,7 @@
     },
     "domain" : "7",
     "comment" : {
-      "de" : "Zugeordnete Stelle f?r Stelleninhaber:in"
+      "de" : "Zugeordnete Stelle f?r Stelleninhaber:in."
     },
     "attributes" : [ "object" ],
     "id" : "75"
@@ -1206,7 +1211,7 @@
     },
     "domain" : "89",
     "comment" : {
-      "de" : "Zugeordnete Bildungseinrichtung f?r Schule oder Studium"
+      "de" : "Zugeordnete Bildungseinrichtung f?r Schule oder Studium."
     },
     "attributes" : [ "object" ],
     "id" : "88"
@@ -1229,7 +1234,7 @@
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "range" : "94",
     "label" : {
-      "de" : "datum",
+      "de" : "Datum",
       "IRI-based" : "datum"
     },
     "domain" : "11",

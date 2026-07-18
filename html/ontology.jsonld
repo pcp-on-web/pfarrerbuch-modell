@@ -14,6 +14,8 @@
     "@value" : "2023-09-12"
   }, {
     "@value" : "2026-06-01"
+  }, {
+    "@value" : "2026-07-17"
   } ],
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "de",
@@ -24,7 +26,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Ausbildung"
+    "@value" : "Ausbildung."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -65,7 +67,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Eheschließung"
+    "@value" : "Eheschließung."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -81,7 +83,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Entsendung"
+    "@value" : "Entsendung."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -97,7 +99,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers."
+    "@value" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -114,7 +116,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Erstes Theologisches Examen"
+    "@value" : "Erstes Theologisches Examen."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -165,7 +167,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Geburt"
+    "@value" : "Geburt."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -206,7 +208,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Lebensabschnitt einer Pfarrerin oder eines Pfarrers, bzw. Pastorin oder Pastor"
+    "@value" : "Lebensabschnitt einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -231,7 +233,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Ordination"
+    "@value" : "Ordination."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -258,7 +260,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers."
+    "@value" : "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -286,7 +288,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Stellt eine Person dar, die in der Datenbank verzeichnet u.a. Pfarrer,  Familienmitglieder ist."
+    "@value" : "Stellt eine Person dar, die in der Datenbank verzeichnet ist, z.B. Pfarrer, Familienmitglieder."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -297,7 +299,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."
+    "@value" : "Stellt eine Pfarrerin oder einen Pfarrer, bzw. Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -327,11 +329,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Referent."
+    "@value" : "Referent:in."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : "Referent"
+    "@value" : "Referent:in"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit"
@@ -341,7 +343,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Schulabschluss"
+    "@value" : "Schulabschluss."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -368,7 +370,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Studienabschluss"
+    "@value" : "Studienabschluss."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -390,11 +392,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Anderer Tätigkeit."
+    "@value" : "Andere Tätigkeit."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : "Anderer Tätigkeit"
+    "@value" : "Andere Tätigkeit"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"
@@ -406,7 +408,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Taufe"
+    "@value" : "Taufe."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -422,7 +424,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Dieses fast das erste und zweite Theologisches Examen zusammen"
+    "@value" : "Hierunter sind erstes und zweites Theologisches Examen zusammengefasst."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -438,7 +440,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Tod"
+    "@value" : "Tod."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -454,11 +456,11 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Vakanzverwalter."
+    "@value" : "Vakanzverwalter:in."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : "Vakanzverwalter"
+    "@value" : "Vakanzverwalter:in"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit"
@@ -468,7 +470,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Vikariat"
+    "@value" : "Vikariat."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -484,7 +486,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Zweites Theologisches Examen"
+    "@value" : "Zweites Theologisches Examen."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
@@ -531,7 +533,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : "datum"
+    "@value" : "Datum"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#date"
@@ -558,7 +560,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Zugeordnete Bildungseinrichtung für Schule oder Studium"
+    "@value" : "Zugeordnete Bildungseinrichtung für Schule oder Studium."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss"
@@ -617,7 +619,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Zugeordnete Stelle für Stelleninhaber:in"
+    "@value" : "Zugeordnete Stelle für Stelleninhaber:in."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle"
@@ -634,7 +636,7 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "zugeordnete Familie"
+    "@value" : "zugeordnete Familie."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit"
@@ -670,14 +672,14 @@
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
-    "@value" : "Vater oder Mutter in einer Familie"
+    "@value" : "Vater oder Mutter in einer Familie."
   } ],
   "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : "ist Eltern"
+    "@value" : "ist Elternteil"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"
@@ -713,7 +715,7 @@
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "de",
-    "@value" : "jahr"
+    "@value" : "Jahr"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#range" : [ {
     "@id" : "http://www.w3.org/2001/XMLSchema#int"

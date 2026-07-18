@@ -10,7 +10,8 @@
                                                                <http://creativecommons.org/ns#attributionName> "Participants of Workshop" ;
                                                                <http://purl.org/dc/terms/license> "http://creativecommons.org/licenses/by/4.0/" ;
                                                                <http://purl.org/dc/terms/modified> "2023-09-12" ,
-                                                                                                   "2026-06-01" ;
+                                                                                                   "2026-06-01" ,
+                                                                                                   "2026-07-17" ;
                                                                <http://purl.org/dc/terms/title> "Vokabular Pfarrerbücher"@de .
 
 #################################################################
@@ -59,7 +60,7 @@ xsd:date rdf:type rdfs:Datatype .
                                     :Studium ,
                                     :StudiumAbschluss ;
                         rdfs:range :Bildungseinrichtung ;
-                        rdfs:comment "Zugeordnete Bildungseinrichtung für Schule oder Studium"@de ;
+                        rdfs:comment "Zugeordnete Bildungseinrichtung für Schule oder Studium."@de ;
                         rdfs:label "zugeordnete Bildungseinrichtung"@de .
 
 
@@ -85,7 +86,7 @@ xsd:date rdf:type rdfs:Datatype .
 :hatStelle rdf:type owl:ObjectProperty ;
            rdfs:domain :Pfarrstelle ;
            rdfs:range :Stelle ;
-           rdfs:comment "Zugeordnete Stelle für Stelleninhaber:in"@de ;
+           rdfs:comment "Zugeordnete Stelle für Stelleninhaber:in."@de ;
            rdfs:label "zugeordnete Stelle"@de .
 
 
@@ -93,7 +94,7 @@ xsd:date rdf:type rdfs:Datatype .
 :inFamilie rdf:type owl:ObjectProperty ;
            rdfs:domain :Familienzugehoerigkeit ;
            rdfs:range :Familie ;
-           rdfs:comment "zugeordnete Familie"@de ;
+           rdfs:comment "zugeordnete Familie."@de ;
            rdfs:label "zugeordnete Familie"@de .
 
 
@@ -111,8 +112,8 @@ xsd:date rdf:type rdfs:Datatype .
            rdfs:subPropertyOf :gehoertzuFamilie ;
            rdfs:domain :Familie ;
            rdfs:range :Person ;
-           rdfs:comment "Vater oder Mutter in einer Familie"@de ;
-           rdfs:label "ist Eltern"@de .
+           rdfs:comment "Vater oder Mutter in einer Familie."@de ;
+           rdfs:label "ist Elternteil"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind
@@ -155,14 +156,14 @@ xsd:date rdf:type rdfs:Datatype .
 :datum rdf:type owl:DatatypeProperty ;
        rdfs:domain :Ereignis ;
        rdfs:range xsd:date ;
-       rdfs:label "datum"@de .
+       rdfs:label "Datum"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr
 :jahr rdf:type owl:DatatypeProperty ;
       rdfs:domain :Ereignis ;
       rdfs:range xsd:int ;
-      rdfs:label "jahr"@de .
+      rdfs:label "Jahr"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname
@@ -196,7 +197,7 @@ xsd:date rdf:type rdfs:Datatype .
 :Ausbildung rdf:type owl:Class ;
             rdfs:subClassOf :Fachlich ,
                             :Periode ;
-            rdfs:comment "Ausbildung"@de ;
+            rdfs:comment "Ausbildung."@de ;
             rdfs:label "Ausbildung"@de .
 
 
@@ -217,7 +218,7 @@ xsd:date rdf:type rdfs:Datatype .
 :Eheschliessung rdf:type owl:Class ;
                 rdfs:subClassOf :Ereignis ,
                                 :Persoenlich ;
-                rdfs:comment "Eheschließung"@de ;
+                rdfs:comment "Eheschließung."@de ;
                 rdfs:label "Eheschließung"@de .
 
 
@@ -225,14 +226,14 @@ xsd:date rdf:type rdfs:Datatype .
 :Entsendung rdf:type owl:Class ;
             rdfs:subClassOf :Fachlich ,
                             :Periode ;
-            rdfs:comment "Entsendung"@de ;
+            rdfs:comment "Entsendung."@de ;
             rdfs:label "Entsendung"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis
 :Ereignis rdf:type owl:Class ;
           rdfs:subClassOf :Lebensabschnitt ;
-          rdfs:comment "Ereignis im Leben einer Pfarrerin oder eines Pfarrers."@de ;
+          rdfs:comment "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."@de ;
           rdfs:label "Ereignis"@de .
 
 
@@ -243,7 +244,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErstesTheologischesExamen
 :ErstesTheologischesExamen rdf:type owl:Class ;
                            rdfs:subClassOf :TheologischesExamen ;
-                           rdfs:comment "Erstes Theologisches Examen"@de ;
+                           rdfs:comment "Erstes Theologisches Examen."@de ;
                            rdfs:label "Erstes Theologisches Examen"@de .
 
 
@@ -271,7 +272,7 @@ xsd:date rdf:type rdfs:Datatype .
 :Geburt rdf:type owl:Class ;
         rdfs:subClassOf :Ereignis ,
                         :Persoenlich ;
-        rdfs:comment "Geburt"@de ;
+        rdfs:comment "Geburt."@de ;
         rdfs:label "Geburt"@de .
 
 
@@ -290,7 +291,7 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt
 :Lebensabschnitt rdf:type owl:Class ;
-                 rdfs:comment "Lebensabschnitt einer Pfarrerin oder eines Pfarrers, bzw. Pastorin oder Pastor"@de ;
+                 rdfs:comment "Lebensabschnitt einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors"@de ;
                  rdfs:label "Lebensabschnitt"@de .
 
 
@@ -305,7 +306,7 @@ xsd:date rdf:type rdfs:Datatype .
 :Ordination rdf:type owl:Class ;
             rdfs:subClassOf :Ereignis ,
                             :Fachlich ;
-            rdfs:comment "Ordination"@de ;
+            rdfs:comment "Ordination."@de ;
             rdfs:label "Ordination"@de .
 
 
@@ -318,7 +319,7 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode
 :Periode rdf:type owl:Class ;
          rdfs:subClassOf :Lebensabschnitt ;
-         rdfs:comment "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers."@de ;
+         rdfs:comment "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."@de ;
          rdfs:label "Periode"@de .
 
 
@@ -331,14 +332,14 @@ xsd:date rdf:type rdfs:Datatype .
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person
 :Person rdf:type owl:Class ;
-        rdfs:comment "Stellt eine Person dar, die in der Datenbank verzeichnet u.a. Pfarrer,  Familienmitglieder ist."@de ;
+        rdfs:comment "Stellt eine Person dar, die in der Datenbank verzeichnet ist, z.B. Pfarrer, Familienmitglieder."@de ;
         rdfs:label "Person"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in
 :Pfarrer-in rdf:type owl:Class ;
             rdfs:subClassOf :Person ;
-            rdfs:comment "Stellt eine Pfarrerin oder einen Pfarrer, sowie Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."@de ;
+            rdfs:comment "Stellt eine Pfarrerin oder einen Pfarrer, bzw. Pastorin oder Pastor dar, welche in einem Pfarrerbuch verzeichnet ist."@de ;
             rdfs:label "Pfarrer:in oder Pastor:in"@de .
 
 
@@ -353,15 +354,15 @@ xsd:date rdf:type rdfs:Datatype .
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent
 :Referent rdf:type owl:Class ;
           rdfs:subClassOf :Taetigkeit ;
-          rdfs:comment "Referent."@de ;
-          rdfs:label "Referent"@de .
+          rdfs:comment "Referent:in."@de ;
+          rdfs:label "Referent:in"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss
 :Schulabschluss rdf:type owl:Class ;
                 rdfs:subClassOf :Ereignis ,
                                 :Fachlich ;
-                rdfs:comment "Schulabschluss"@de ;
+                rdfs:comment "Schulabschluss."@de ;
                 rdfs:label "Schulabschluss"@de .
 
 
@@ -375,7 +376,7 @@ xsd:date rdf:type rdfs:Datatype .
 :Studienabschluss rdf:type owl:Class ;
                   rdfs:subClassOf :Ereignis ,
                                   :Fachlich ;
-                  rdfs:comment "Studienabschluss"@de ;
+                  rdfs:comment "Studienabschluss."@de ;
                   rdfs:label "Studienabschluss"@de .
 
 
@@ -391,15 +392,15 @@ xsd:date rdf:type rdfs:Datatype .
 :Taetigkeit rdf:type owl:Class ;
             rdfs:subClassOf :Dienstlich ,
                             :Periode ;
-            rdfs:comment "Anderer Tätigkeit."@de ;
-            rdfs:label "Anderer Tätigkeit"@de .
+            rdfs:comment "Andere Tätigkeit."@de ;
+            rdfs:label "Andere Tätigkeit"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe
 :Taufe rdf:type owl:Class ;
        rdfs:subClassOf :Ereignis ,
                        :Persoenlich ;
-       rdfs:comment "Taufe"@de ;
+       rdfs:comment "Taufe."@de ;
        rdfs:label "Taufe"@de .
 
 
@@ -407,7 +408,7 @@ xsd:date rdf:type rdfs:Datatype .
 :TheologischesExamen rdf:type owl:Class ;
                      rdfs:subClassOf :Ereignis ,
                                      :Fachlich ;
-                     rdfs:comment "Dieses fast das erste und zweite Theologisches Examen zusammen"@de ;
+                     rdfs:comment "Hierunter sind erstes und zweites Theologisches Examen zusammengefasst."@de ;
                      rdfs:label "Theologisches Examen"@de .
 
 
@@ -415,29 +416,29 @@ xsd:date rdf:type rdfs:Datatype .
 :Tod rdf:type owl:Class ;
      rdfs:subClassOf :Ereignis ,
                      :Persoenlich ;
-     rdfs:comment "Tod"@de ;
+     rdfs:comment "Tod."@de ;
      rdfs:label "Tod"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter
 :Vakanzverwalter rdf:type owl:Class ;
                  rdfs:subClassOf :Taetigkeit ;
-                 rdfs:comment "Vakanzverwalter."@de ;
-                 rdfs:label "Vakanzverwalter"@de .
+                 rdfs:comment "Vakanzverwalter:in."@de ;
+                 rdfs:label "Vakanzverwalter:in"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vikariat
 :Vikariat rdf:type owl:Class ;
           rdfs:subClassOf :Fachlich ,
                           :Periode ;
-          rdfs:comment "Vikariat"@de ;
+          rdfs:comment "Vikariat."@de ;
           rdfs:label "Vikariat"@de .
 
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ZweitesTheologischesExamen
 :ZweitesTheologischesExamen rdf:type owl:Class ;
                             rdfs:subClassOf :TheologischesExamen ;
-                            rdfs:comment "Zweites Theologisches Examen"@de ;
+                            rdfs:comment "Zweites Theologisches Examen."@de ;
                             rdfs:label "Zweites Theologisches Examen"@de .
 
 
