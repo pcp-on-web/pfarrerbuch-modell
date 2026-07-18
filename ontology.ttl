@@ -89,7 +89,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:comment "Kirchengemeinde die einer Stelle zugeordnet ist"@de .
 
 :inKirchengemeinde rdf:type owl:ObjectProperty ;
-	rdfs:domain	:ErsteEntsendung, :Ordination ;
+	rdfs:domain	:Entsendung, :Ordination ;
 	rdfs:range	:Kirchengemeinde ;
 	rdfs:label "in einer Kirchengemeinde"@de ;
 	rdfs:comment "Kirchengemeinde einer Entsendung oder Ordination"@de .
