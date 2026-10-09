@@ -15,35 +15,63 @@ pbv: rdf:type owl:Ontology ;
 	dc:license "http://creativecommons.org/licenses/by/4.0/" ;
 	dc:modified "2023-09-12";
 	dc:modified "2026-06-01";
-	dc:modified "2026-07-17".
+	dc:modified "2026-07-17";
+	dc:modified "2026-10-09".
 	
 
 ## Basisklassen: Pfarrer, Lebensabschnitte (Ereignis, Periode), Ort, Kirchengemeinde, Pfarrstelle, Familie
 
 
-### Pfarrer
+### Person
 
 :Person rdf:type owl:Class ;
 	rdfs:label "Person"@de ;
-	rdfs:comment "Stellt eine Person dar, die in der Datenbank verzeichnet ist, z.B. Pfarrer, Familienmitglieder."@de .				
+	rdfs:comment "Stellt eine Person dar, die in der Datenbank verzeichnet ist, z.B. Pfarrerin oder Pfarrer, Familienmitglieder."@de .				
 
 :vorname rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
 	rdfs:range rdfs:Literal ;
 	rdfs:label "Vorname"@de ;
-	rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
+	rdfs:comment "Vorname(n) einer Person, getrennt mit Leerzeichen. (ggf. Namenszusätze/-varianten)"@de .
 	
 :nachname rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
 	rdfs:range rdfs:Literal ;
 	rdfs:label "Nachname"@de ;
-	rdfs:comment "Nachname einer Person"@de .
+	rdfs:comment "Nachname einer Person. (ggf. Namenszusätze/-varianten)"@de .
 
 :akademischerTitel rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
 	rdfs:range rdfs:Literal ;
 	rdfs:label "Akademischer Titel"@de ;
 	rdfs:comment "Akademischer Titel einer Person"@de .
+
+:amtlicherTitel rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Person ;
+	rdfs:range rdfs:Literal ;
+	rdfs:label "Amtlicher Titel"@de ;
+	rdfs:comment "Amtlicher Titel einer Person (z.B. Kirchenrat, Superintendent)"@de .
+
+### Geschlecht
+
+:Geschlecht rdf:type owl:Class ;
+	rdfs:label "Geschlecht"@de ;
+	rdfs:comment "Geschlecht einer Person"@de .				
+
+:maennlich a :Geschlecht ; rdfs:label "männlich"@de .
+:weiblich a :Geschlecht ; rdfs:label "weiblich"@de .
+:nicht-binaer a :Geschlecht ; rdfs:label "nicht-binär"@de .
+:intergeschlechtlich a :Geschlecht ; rdfs:label "intergeschlechtlich"@de .
+:agender a :Geschlecht ; rdfs:label "agender"@de .
+
+:geschlecht rdf:type owl:ObjectProperty ;
+	rdfs:domain :Person ;
+	rdfs:range :Geschlecht ;
+	rdfs:label "Geschlecht"@de ;
+	rdfs:comment "Geschlecht einer Person"@de .
+
+
+### Pfarrer
 
 :Pfarrer-in rdf:type owl:Class ;
 	rdfs:subClassOf :Person ; 
@@ -54,7 +82,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain :Pfarrer-in ;
 	rdfs:range :Lebensabschnitt ;
 	rdfs:label "hat Lebensabschnitt"@de ;
-	rdfs:comment "Lebensabschnitt zu einem Pfarrer"@de .
+	rdfs:comment "Lebensabschnitt von einem Pfarrer."@de .
 
 
 ### Ort
@@ -68,13 +96,13 @@ pbv: rdf:type owl:Ontology ;
 
 :Kirchengemeinde rdf:type owl:Class ;
 	rdfs:label "Kirchengemeinde"@de ;
-	rdfs:comment "Kirchengemeinde in einem Pfarrerbuch"@de .
+	rdfs:comment "Kirchengemeinde."@de .
 
 ### Bildungseinrichtung
 
 :Bildungseinrichtung rdf:type owl:Class ;
 	rdfs:label "Bildungseinrichtung"@de ;
-	rdfs:comment "Bildungseinrichtung in einem Pfarrerbuch"@de .
+	rdfs:comment "Bildungseinrichtung bezogen auf Pfarrerin bzw. Pfarrer"@de .
 
 ### Stelle
 
@@ -86,20 +114,26 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain	:Stelle ;
 	rdfs:range	:Kirchengemeinde ;
 	rdfs:label "zugeordnete Kirchengemeinde"@de ;
-	rdfs:comment "Kirchengemeinde die einer Stelle zugeordnet ist"@de .
+	rdfs:comment "Kirchengemeinde die einer (Pfarr-)Stelle zugeordnet ist."@de .
+
+:verbundeneKirchengemeinde rdf:type owl:ObjectProperty ;
+	rdfs:domain	:Kirchengemeinde ;
+	rdfs:range	:Kirchengemeinde ;
+	rdfs:label "verbundene Kirchengemeinde"@de ;
+	rdfs:comment "Kirchengemeinden, die der Kirchengemeinde zugeordnet, verbunden, etc. sind."@de .
 
 :inKirchengemeinde rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Entsendung, :Ordination ;
 	rdfs:range	:Kirchengemeinde ;
 	rdfs:label "in einer Kirchengemeinde"@de ;
-	rdfs:comment "Kirchengemeinde einer Entsendung oder Ordination"@de .
+	rdfs:comment "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de .
 
 
 :hatOrt rdf:type owl:ObjectProperty ;
-	rdfs:domain	:Stelle , :Lebensabschnitt, :Bildungseinrichtung;
+	rdfs:domain	:Stelle , :Lebensabschnitt, :Bildungseinrichtung, :Kirchengemeinde;
 	rdfs:range	:Ort ;
 	rdfs:label "hat Ort"@de ;
-	rdfs:comment "Geographischer Ort einer Stelle oder eines Lebensabschnittes."@de .
+	rdfs:comment "Geographischer Ort einer Stelle, eines Lebensabschnittes, einer Bildungseinrichtung oder einer Kirchengemeinde."@de .
 
 ### Familie wird unter Umständen nicht benötigt
 
@@ -109,23 +143,23 @@ pbv: rdf:type owl:Ontology ;
 
 :gehoertzuFamilie rdf:type owl:ObjectProperty ;
 	rdfs:domain :Familie ;
-	rdfs:range	:Person ;
+	rdfs:range :Person ;
 	rdfs:label "gehört zu Familie"@de ;
-	rdfs:comment "Gehört einer Familie an"@de .
+	rdfs:comment "Gehört einer Herkunftsfamilie an (Kind von). (Domänen-/Range-Richtung ggf. prüfen.) Bildet eine Familie."@de .
 
-:istEltern rdf:type owl:ObjectProperty ;
+:istPartner-in rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf :gehoertzuFamilie ;
 	rdfs:domain :Familie ;
-	rdfs:range	:Person ;
-	rdfs:label "ist Elternteil"@de ;
-	rdfs:comment "Vater oder Mutter in einer Familie."@de .
+	rdfs:range :Person ;
+	rdfs:label "Partner bzw. Partnerin in einer Familie"@de ;
+	rdfs:comment "Partner bzw. Partnerin in einer Familie (Ehe oder Lebenspartnerschaft)."@de .
 
 :istKind rdf:type owl:ObjectProperty ;
 	rdfs:subPropertyOf :gehoertzuFamilie ;
 	rdfs:domain :Familie ;
-	rdfs:range	:Person ;
+	rdfs:range :Person ;
 	rdfs:label "ist Kind"@de ;
-	rdfs:comment "Kind in einer Familie"@de .
+	rdfs:comment "Kind, Adoptivkind oder Stiefkind in einer Familie"@de .
 
 
 :Lebensabschnitt rdf:type owl:Class ;
@@ -138,23 +172,42 @@ pbv: rdf:type owl:Ontology ;
 #### Klassifizierung nach Ereignis und Periode
 
 
+########## Kalendersysteme ##########
+
+:Kalender a owl:Class ;
+    rdfs:label "Kalendersystem"@de  ;
+    rdfs:comment "Verwendetes Kalendersystem für Ereignisse und Perioden"@de .
+
+
+:gregorianisch a :Kalender ;
+    rdfs:label "gregorianischer Kalender"@de ;
+    rdfs:comment "International heute am weitesten verbreitetes Kalendersystem."@de .
+
+:julianisch a :Kalender ;
+    rdfs:label "julianischer Kalender"@de .
+
+:kalenderSystem rdf:type owl:ObjectProperty ;
+        rdfs:domain :Ereignis, :Periode ;
+	rdfs:range :Kalender  ;
+	rdfs:label "Kalendersystem"@de ;
+        rdfs:comment "Kalendersystem: gregorianischer (Standard) oder julianischer Kalender"@de .
+
 :Ereignis rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Ereignis"@de ;
 	rdfs:comment "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."@de .
 
-
 :datum rdf:type owl:DatatypeProperty ;
-	rdfs:domain :Ereignis ;
-	rdfs:range xsd:date  ;
-	rdfs:label "Datum"@de .
+    rdfs:domain :Ereignis ;
+    rdfs:range xsd:date ;
+    rdfs:label "Datum"@de ;
+    rdfs:comment "Exaktes Datum eines Ereignisses in der Form YYYY-MM-TT"@de .
 	
 :jahr rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Ereignis ;
-	rdfs:range xsd:int  ;
-	rdfs:label "Jahr"@de .
-
-
+	rdfs:range xsd:gYear  ;
+	rdfs:label "Jahr"@de ;
+        rdfs:comment "Jahr eines Ereignisses in der Form YYYY"@de .
 
 :Periode rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
@@ -165,12 +218,26 @@ pbv: rdf:type owl:Ontology ;
 :von rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Periode ;
 	rdfs:range xsd:date  ;
-	rdfs:label "von"@de .
+	rdfs:label "von"@de ;
+        rdfs:comment "Exaktes Anfangsdatum einer Periode in der Form YYYY-MM-TT"@de .
 
 :bis rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Periode ;
 	rdfs:range xsd:date  ;
-	rdfs:label "bis"@de .
+	rdfs:label "bis"@de ;
+        rdfs:comment "Exaktes Enddatum einer Periode in der Form YYYY"@de .
+
+:vonJahr rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Periode ;
+	rdfs:range xsd:gYear  ;
+	rdfs:label "von"@de ;
+        rdfs:comment "Anfangsjahr einer Periode in der Form YYYY"@de .
+
+:bisJahr rdf:type owl:DatatypeProperty ;
+	rdfs:domain :Periode ;
+	rdfs:range xsd:gYear  ;
+	rdfs:label "bis"@de ;
+        rdfs:comment "Endjahr einer Periode in der Form YYYY"@de .
 
 
 ### Klassifizierung nach Fachlich, Dienstliche, Persönlich
@@ -189,19 +256,43 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Schulabschluss"@de ;
 	rdfs:comment "Schulabschluss."@de .
 
+:Schulausbildung rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Periode; 
+	rdfs:label "Schulausbildung"@de ;
+	rdfs:comment "Schulausbildung."@de .
+
 :Studienabschluss rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Ereignis; 
 	rdfs:label "Studienabschluss"@de ;
 	rdfs:comment "Studienabschluss."@de .
+
+:Promotion rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Ereignis; 
+	rdfs:label "Promotion"@de ;
+	rdfs:comment "Promotion."@de .
+
+:Studium rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Periode; 
+	rdfs:label "Studium"@de ;
+	rdfs:comment "Studium."@de .
+
+:Berufsabschluss rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Ereignis; 
+	rdfs:label "Berufsabschluss"@de ;
+	rdfs:comment "Berufsabschluss."@de .
 
 :Ausbildung rdf:type owl:Class ; 
 	rdfs:subClassOf :Fachlich, :Periode; 
 	rdfs:label "Ausbildung"@de ;
 	rdfs:comment "Ausbildung."@de .
 
+:Fortbildung rdf:type owl:Class ; 
+	rdfs:subClassOf :Fachlich, :Periode; 
+	rdfs:label "Fortbildung"@de ;
+	rdfs:comment "Fortbildung."@de .
 
 :hatBildungseinrichtung rdf:type owl:ObjectProperty ;
-	rdfs:domain	:Schulabschluss, :Studium, :StudiumAbschluss ;
+	rdfs:domain	:Schulabschluss, :Schulausbildung, :Studienabschluss, :Studium, :Berufsabschluss, :Ausbildung, :Fortbildung, :Promotion ;
 	rdfs:range	:Bildungseinrichtung ;
 	rdfs:label "zugeordnete Bildungseinrichtung"@de ;
 	rdfs:comment "Zugeordnete Bildungseinrichtung für Schule oder Studium."@de .
@@ -249,45 +340,61 @@ pbv: rdf:type owl:Ontology ;
 :Pfarrstelle rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
 	rdfs:label "Pfarrstelle"@de ;
-	rdfs:comment "Periode in der eine Pfarrerin oder ein Pfarrer eine Stelle besetzt."@de .
+	rdfs:comment "Von einer Pfarrerin oder einem Pfarrer besetzte Stelle."@de .
+
+:Sonderpfarramt rdf:type owl:Class ; 
+	rdfs:subClassOf :Dienstlich, :Periode; 
+	rdfs:label "Sonderpfarramt"@de ;
+	rdfs:comment "Sonderpfarramt."@de .
 
 :hatStelle rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Pfarrstelle ;
 	rdfs:range	:Stelle ;
 	rdfs:label "zugeordnete Stelle"@de ;
-	rdfs:comment "Zugeordnete Stelle für Stelleninhaber:in."@de .
+	rdfs:comment "Über einen Zeitraum wahrgenommene Stelle."@de .
 
-:Taetigkeit rdf:type owl:Class ; 
+:AndereTaetigkeit rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
 	rdfs:label "Andere Tätigkeit"@de ;
 	rdfs:comment "Andere Tätigkeit."@de .
 
-:Krankenhausseelsorge rdf:type owl:Class ; 
-	rdfs:subClassOf :Taetigkeit;
-	rdfs:label "Krankenhausseelsorge"@de ;
-	rdfs:comment "Krankenhausseelsorge."@de .
+:Spezialseelsorge rdf:type owl:Class ; 
+	rdfs:subClassOf :Dienstlich, :Periode;
+	rdfs:label "Spezialseelsorge"@de ;
+	rdfs:comment "Spezialseelsorge: Krankenhausseelsorge, Anstaltsseelsorge, Gefängnisseelsorge, Notfallseelsorge usw."@de .
 
 :Referent rdf:type owl:Class ; 
-	rdfs:subClassOf :Taetigkeit;
+	rdfs:subClassOf :Dienstlich, :Periode;
 	rdfs:label "Referent:in"@de ;
 	rdfs:comment "Referent:in."@de .
 
 :Vakanzverwalter rdf:type owl:Class ; 
-	rdfs:subClassOf :Taetigkeit;
+	rdfs:subClassOf :Dienstlich, :Periode;
 	rdfs:label "Vakanzverwalter:in"@de ;
 	rdfs:comment "Vakanzverwalter:in."@de .
 
 :Leitung rdf:type owl:Class ; 
-	rdfs:subClassOf :Taetigkeit;
+	rdfs:subClassOf :Dienstlich, :Periode;
 	rdfs:label "Leitung"@de ;
 	rdfs:comment "Leitung einer Institution."@de .
+
+:Ruhestand rdf:type owl:Class ; 
+	rdfs:subClassOf :Dienstlich, :Periode;
+	rdfs:label "Ruhestand"@de ;
+	rdfs:comment "Ruhestand."@de .
+
+:Emeritierung rdf:type owl:Class ; 
+	rdfs:subClassOf :Dienstlich, :Ereignis;
+	rdfs:label "Emeritierung"@de ;
+	rdfs:comment "Emeritierung."@de .
+
 
 ### ---
 
 :Persoenlich rdf:type owl:Class ; 
 	rdfs:subClassOf :Lebensabschnitt; 
 	rdfs:label "Persönliche Angaben"@de ;
-	rdfs:comment "Persönliche Angaben im Leben eines Pfarrers."@de .
+	rdfs:comment "Persönliche Angaben im Leben ener Pfarrerin bzw. eines Pfarrers."@de .
 
 
 ### Unterklassen :Persoenlich
@@ -307,19 +414,35 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Tod"@de ;
 	rdfs:comment "Tod."@de .
 
+:Bestattung rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoenlich, :Ereignis; 
+	rdfs:label "Bestattung"@de ;
+	rdfs:comment "Bestattung."@de .
+
 :Eheschliessung rdf:type owl:Class ; 
 	rdfs:subClassOf :Persoenlich, :Ereignis;
 	rdfs:label "Eheschließung"@de ;
 	rdfs:comment "Eheschließung."@de .
 
+:Konfession rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoenlich, :Periode;
+	rdfs:label "Konfession"@de ;
+	rdfs:comment "Konfession."@de .
+
+:Konversion rdf:type owl:Class ; 
+	rdfs:subClassOf :Persoenlich, :Ereignis;
+	rdfs:label "Konversion"@de ;
+	rdfs:comment "Konversion."@de .
+
+
 :Familienzugehoerigkeit rdf:type owl:Class ; 
 	rdfs:label "Familienzugehörigkeit"@de ;
-	rdfs:subClassOf :Persoenlich, :Periode. 
+	rdfs:subClassOf :Persoenlich, :Periode; 
+	rdfs:comment "Zugehörigkeit zur Herkunfts- oder gebildeten Familie."@de .
+
 
 :inFamilie rdf:type owl:ObjectProperty ;
 	rdfs:domain :Familienzugehoerigkeit ;
 	rdfs:range	:Familie ;
 	rdfs:label "zugeordnete Familie"@de ;
 	rdfs:comment "zugeordnete Familie."@de .
-
-
