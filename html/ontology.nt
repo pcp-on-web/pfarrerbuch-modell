@@ -4,6 +4,7 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://purl.org/dc/terms/modified> "2023-09-12" .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://purl.org/dc/terms/modified> "2026-06-01" .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://purl.org/dc/terms/modified> "2026-07-17" .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://purl.org/dc/terms/modified> "2026-10-09" .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://purl.org/dc/terms/title> "Vokabular Pfarrerbücher"@de .
 # 
 # 
@@ -38,6 +39,9 @@
 # http://www.w3.org/2001/XMLSchema#date
 <http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
 # 
+# http://www.w3.org/2001/XMLSchema#gYear
+<http://www.w3.org/2001/XMLSchema#gYear> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
 # 
 # 
 # #################################################################
@@ -51,16 +55,26 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> <http://www.w3.org/2000/01/rdf-schema#comment> "Gehört einer Familie an"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> <http://www.w3.org/2000/01/rdf-schema#comment> "Gehört einer Herkunftsfamilie an (Kind von). (Domänen-/Range-Richtung ggf. prüfen.) Bildet eine Familie."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> <http://www.w3.org/2000/01/rdf-schema#label> "gehört zu Familie"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geschlecht
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geschlecht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geschlecht> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geschlecht> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geschlecht> <http://www.w3.org/2000/01/rdf-schema#comment> "Geschlecht einer Person"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geschlecht> <http://www.w3.org/2000/01/rdf-schema#label> "Geschlecht"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Berufsabschluss> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fortbildung> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Promotion> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulausbildung> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#comment> "Zugeordnete Bildungseinrichtung für Schule oder Studium."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#label> "zugeordnete Bildungseinrichtung"@de .
@@ -69,23 +83,24 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt> <http://www.w3.org/2000/01/rdf-schema#comment> "Lebensabschnitt zu einem Pfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt> <http://www.w3.org/2000/01/rdf-schema#comment> "Lebensabschnitt von einem Pfarrer."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt> <http://www.w3.org/2000/01/rdf-schema#label> "hat Lebensabschnitt"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ort> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/2000/01/rdf-schema#comment> "Geographischer Ort einer Stelle oder eines Lebensabschnittes."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/2000/01/rdf-schema#comment> "Geographischer Ort einer Stelle, eines Lebensabschnittes, einer Bildungseinrichtung oder einer Kirchengemeinde."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt> <http://www.w3.org/2000/01/rdf-schema#label> "hat Ort"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle> <http://www.w3.org/2000/01/rdf-schema#comment> "Zugeordnete Stelle für Stelleninhaber:in."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle> <http://www.w3.org/2000/01/rdf-schema#comment> "Über einen Zeitraum wahrgenommene Stelle."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle> <http://www.w3.org/2000/01/rdf-schema#label> "zugeordnete Stelle"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie
@@ -100,30 +115,45 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde einer Entsendung oder Ordination"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#label> "in einer Kirchengemeinde"@de .
-# 
-# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern> <http://www.w3.org/2000/01/rdf-schema#comment> "Vater oder Mutter in einer Familie."@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istEltern> <http://www.w3.org/2000/01/rdf-schema#label> "ist Elternteil"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind> <http://www.w3.org/2000/01/rdf-schema#comment> "Kind in einer Familie"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind> <http://www.w3.org/2000/01/rdf-schema#comment> "Kind, Adoptivkind oder Stiefkind in einer Familie"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind> <http://www.w3.org/2000/01/rdf-schema#label> "ist Kind"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in> <http://www.w3.org/2000/01/rdf-schema#comment> "Partner bzw. Partnerin in einer Familie (Ehe oder Lebenspartnerschaft)."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in> <http://www.w3.org/2000/01/rdf-schema#label> "Partner bzw. Partnerin in einer Familie"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#kalenderSystem
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#kalenderSystem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#kalenderSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#kalenderSystem> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#kalenderSystem> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kalender> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#kalenderSystem> <http://www.w3.org/2000/01/rdf-schema#comment> "Kalendersystem: gregorianischer (Standard) oder julianischer Kalender"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#kalenderSystem> <http://www.w3.org/2000/01/rdf-schema#label> "Kalendersystem"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#verbundeneKirchengemeinde
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#verbundeneKirchengemeinde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#verbundeneKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#verbundeneKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#verbundeneKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinden, die der Kirchengemeinde zugeordnet, verbunden, etc. sind."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#verbundeneKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#label> "verbundene Kirchengemeinde"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde die einer Stelle zugeordnet ist"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde die einer (Pfarr-)Stelle zugeordnet ist."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#zugeordneteKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#label> "zugeordnete Kirchengemeinde"@de .
 # 
 # 
@@ -142,42 +172,67 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://www.w3.org/2000/01/rdf-schema#comment> "Akademischer Titel einer Person"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://www.w3.org/2000/01/rdf-schema#label> "Akademischer Titel"@de .
 # 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/2000/01/rdf-schema#comment> "Amtlicher Titel einer Person (z.B. Kirchenrat, Superintendent)"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/2000/01/rdf-schema#label> "Amtlicher Titel"@de .
+# 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis> <http://www.w3.org/2000/01/rdf-schema#comment> "Exaktes Enddatum einer Periode in der Form YYYY"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis> <http://www.w3.org/2000/01/rdf-schema#label> "bis"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bisJahr
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bisJahr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bisJahr> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bisJahr> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bisJahr> <http://www.w3.org/2000/01/rdf-schema#comment> "Endjahr einer Periode in der Form YYYY"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bisJahr> <http://www.w3.org/2000/01/rdf-schema#label> "bis"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum> <http://www.w3.org/2000/01/rdf-schema#comment> "Exaktes Datum eines Ereignisses in der Form YYYY-MM-TT"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum> <http://www.w3.org/2000/01/rdf-schema#label> "Datum"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#int> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr> <http://www.w3.org/2000/01/rdf-schema#comment> "Jahr eines Ereignisses in der Form YYYY"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#jahr> <http://www.w3.org/2000/01/rdf-schema#label> "Jahr"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname> <http://www.w3.org/2000/01/rdf-schema#comment> "Nachname einer Person"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname> <http://www.w3.org/2000/01/rdf-schema#comment> "Nachname einer Person. (ggf. Namenszusätze/-varianten)"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname> <http://www.w3.org/2000/01/rdf-schema#label> "Nachname"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#date> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von> <http://www.w3.org/2000/01/rdf-schema#comment> "Exaktes Anfangsdatum einer Periode in der Form YYYY-MM-TT"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von> <http://www.w3.org/2000/01/rdf-schema#label> "von"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vonJahr
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vonJahr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vonJahr> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vonJahr> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#gYear> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vonJahr> <http://www.w3.org/2000/01/rdf-schema#comment> "Anfangsjahr einer Periode in der Form YYYY"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vonJahr> <http://www.w3.org/2000/01/rdf-schema#label> "von"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname> <http://www.w3.org/2000/01/rdf-schema#comment> "Vorname(n) einer Person, getrennt mit Leerzeichen"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname> <http://www.w3.org/2000/01/rdf-schema#comment> "Vorname(n) einer Person, getrennt mit Leerzeichen. (ggf. Namenszusätze/-varianten)"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname> <http://www.w3.org/2000/01/rdf-schema#label> "Vorname"@de .
 # 
 # 
@@ -189,6 +244,13 @@
 # #################################################################
 # 
 # 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/2000/01/rdf-schema#comment> "Andere Tätigkeit."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/2000/01/rdf-schema#label> "Andere Tätigkeit"@de .
+# 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
@@ -196,9 +258,23 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/2000/01/rdf-schema#comment> "Ausbildung."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung> <http://www.w3.org/2000/01/rdf-schema#label> "Ausbildung"@de .
 # 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Berufsabschluss
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Berufsabschluss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Berufsabschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Berufsabschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Berufsabschluss> <http://www.w3.org/2000/01/rdf-schema#comment> "Berufsabschluss."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Berufsabschluss> <http://www.w3.org/2000/01/rdf-schema#label> "Berufsabschluss"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bestattung
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bestattung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bestattung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bestattung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bestattung> <http://www.w3.org/2000/01/rdf-schema#comment> "Bestattung."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bestattung> <http://www.w3.org/2000/01/rdf-schema#label> "Bestattung"@de .
+# 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#comment> "Bildungseinrichtung in einem Pfarrerbuch"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#comment> "Bildungseinrichtung bezogen auf Pfarrerin bzw. Pfarrer"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung> <http://www.w3.org/2000/01/rdf-schema#label> "Bildungseinrichtung"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich
@@ -213,6 +289,13 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Eheschliessung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Eheschliessung> <http://www.w3.org/2000/01/rdf-schema#comment> "Eheschließung."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Eheschliessung> <http://www.w3.org/2000/01/rdf-schema#label> "Eheschließung"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Emeritierung
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Emeritierung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Emeritierung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Emeritierung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Emeritierung> <http://www.w3.org/2000/01/rdf-schema#comment> "Emeritierung."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Emeritierung> <http://www.w3.org/2000/01/rdf-schema#label> "Emeritierung"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -248,7 +331,15 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit> <http://www.w3.org/2000/01/rdf-schema#comment> "Zugehörigkeit zur Herkunfts- oder gebildeten Familie."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit> <http://www.w3.org/2000/01/rdf-schema#label> "Familienzugehörigkeit"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fortbildung
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fortbildung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fortbildung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fortbildung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fortbildung> <http://www.w3.org/2000/01/rdf-schema#comment> "Fortbildung."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fortbildung> <http://www.w3.org/2000/01/rdf-schema#label> "Fortbildung"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geburt
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geburt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -257,16 +348,34 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geburt> <http://www.w3.org/2000/01/rdf-schema#comment> "Geburt."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geburt> <http://www.w3.org/2000/01/rdf-schema#label> "Geburt"@de .
 # 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> <http://www.w3.org/2000/01/rdf-schema#comment> "Geschlecht einer Person"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> <http://www.w3.org/2000/01/rdf-schema#label> "Geschlecht"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kalender
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kalender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kalender> <http://www.w3.org/2000/01/rdf-schema#comment> "Verwendetes Kalendersystem für Ereignisse und Perioden"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kalender> <http://www.w3.org/2000/01/rdf-schema#label> "Kalendersystem"@de .
+# 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde in einem Pfarrerbuch"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#label> "Kirchengemeinde"@de .
 # 
-# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge> <http://www.w3.org/2000/01/rdf-schema#comment> "Krankenhausseelsorge."@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Krankenhausseelsorge> <http://www.w3.org/2000/01/rdf-schema#label> "Krankenhausseelsorge"@de .
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konfession
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konfession> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konfession> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konfession> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konfession> <http://www.w3.org/2000/01/rdf-schema#comment> "Konfession."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konfession> <http://www.w3.org/2000/01/rdf-schema#label> "Konfession"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konversion
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konversion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konversion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konversion> <http://www.w3.org/2000/01/rdf-schema#comment> "Konversion."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konversion> <http://www.w3.org/2000/01/rdf-schema#label> "Konversion"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -275,7 +384,8 @@
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> <http://www.w3.org/2000/01/rdf-schema#comment> "Leitung einer Institution."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> <http://www.w3.org/2000/01/rdf-schema#label> "Leitung"@de .
 # 
@@ -300,12 +410,12 @@
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> <http://www.w3.org/2000/01/rdf-schema#comment> "Persönliche Angaben im Leben eines Pfarrers."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> <http://www.w3.org/2000/01/rdf-schema#comment> "Persönliche Angaben im Leben ener Pfarrerin bzw. eines Pfarrers."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich> <http://www.w3.org/2000/01/rdf-schema#label> "Persönliche Angaben"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Stellt eine Person dar, die in der Datenbank verzeichnet ist, z.B. Pfarrer, Familienmitglieder."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> <http://www.w3.org/2000/01/rdf-schema#comment> "Stellt eine Person dar, die in der Datenbank verzeichnet ist, z.B. Pfarrerin oder Pfarrer, Familienmitglieder."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> <http://www.w3.org/2000/01/rdf-schema#label> "Person"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrer-in
@@ -318,14 +428,29 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#comment> "Periode in der eine Pfarrerin oder ein Pfarrer eine Stelle besetzt."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#comment> "Von einer Pfarrerin oder einem Pfarrer besetzte Stelle."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#label> "Pfarrstelle"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Promotion
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Promotion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Promotion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Promotion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Promotion> <http://www.w3.org/2000/01/rdf-schema#comment> "Promotion."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Promotion> <http://www.w3.org/2000/01/rdf-schema#label> "Promotion"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent> <http://www.w3.org/2000/01/rdf-schema#comment> "Referent:in."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent> <http://www.w3.org/2000/01/rdf-schema#label> "Referent:in"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ruhestand
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ruhestand> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ruhestand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ruhestand> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ruhestand> <http://www.w3.org/2000/01/rdf-schema#comment> "Ruhestand."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ruhestand> <http://www.w3.org/2000/01/rdf-schema#label> "Ruhestand"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -333,6 +458,27 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/2000/01/rdf-schema#comment> "Schulabschluss."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulabschluss> <http://www.w3.org/2000/01/rdf-schema#label> "Schulabschluss"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulausbildung
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulausbildung> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulausbildung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulausbildung> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulausbildung> <http://www.w3.org/2000/01/rdf-schema#comment> "Schulausbildung."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Schulausbildung> <http://www.w3.org/2000/01/rdf-schema#label> "Schulausbildung"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/2000/01/rdf-schema#comment> "Sonderpfarramt."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/2000/01/rdf-schema#label> "Sonderpfarramt"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/2000/01/rdf-schema#comment> "Spezialseelsorge: Krankenhausseelsorge, Anstaltsseelsorge, Gefängnisseelsorge, Notfallseelsorge usw."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/2000/01/rdf-schema#label> "Spezialseelsorge"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Stelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -347,15 +493,11 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studienabschluss> <http://www.w3.org/2000/01/rdf-schema#label> "Studienabschluss"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium
-# 
-# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#StudiumAbschluss
-# 
-# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/2000/01/rdf-schema#comment> "Andere Tätigkeit."@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> <http://www.w3.org/2000/01/rdf-schema#label> "Andere Tätigkeit"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/2000/01/rdf-schema#comment> "Studium."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Studium> <http://www.w3.org/2000/01/rdf-schema#label> "Studium"@de .
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
@@ -380,7 +522,8 @@
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taetigkeit> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter> <http://www.w3.org/2000/01/rdf-schema#comment> "Vakanzverwalter:in."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Vakanzverwalter> <http://www.w3.org/2000/01/rdf-schema#label> "Vakanzverwalter:in"@de .
 # 
@@ -396,5 +539,50 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ZweitesTheologischesExamen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#TheologischesExamen> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ZweitesTheologischesExamen> <http://www.w3.org/2000/01/rdf-schema#comment> "Zweites Theologisches Examen."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ZweitesTheologischesExamen> <http://www.w3.org/2000/01/rdf-schema#label> "Zweites Theologisches Examen"@de .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#agender
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#agender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#agender> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#agender> <http://www.w3.org/2000/01/rdf-schema#label> "agender"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gregorianisch
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gregorianisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gregorianisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kalender> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gregorianisch> <http://www.w3.org/2000/01/rdf-schema#comment> "International heute am weitesten verbreitetes Kalendersystem."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gregorianisch> <http://www.w3.org/2000/01/rdf-schema#label> "gregorianischer Kalender"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#intergeschlechtlich
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#intergeschlechtlich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#intergeschlechtlich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#intergeschlechtlich> <http://www.w3.org/2000/01/rdf-schema#label> "intergeschlechtlich"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#julianisch
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#julianisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#julianisch> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kalender> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#julianisch> <http://www.w3.org/2000/01/rdf-schema#label> "julianischer Kalender"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#maennlich
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#maennlich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#maennlich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#maennlich> <http://www.w3.org/2000/01/rdf-schema#label> "männlich"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nicht-binaer
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nicht-binaer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nicht-binaer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nicht-binaer> <http://www.w3.org/2000/01/rdf-schema#label> "nicht-binär"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#weiblich
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#weiblich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#weiblich> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Geschlecht> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#weiblich> <http://www.w3.org/2000/01/rdf-schema#label> "weiblich"@de .
 # 
 # Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
