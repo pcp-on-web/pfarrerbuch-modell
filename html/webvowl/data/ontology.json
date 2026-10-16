@@ -24,17 +24,17 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-06-01",
-        "type" : "label"
-      }, {
-        "identifier" : "modified",
-        "language" : "undefined",
         "value" : "2026-10-09",
         "type" : "label"
       }, {
         "identifier" : "modified",
         "language" : "undefined",
         "value" : "2026-07-17",
+        "type" : "label"
+      }, {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2026-06-01",
         "type" : "label"
       }, {
         "identifier" : "modified",
@@ -94,40 +94,40 @@
     "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "46",
-    "type" : "owl:Class"
-  }, {
-    "id" : "1",
-    "type" : "owl:Class"
-  }, {
-    "id" : "15",
-    "type" : "owl:Class"
-  }, {
-    "id" : "52",
-    "type" : "owl:Class"
-  }, {
-    "id" : "32",
-    "type" : "owl:Class"
-  }, {
-    "id" : "55",
+    "id" : "44",
     "type" : "owl:Class"
   }, {
     "id" : "47",
     "type" : "owl:Class"
   }, {
-    "id" : "62",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
-    "id" : "67",
+    "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "71",
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
     "type" : "owl:Class"
   }, {
     "id" : "73",
     "type" : "owl:Class"
   }, {
-    "id" : "69",
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
     "type" : "owl:Class"
   }, {
     "id" : "29",
@@ -139,25 +139,25 @@
     "id" : "41",
     "type" : "owl:Class"
   }, {
-    "id" : "51",
+    "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "72",
+    "id" : "74",
     "type" : "owl:Class"
   }, {
-    "id" : "59",
+    "id" : "61",
     "type" : "owl:Class"
   }, {
     "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "49",
+    "id" : "52",
     "type" : "owl:Class"
   }, {
     "id" : "35",
     "type" : "owl:Class"
   }, {
-    "id" : "97",
+    "id" : "99",
     "type" : "owl:Class"
   }, {
     "id" : "7",
@@ -166,76 +166,82 @@
     "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "63",
+    "id" : "65",
     "type" : "owl:Class"
   }, {
     "id" : "43",
     "type" : "owl:Class"
   }, {
-    "id" : "68",
-    "type" : "owl:Class"
-  }, {
     "id" : "70",
     "type" : "owl:Class"
   }, {
-    "id" : "114",
-    "type" : "owl:Class"
-  }, {
-    "id" : "45",
-    "type" : "owl:Class"
-  }, {
-    "id" : "4",
+    "id" : "72",
     "type" : "owl:Class"
   }, {
     "id" : "48",
     "type" : "owl:Class"
   }, {
-    "id" : "57",
+    "id" : "116",
     "type" : "owl:Class"
   }, {
-    "id" : "137",
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "92",
+    "id" : "94",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "128",
+    "id" : "130",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "9",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "135",
+    "id" : "137",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "139",
+    "id" : "141",
     "type" : "rdfs:Datatype"
   }, {
     "id" : "19",
     "type" : "rdfs:Datatype"
   }, {
-    "id" : "140",
+    "id" : "142",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "65",
+    "id" : "67",
     "type" : "owl:Class"
   }, {
     "id" : "12",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "81",
+    "id" : "83",
     "type" : "rdfs:Literal"
   }, {
     "id" : "17",
     "type" : "owl:Class"
   }, {
-    "id" : "93",
+    "id" : "95",
     "type" : "owl:Class"
   }, {
     "id" : "21",
     "type" : "owl:Class"
   }, {
-    "id" : "50",
+    "id" : "53",
     "type" : "owl:Class"
   } ],
   "classAttribute" : [ {
@@ -255,6 +261,354 @@
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Feldprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrsubstitut",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kaplan",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kandidat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrvikarinnen",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Propst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Schlossgeistlicher",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Provinzialvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Missionspfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Koadjutor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Subdiakon(us)",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Schuldekan",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pastor im Angestelltenverh?ltnis",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Studentenpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Prediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Geistlicher",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesbischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pastor Primarius",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pr?dikant",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kreispfarrvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrer im Hilfsdienst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pestprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Divisionspfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kollaborator",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrverwalter",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Substitut",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Missionar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Dekan",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Spezialvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pastor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Diakon(us)",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarradjunkt",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kaplanvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hilfsprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Superintendentvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchenkandidat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrverwalter im Angestelltenverh?ltnis",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hofdiakon(us)",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesoberpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pastor im Hilfsdienst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Strafanstaltsprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Adjunkt",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Probst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Diakonatsverwalter",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Domprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Prediger im Hilfsdienst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Gemeindediakon",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Bischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Sonderpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Generalsuperintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hofprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Zuchthausprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Provinzialpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hofkaplan",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Vikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Superintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Schlossprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kreisoberpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pr?ses",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Prediger im Probedienst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Stiftssuperintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Archidiakon(us)",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Anstaltspfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landespfarrer f?r Diakonie",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesjugendpfarrer",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "de" : "Pfarrstelle",
       "IRI-based" : "Pfarrstelle"
@@ -281,6 +635,34 @@
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Krankenhausseelsorge",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Milit?rseelsorge",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Notfallseelsorge",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Gef?ngnisseelsorge",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Anstaltsseelsorge",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "de" : "Spezialseelsorge",
       "IRI-based" : "Spezialseelsorge"
@@ -405,22 +787,22 @@
     "comment" : {
       "de" : "Tod."
     },
-    "id" : "46",
+    "id" : "44",
     "superClasses" : [ "1", "2" ]
   }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
-      "de" : "Ereignis",
-      "IRI-based" : "Ereignis"
+      "de" : "Leitung",
+      "IRI-based" : "Leitung"
     },
-    "subClasses" : [ "27", "0", "48", "42", "37", "39", "46", "32", "49", "23", "17", "50", "51" ],
+    "subClasses" : [ "48", "49" ],
     "comment" : {
-      "de" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
+      "de" : "Leitung einer Institution."
     },
-    "id" : "1",
-    "superClasses" : [ "47" ]
+    "id" : "47",
+    "superClasses" : [ "6", "7" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -434,18 +816,19 @@
     },
     "id" : "15"
   }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung",
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
     "label" : {
-      "de" : "Leitung",
-      "IRI-based" : "Leitung"
+      "de" : "Ereignis",
+      "IRI-based" : "Ereignis"
     },
+    "subClasses" : [ "27", "0", "51", "42", "37", "39", "44", "32", "52", "23", "17", "53", "54" ],
     "comment" : {
-      "de" : "Leitung einer Institution."
+      "de" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
     },
-    "id" : "52",
-    "superClasses" : [ "6", "7" ]
+    "id" : "1",
+    "superClasses" : [ "50" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -506,7 +889,7 @@
     "comment" : {
       "de" : "Geschlecht einer Person"
     },
-    "id" : "55"
+    "id" : "57"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Lebensabschnitt",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -519,27 +902,27 @@
     "comment" : {
       "de" : "Lebensabschnitt einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors"
     },
-    "id" : "47"
+    "id" : "50"
   }, {
     "instances" : 0,
-    "union" : [ "15", "14", "63", "47" ],
+    "union" : [ "15", "14", "65", "50" ],
     "attributes" : [ "union", "anonymous" ],
-    "id" : "62"
+    "id" : "64"
   }, {
     "instances" : 0,
-    "union" : [ "68", "48", "69", "20", "42", "49", "70", "51" ],
+    "union" : [ "70", "51", "71", "20", "42", "52", "72", "54" ],
     "attributes" : [ "union", "anonymous" ],
-    "id" : "67"
+    "id" : "69"
   }, {
     "instances" : 0,
-    "union" : [ "50", "72" ],
+    "union" : [ "53", "74" ],
     "attributes" : [ "union", "anonymous" ],
-    "id" : "71"
+    "id" : "73"
   }, {
     "instances" : 0,
     "union" : [ "1", "6" ],
     "attributes" : [ "union", "anonymous" ],
-    "id" : "73"
+    "id" : "75"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -551,7 +934,7 @@
     "comment" : {
       "de" : "Ausbildung."
     },
-    "id" : "69",
+    "id" : "71",
     "superClasses" : [ "21", "6" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konfession",
@@ -603,7 +986,7 @@
     "comment" : {
       "de" : "Schulabschluss."
     },
-    "id" : "51",
+    "id" : "54",
     "superClasses" : [ "1", "21" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung",
@@ -616,12 +999,210 @@
     "comment" : {
       "de" : "Entsendung."
     },
-    "id" : "72",
+    "id" : "74",
     "superClasses" : [ "21", "6" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Waisenhausinspektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Magister",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Informator",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kreisjugendwart",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberkirchenrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberkonsistorialrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchenrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Direktor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Katechet",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Schulkollege",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hauptkatechet",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Senior",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Prinzenerzieher",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Professor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Konsistorialpr?sident",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hofmeister",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Inspektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Studienrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Lehrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Subkonrektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Konrektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kustos",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Konsistorialassessor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Privatdozent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Subrektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Presbyter",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Gemeindep?dagoge",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Privatlehrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberlandeskirchenrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Gehilfe",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Studieninspektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Rektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kantor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Religionslehrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pr?zeptor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Dozent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Konsistorialrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hauslehrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Ludimoderator",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "de" : "Andere T?tigkeit",
       "IRI-based" : "AndereTaetigkeit"
@@ -629,7 +1210,7 @@
     "comment" : {
       "de" : "Andere T?tigkeit."
     },
-    "id" : "59",
+    "id" : "61",
     "superClasses" : [ "6", "7" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode",
@@ -639,12 +1220,12 @@
       "de" : "Periode",
       "IRI-based" : "Periode"
     },
-    "subClasses" : [ "59", "57", "69", "29", "5", "35", "93", "52", "68", "65", "20", "24", "70", "41", "4", "72" ],
+    "subClasses" : [ "61", "59", "71", "29", "5", "35", "95", "47", "70", "67", "20", "24", "72", "41", "4", "74" ],
     "comment" : {
       "de" : "Zeitabschnitt im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
     },
     "id" : "6",
-    "superClasses" : [ "47" ]
+    "superClasses" : [ "50" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Promotion",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -656,7 +1237,7 @@
     "comment" : {
       "de" : "Promotion."
     },
-    "id" : "49",
+    "id" : "52",
     "superClasses" : [ "1", "21" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Referent",
@@ -682,7 +1263,7 @@
     "comment" : {
       "de" : "Geografischer Ort in einem Pfarrerbuch"
     },
-    "id" : "97"
+    "id" : "99"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -691,12 +1272,12 @@
       "de" : "Dienstliche Angaben",
       "IRI-based" : "Dienstlich"
     },
-    "subClasses" : [ "52", "65", "59", "57", "5", "35", "24", "41", "39" ],
+    "subClasses" : [ "47", "67", "61", "59", "5", "35", "24", "41", "39" ],
     "comment" : {
       "de" : "Dienstliche Angaben im Leben eines Pfarrers."
     },
     "id" : "7",
-    "superClasses" : [ "47" ]
+    "superClasses" : [ "50" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Persoenlich",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -705,12 +1286,12 @@
       "de" : "Pers?nliche Angaben",
       "IRI-based" : "Persoenlich"
     },
-    "subClasses" : [ "27", "0", "32", "29", "23", "17", "4", "46" ],
+    "subClasses" : [ "27", "0", "32", "29", "23", "17", "4", "44" ],
     "comment" : {
       "de" : "Pers?nliche Angaben im Leben ener Pfarrerin bzw. eines Pfarrers."
     },
     "id" : "2",
-    "superClasses" : [ "47" ]
+    "superClasses" : [ "50" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Bildungseinrichtung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -722,7 +1303,7 @@
     "comment" : {
       "de" : "Bildungseinrichtung bezogen auf Pfarrerin bzw. Pfarrer"
     },
-    "id" : "63"
+    "id" : "65"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#ErstesTheologischesExamen",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -747,7 +1328,7 @@
     "comment" : {
       "de" : "Studium."
     },
-    "id" : "68",
+    "id" : "70",
     "superClasses" : [ "21", "6" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fortbildung",
@@ -760,8 +1341,104 @@
     "comment" : {
       "de" : "Fortbildung."
     },
-    "id" : "70",
+    "id" : "72",
     "superClasses" : [ "21", "6" ]
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Superintendenturbezirk",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pr?lat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Superintendentur",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kreisoberpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Generalinspektion",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kreispfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Inspektion",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Propstei",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Ephorus",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Propsteisprengel",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landessuperintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Generalsuperintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchenkreis",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Dekanat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Regionalbischof",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Mittlere leitende Ebene",
+      "IRI-based" : "Leitung-Ebene-2"
+    },
+    "comment" : {
+      "de" : "Mittlere leitende Ebene einer Institution."
+    },
+    "id" : "48",
+    "superClasses" : [ "47" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kalender",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -791,7 +1468,43 @@
     "comment" : {
       "de" : "Verwendetes Kalendersystem f?r Ereignisse und Perioden"
     },
-    "id" : "114"
+    "id" : "116"
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Bischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchenpr?sident",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pr?ses",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesbischof",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Leitende Ebene",
+      "IRI-based" : "Leitung-Ebene-1"
+    },
+    "comment" : {
+      "de" : "Leitende Ebene einer Institution."
+    },
+    "id" : "49",
+    "superClasses" : [ "47" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familie",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -803,7 +1516,7 @@
     "comment" : {
       "de" : "Beschreibt eine Familienkonstellation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"
     },
-    "id" : "45"
+    "id" : "46"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -828,12 +1541,40 @@
     "comment" : {
       "de" : "Berufsabschluss."
     },
-    "id" : "48",
+    "id" : "51",
     "superClasses" : [ "1", "21" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "instances" : 0,
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Diakoniepfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kinder- und Jugendpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Funktionspfarrstelle",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Vereinsgeistlicher",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesgartenschaupfarrer",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "de" : "Sonderpfarramt",
       "IRI-based" : "Sonderpfarramt"
@@ -841,26 +1582,26 @@
     "comment" : {
       "de" : "Sonderpfarramt."
     },
-    "id" : "57",
+    "id" : "59",
     "superClasses" : [ "6", "7" ]
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#date",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "137",
+    "id" : "139",
     "label" : {
       "IRI-based" : "date"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#gYear",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "92",
+    "id" : "94",
     "label" : {
       "IRI-based" : "gYear"
     }
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#date",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "128",
+    "id" : "130",
     "label" : {
       "IRI-based" : "date"
     }
@@ -874,7 +1615,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "135",
+    "id" : "137",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -882,7 +1623,7 @@
   }, {
     "iri" : "http://www.w3.org/2001/XMLSchema#date",
     "baseIri" : "http://www.w3.org/2001/XMLSchema",
-    "id" : "139",
+    "id" : "141",
     "label" : {
       "IRI-based" : "date"
     }
@@ -896,7 +1637,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "140",
+    "id" : "142",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -912,7 +1653,7 @@
     "comment" : {
       "de" : "Vakanzverwalter:in."
     },
-    "id" : "65",
+    "id" : "67",
     "superClasses" : [ "6", "7" ]
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
@@ -925,7 +1666,7 @@
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
     "baseIri" : "http://www.w3.org/2000/01/rdf-schema",
-    "id" : "81",
+    "id" : "83",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -954,7 +1695,7 @@
     "comment" : {
       "de" : "Vikariat."
     },
-    "id" : "93",
+    "id" : "95",
     "superClasses" : [ "21", "6" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Fachlich",
@@ -964,12 +1705,12 @@
       "de" : "Fachliche Angaben",
       "IRI-based" : "Fachlich"
     },
-    "subClasses" : [ "68", "48", "69", "20", "42", "49", "70", "37", "93", "50", "51", "72" ],
+    "subClasses" : [ "70", "51", "71", "20", "42", "52", "72", "37", "95", "53", "54", "74" ],
     "comment" : {
       "de" : "Fachliche Angaben im Leben einer Pfarrerin oder eines Pfarrers."
     },
     "id" : "21",
-    "superClasses" : [ "47" ]
+    "superClasses" : [ "50" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -981,7 +1722,7 @@
     "comment" : {
       "de" : "Ordination."
     },
-    "id" : "50",
+    "id" : "53",
     "superClasses" : [ "1", "21" ]
   } ],
   "property" : [ {
@@ -1030,14 +1771,11 @@
     "id" : "40",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "44",
+    "id" : "45",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "53",
+    "id" : "55",
     "type" : "owl:objectProperty"
-  }, {
-    "id" : "56",
-    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "58",
     "type" : "rdfs:SubClassOf"
@@ -1045,41 +1783,38 @@
     "id" : "60",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "61",
+    "id" : "62",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "64",
+    "id" : "63",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "66",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "74",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "75",
+    "id" : "68",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "76",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "77",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "78",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "79",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "80",
-    "type" : "owl:datatypeProperty"
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "81",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "82",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "83",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "84",
     "type" : "rdfs:SubClassOf"
@@ -1103,22 +1838,22 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "91",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "94",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "95",
-    "type" : "owl:objectProperty"
+    "id" : "92",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "97",
     "type" : "owl:objectProperty"
   }, {
     "id" : "98",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "99",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "100",
     "type" : "rdfs:SubClassOf"
@@ -1151,22 +1886,22 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "110",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "111",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "112",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "113",
     "type" : "owl:objectProperty"
   }, {
-    "id" : "115",
+    "id" : "114",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "116",
-    "type" : "rdfs:SubClassOf"
+    "id" : "115",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "117",
     "type" : "rdfs:SubClassOf"
@@ -1199,13 +1934,13 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "127",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "129",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "130",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "131",
     "type" : "rdfs:SubClassOf"
@@ -1217,39 +1952,51 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "134",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "136",
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "138",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "141",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "142",
     "type" : "owl:datatypeProperty"
   }, {
-    "id" : "54",
+    "id" : "140",
     "type" : "owl:objectProperty"
   }, {
     "id" : "143",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "144",
-    "type" : "owl:datatypeProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "145",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "146",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "56",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "147",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "148",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
     "type" : "rdfs:SubClassOf"
   } ],
   "propertyAttribute" : [ {
@@ -1275,6 +2022,29 @@
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "range" : "12",
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Doktor (D., Dr.)",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Lizenziat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Professor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Magister",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "de" : "Akademischer Titel",
       "IRI-based" : "akademischerTitel"
@@ -1366,7 +2136,7 @@
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "45",
+    "range" : "46",
     "label" : {
       "de" : "zugeordnete Familie",
       "IRI-based" : "inFamilie"
@@ -1376,7 +2146,7 @@
       "de" : "zugeordnete Familie."
     },
     "attributes" : [ "object" ],
-    "id" : "44"
+    "id" : "45"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1385,18 +2155,13 @@
       "de" : "Partner bzw. Partnerin in einer Familie",
       "IRI-based" : "istPartner-in"
     },
-    "superproperty" : [ "54" ],
-    "domain" : "45",
+    "superproperty" : [ "56" ],
+    "domain" : "46",
     "comment" : {
       "de" : "Partner bzw. Partnerin in einer Familie (Ehe oder Lebenspartnerschaft)."
     },
     "attributes" : [ "object" ],
-    "id" : "53"
-  }, {
-    "range" : "7",
-    "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "56"
+    "id" : "55"
   }, {
     "range" : "7",
     "domain" : "59",
@@ -1404,39 +2169,44 @@
     "id" : "58"
   }, {
     "range" : "7",
-    "domain" : "5",
+    "domain" : "61",
     "attributes" : [ "object", "anonymous" ],
     "id" : "60"
+  }, {
+    "range" : "7",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "62"
   }, {
     "range" : "11",
     "domain" : "30",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "61"
+    "id" : "63"
   }, {
     "range" : "7",
-    "domain" : "65",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "64"
-  }, {
-    "range" : "7",
-    "domain" : "52",
+    "domain" : "67",
     "attributes" : [ "object", "anonymous" ],
     "id" : "66"
   }, {
-    "range" : "47",
-    "domain" : "6",
+    "range" : "7",
+    "domain" : "47",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "74"
+    "id" : "68"
   }, {
-    "range" : "6",
-    "domain" : "59",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "75"
-  }, {
-    "range" : "47",
-    "domain" : "7",
+    "range" : "50",
+    "domain" : "21",
     "attributes" : [ "object", "anonymous" ],
     "id" : "76"
+  }, {
+    "range" : "50",
+    "domain" : "6",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "77"
+  }, {
+    "range" : "50",
+    "domain" : "2",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "78"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istKind",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1445,36 +2215,182 @@
       "de" : "ist Kind",
       "IRI-based" : "istKind"
     },
-    "superproperty" : [ "54" ],
-    "domain" : "45",
+    "superproperty" : [ "56" ],
+    "domain" : "46",
     "comment" : {
       "de" : "Kind, Adoptivkind oder Stiefkind in einer Familie"
     },
     "attributes" : [ "object" ],
-    "id" : "77"
+    "id" : "79"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
     "range" : "15",
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Di?zese",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Diakonat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Sprengel",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrverband",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Regionalkirchengemeinde",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchengemeindeverband",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Filialgemeinde",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Mater",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchspiel",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Parochie",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Mater combinata",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kapellengemeinde",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Filia",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrgemeinde",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "de" : "in einer Kirchengemeinde",
       "IRI-based" : "inKirchengemeinde"
     },
-    "domain" : "71",
+    "domain" : "73",
     "comment" : {
       "de" : "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."
     },
     "attributes" : [ "object" ],
-    "id" : "78"
+    "id" : "80"
   }, {
-    "range" : "47",
-    "domain" : "1",
+    "range" : "1",
+    "domain" : "53",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "79"
+    "id" : "81"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "81",
+    "range" : "83",
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Prior",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Abt",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Superintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Propst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesbischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberkonsistorialrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchenrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Probst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Konsistorialrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Generalsuperintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Regionalbischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Bischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberkirchenrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberlandeskirchenrat",
+        "type" : "label"
+      } ]
+    },
     "label" : {
       "de" : "Amtlicher Titel",
       "IRI-based" : "amtlicherTitel"
@@ -1484,56 +2400,56 @@
       "de" : "Amtlicher Titel einer Person (z.B. Kirchenrat, Superintendent)"
     },
     "attributes" : [ "datatype" ],
-    "id" : "80"
-  }, {
-    "range" : "1",
-    "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "82"
-  }, {
-    "range" : "47",
-    "domain" : "2",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "83"
-  }, {
-    "range" : "47",
-    "domain" : "21",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "84"
-  }, {
-    "range" : "1",
-    "domain" : "23",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "85"
-  }, {
-    "range" : "1",
-    "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "86"
-  }, {
-    "range" : "1",
-    "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "87"
   }, {
     "range" : "1",
     "domain" : "17",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "88"
+    "id" : "84"
+  }, {
+    "range" : "50",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "85"
+  }, {
+    "range" : "1",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "86"
   }, {
     "range" : "1",
     "domain" : "32",
     "attributes" : [ "object", "anonymous" ],
+    "id" : "87"
+  }, {
+    "range" : "1",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "88"
+  }, {
+    "range" : "1",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "89"
   }, {
     "range" : "1",
-    "domain" : "46",
+    "domain" : "52",
     "attributes" : [ "object", "anonymous" ],
     "id" : "90"
   }, {
+    "range" : "1",
+    "domain" : "39",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "1",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "92"
+  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bisJahr",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "92",
+    "range" : "94",
     "label" : {
       "de" : "bis",
       "IRI-based" : "bisJahr"
@@ -1543,12 +2459,12 @@
       "de" : "Endjahr einer Periode in der Form YYYY"
     },
     "attributes" : [ "datatype" ],
-    "id" : "91"
+    "id" : "93"
   }, {
     "range" : "1",
-    "domain" : "39",
+    "domain" : "42",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "94"
+    "id" : "96"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatStelle",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1562,99 +2478,99 @@
       "de" : "?ber einen Zeitraum wahrgenommene Stelle."
     },
     "attributes" : [ "object" ],
-    "id" : "95"
+    "id" : "97"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatOrt",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "97",
+    "range" : "99",
     "label" : {
       "de" : "hat Ort",
       "IRI-based" : "hatOrt"
     },
-    "domain" : "62",
+    "domain" : "64",
     "comment" : {
       "de" : "Geographischer Ort einer Stelle, eines Lebensabschnittes, einer Bildungseinrichtung oder einer Kirchengemeinde."
     },
     "attributes" : [ "object" ],
-    "id" : "96"
-  }, {
-    "range" : "1",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "98"
-  }, {
-    "range" : "1",
-    "domain" : "0",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "99"
-  }, {
-    "range" : "1",
-    "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "100"
-  }, {
-    "range" : "1",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "101"
-  }, {
-    "range" : "37",
-    "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "102"
-  }, {
-    "range" : "2",
-    "domain" : "46",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "103"
   }, {
     "range" : "1",
     "domain" : "27",
     "attributes" : [ "object", "anonymous" ],
+    "id" : "100"
+  }, {
+    "range" : "47",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "1",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "1",
+    "domain" : "0",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "103"
+  }, {
+    "range" : "37",
+    "domain" : "43",
+    "attributes" : [ "object", "anonymous" ],
     "id" : "104"
+  }, {
+    "range" : "2",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "105"
+  }, {
+    "range" : "47",
+    "domain" : "48",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
   }, {
     "range" : "37",
     "domain" : "36",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "105"
-  }, {
-    "range" : "21",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "106"
-  }, {
-    "range" : "21",
-    "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "107"
   }, {
     "range" : "21",
-    "domain" : "70",
+    "domain" : "71",
     "attributes" : [ "object", "anonymous" ],
     "id" : "108"
   }, {
     "range" : "21",
-    "domain" : "49",
+    "domain" : "51",
     "attributes" : [ "object", "anonymous" ],
     "id" : "109"
   }, {
+    "range" : "21",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "110"
+  }, {
+    "range" : "21",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatBildungseinrichtung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "63",
+    "range" : "65",
     "label" : {
       "de" : "zugeordnete Bildungseinrichtung",
       "IRI-based" : "hatBildungseinrichtung"
     },
-    "domain" : "67",
+    "domain" : "69",
     "comment" : {
       "de" : "Zugeordnete Bildungseinrichtung f?r Schule oder Studium."
     },
     "attributes" : [ "object" ],
-    "id" : "110"
+    "id" : "112"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#hatLebensabschnitt",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "47",
+    "range" : "50",
     "label" : {
       "de" : "hat Lebensabschnitt",
       "IRI-based" : "hatLebensabschnitt"
@@ -1664,90 +2580,90 @@
       "de" : "Lebensabschnitt von einem Pfarrer."
     },
     "attributes" : [ "object" ],
-    "id" : "111"
+    "id" : "113"
   }, {
     "range" : "21",
-    "domain" : "69",
+    "domain" : "70",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "112"
+    "id" : "114"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#kalenderSystem",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "114",
+    "range" : "116",
     "label" : {
       "de" : "Kalendersystem",
       "IRI-based" : "kalenderSystem"
     },
-    "domain" : "73",
+    "domain" : "75",
     "comment" : {
       "de" : "Kalendersystem: gregorianischer (Standard) oder julianischer Kalender"
     },
     "attributes" : [ "object" ],
-    "id" : "113"
-  }, {
-    "range" : "21",
-    "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "115"
   }, {
-    "range" : "21",
-    "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "116"
-  }, {
     "range" : "6",
-    "domain" : "41",
+    "domain" : "74",
     "attributes" : [ "object", "anonymous" ],
     "id" : "117"
   }, {
     "range" : "6",
-    "domain" : "70",
+    "domain" : "4",
     "attributes" : [ "object", "anonymous" ],
     "id" : "118"
   }, {
     "range" : "6",
-    "domain" : "72",
+    "domain" : "24",
     "attributes" : [ "object", "anonymous" ],
     "id" : "119"
   }, {
     "range" : "6",
-    "domain" : "4",
+    "domain" : "20",
     "attributes" : [ "object", "anonymous" ],
     "id" : "120"
   }, {
     "range" : "6",
-    "domain" : "65",
+    "domain" : "41",
     "attributes" : [ "object", "anonymous" ],
     "id" : "121"
   }, {
     "range" : "6",
-    "domain" : "68",
+    "domain" : "72",
     "attributes" : [ "object", "anonymous" ],
     "id" : "122"
   }, {
     "range" : "6",
-    "domain" : "24",
+    "domain" : "47",
     "attributes" : [ "object", "anonymous" ],
     "id" : "123"
   }, {
     "range" : "6",
-    "domain" : "20",
+    "domain" : "95",
     "attributes" : [ "object", "anonymous" ],
     "id" : "124"
   }, {
     "range" : "6",
-    "domain" : "93",
+    "domain" : "67",
     "attributes" : [ "object", "anonymous" ],
     "id" : "125"
   }, {
     "range" : "6",
-    "domain" : "35",
+    "domain" : "70",
     "attributes" : [ "object", "anonymous" ],
     "id" : "126"
   }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "127"
+  }, {
+    "range" : "6",
+    "domain" : "29",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#datum",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "128",
+    "range" : "130",
     "label" : {
       "de" : "Datum",
       "IRI-based" : "datum"
@@ -1757,36 +2673,36 @@
       "de" : "Exaktes Datum eines Ereignisses in der Form YYYY-MM-TT"
     },
     "attributes" : [ "datatype" ],
-    "id" : "127"
-  }, {
-    "range" : "6",
-    "domain" : "52",
-    "attributes" : [ "object", "anonymous" ],
     "id" : "129"
   }, {
     "range" : "6",
-    "domain" : "69",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "130"
-  }, {
-    "range" : "6",
-    "domain" : "57",
+    "domain" : "35",
     "attributes" : [ "object", "anonymous" ],
     "id" : "131"
   }, {
     "range" : "6",
-    "domain" : "5",
+    "domain" : "61",
     "attributes" : [ "object", "anonymous" ],
     "id" : "132"
   }, {
-    "range" : "6",
-    "domain" : "29",
+    "range" : "50",
+    "domain" : "7",
     "attributes" : [ "object", "anonymous" ],
     "id" : "133"
   }, {
+    "range" : "6",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "6",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "135"
+  }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nachname",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "135",
+    "range" : "137",
     "label" : {
       "de" : "Nachname",
       "IRI-based" : "nachname"
@@ -1796,11 +2712,11 @@
       "de" : "Nachname einer Person. (ggf. Namenszus?tze/-varianten)"
     },
     "attributes" : [ "datatype" ],
-    "id" : "134"
+    "id" : "136"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#bis",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "137",
+    "range" : "139",
     "label" : {
       "de" : "bis",
       "IRI-based" : "bis"
@@ -1810,11 +2726,11 @@
       "de" : "Exaktes Enddatum einer Periode in der Form YYYY"
     },
     "attributes" : [ "datatype" ],
-    "id" : "136"
+    "id" : "138"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#geschlecht",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "55",
+    "range" : "57",
     "label" : {
       "de" : "Geschlecht",
       "IRI-based" : "geschlecht"
@@ -1824,7 +2740,7 @@
       "de" : "Geschlecht einer Person"
     },
     "attributes" : [ "object" ],
-    "id" : "138"
+    "id" : "140"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#verbundeneKirchengemeinde",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1838,11 +2754,21 @@
       "de" : "Kirchengemeinden, die der Kirchengemeinde zugeordnet, verbunden, etc. sind."
     },
     "attributes" : [ "object" ],
-    "id" : "141"
+    "id" : "143"
+  }, {
+    "range" : "21",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "21",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#vorname",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "140",
+    "range" : "142",
     "label" : {
       "de" : "Vorname",
       "IRI-based" : "vorname"
@@ -1852,7 +2778,7 @@
       "de" : "Vorname(n) einer Person, getrennt mit Leerzeichen. (ggf. Namenszus?tze/-varianten)"
     },
     "attributes" : [ "datatype" ],
-    "id" : "142"
+    "id" : "146"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#gehoertzuFamilie",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1861,22 +2787,22 @@
       "de" : "geh?rt zu Familie",
       "IRI-based" : "gehoertzuFamilie"
     },
-    "domain" : "45",
-    "subproperty" : [ "53", "77" ],
+    "domain" : "46",
+    "subproperty" : [ "55", "79" ],
     "comment" : {
       "de" : "Geh?rt einer Herkunftsfamilie an (Kind von). (Dom?nen-/Range-Richtung ggf. pr?fen.) Bildet eine Familie."
     },
     "attributes" : [ "object" ],
-    "id" : "54"
+    "id" : "56"
   }, {
     "range" : "21",
-    "domain" : "72",
+    "domain" : "53",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "143"
+    "id" : "147"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#von",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "139",
+    "range" : "141",
     "label" : {
       "de" : "von",
       "IRI-based" : "von"
@@ -1886,26 +2812,26 @@
       "de" : "Exaktes Anfangsdatum einer Periode in der Form YYYY-MM-TT"
     },
     "attributes" : [ "datatype" ],
-    "id" : "144"
+    "id" : "148"
   }, {
     "range" : "21",
-    "domain" : "93",
+    "domain" : "72",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "145"
+    "id" : "149"
+  }, {
+    "range" : "21",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "21",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
   }, {
     "range" : "21",
     "domain" : "37",
     "attributes" : [ "object", "anonymous" ],
-    "id" : "146"
-  }, {
-    "range" : "21",
-    "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "147"
-  }, {
-    "range" : "21",
-    "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "148"
+    "id" : "152"
   } ]
 }

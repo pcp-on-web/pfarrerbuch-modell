@@ -19,6 +19,9 @@
 # http://creativecommons.org/ns#attributionName
 <http://creativecommons.org/ns#attributionName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
 # http://purl.org/dc/terms/license
 <http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
 # 
@@ -116,6 +119,20 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diakonat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diözese"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Filia"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Filialgemeinde"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kapellengemeinde"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchengemeindeverband"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchspiel"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Mater"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Mater combinata"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Parochie"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrgemeinde"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrverband"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Regionalkirchengemeinde"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Sprengel"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#label> "in einer Kirchengemeinde"@de .
 # 
@@ -170,6 +187,10 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Doktor (D., Dr.)"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Lizenziat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Magister"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Professor"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://www.w3.org/2000/01/rdf-schema#comment> "Akademischer Titel einer Person"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel> <http://www.w3.org/2000/01/rdf-schema#label> "Akademischer Titel"@de .
 # 
@@ -177,6 +198,20 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Abt"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Bischof"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Generalsuperintendent"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchenrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Konsistorialrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Landesbischof"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberkirchenrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberkonsistorialrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberlandeskirchenrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Prior"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Probst"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Propst"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Regionalbischof"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Superintendent"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/2000/01/rdf-schema#comment> "Amtlicher Titel einer Person (z.B. Kirchenrat, Superintendent)"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel> <http://www.w3.org/2000/01/rdf-schema#label> "Amtlicher Titel"@de .
 # 
@@ -249,6 +284,45 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Direktor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Dozent"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Gehilfe"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Gemeindepädagoge"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Hauptkatechet"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Hauslehrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Hofmeister"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Informator"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Inspektor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kantor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Katechet"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchenrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Konrektor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Konsistorialassessor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Konsistorialpräsident"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Konsistorialrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kreisjugendwart"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kustos"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Lehrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Ludimoderator"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Magister"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberkirchenrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberkonsistorialrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberlandeskirchenrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Presbyter"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Prinzenerzieher"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Privatdozent"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Privatlehrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Professor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Präzeptor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Rektor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Religionslehrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Schulkollege"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Senior"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Studieninspektor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Studienrat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Subkonrektor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Subrektor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Waisenhausinspektor"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/2000/01/rdf-schema#comment> "Andere Tätigkeit."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit> <http://www.w3.org/2000/01/rdf-schema#label> "Andere Tätigkeit"@de .
 # 
@@ -390,6 +464,38 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> <http://www.w3.org/2000/01/rdf-schema#comment> "Leitung einer Institution."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> <http://www.w3.org/2000/01/rdf-schema#label> "Leitung"@de .
 # 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Bischof"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchenpräsident"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Landesbischof"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Präses"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1> <http://www.w3.org/2000/01/rdf-schema#comment> "Leitende Ebene einer Institution."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1> <http://www.w3.org/2000/01/rdf-schema#label> "Leitende Ebene"@de .
+# 
+# http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Dekanat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Ephorus"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Generalinspektion"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Generalsuperintendent"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Inspektion"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchenkreis"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kreisoberpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kreispfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Landessuperintendent"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Propstei"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Propsteisprengel"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Prälat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Regionalbischof"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Superintendentur"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Superintendenturbezirk"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://www.w3.org/2000/01/rdf-schema#comment> "Mittlere leitende Ebene einer Institution."@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2> <http://www.w3.org/2000/01/rdf-schema#label> "Mittlere leitende Ebene"@de .
+# 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis> .
@@ -429,6 +535,75 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Adjunkt"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Anstaltspfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Archidiakon(us)"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Bischof"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Dekan"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diakon(us)"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diakonatsverwalter"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Divisionspfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Domprediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Feldprediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Geistlicher"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Gemeindediakon"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Generalsuperintendent"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Hilfsprediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Hofdiakon(us)"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Hofkaplan"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Hofprediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kandidat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kaplan"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kaplanvikar"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchenkandidat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Koadjutor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kollaborator"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kreisoberpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kreispfarrvikar"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Landesbischof"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Landesjugendpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Landesoberpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Landespfarrer für Diakonie"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Missionar"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Missionspfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Oberprediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pastor"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pastor Primarius"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pastor im Angestelltenverhältnis"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pastor im Hilfsdienst"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pestprediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarradjunkt"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrer im Hilfsdienst"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrsubstitut"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrverwalter"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrverwalter im Angestelltenverhältnis"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrvikar"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrvikarinnen"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Prediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Prediger im Hilfsdienst"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Prediger im Probedienst"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Probst"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Propst"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Provinzialpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Provinzialvikar"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Prädikant"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Präses"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Schlossgeistlicher"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Schlossprediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Schuldekan"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Sonderpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Spezialvikar"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Stiftssuperintendent"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Strafanstaltsprediger"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Studentenpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Subdiakon(us)"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Substitut"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Superintendent"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Superintendentvikar"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Vikar"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Zuchthausprediger"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#comment> "Von einer Pfarrerin oder einem Pfarrer besetzte Stelle."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle> <http://www.w3.org/2000/01/rdf-schema#label> "Pfarrstelle"@de .
 # 
@@ -471,6 +646,11 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diakoniepfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Funktionspfarrstelle"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kinder- und Jugendpfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Landesgartenschaupfarrer"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Vereinsgeistlicher"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/2000/01/rdf-schema#comment> "Sonderpfarramt."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt> <http://www.w3.org/2000/01/rdf-schema#label> "Sonderpfarramt"@de .
 # 
@@ -478,6 +658,11 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Anstaltsseelsorge"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Gefängnisseelsorge"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Krankenhausseelsorge"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Militärseelsorge"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Notfallseelsorge"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/2000/01/rdf-schema#comment> "Spezialseelsorge: Krankenhausseelsorge, Anstaltsseelsorge, Gefängnisseelsorge, Notfallseelsorge usw."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge> <http://www.w3.org/2000/01/rdf-schema#label> "Spezialseelsorge"@de .
 # 

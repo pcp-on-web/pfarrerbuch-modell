@@ -29,6 +29,124 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Direktor"
+  }, {
+    "@language" : "de",
+    "@value" : "Dozent"
+  }, {
+    "@language" : "de",
+    "@value" : "Gehilfe"
+  }, {
+    "@language" : "de",
+    "@value" : "Gemeindepädagoge"
+  }, {
+    "@language" : "de",
+    "@value" : "Hauptkatechet"
+  }, {
+    "@language" : "de",
+    "@value" : "Hauslehrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Hofmeister"
+  }, {
+    "@language" : "de",
+    "@value" : "Informator"
+  }, {
+    "@language" : "de",
+    "@value" : "Inspektor"
+  }, {
+    "@language" : "de",
+    "@value" : "Kantor"
+  }, {
+    "@language" : "de",
+    "@value" : "Katechet"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchenrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Konrektor"
+  }, {
+    "@language" : "de",
+    "@value" : "Konsistorialassessor"
+  }, {
+    "@language" : "de",
+    "@value" : "Konsistorialpräsident"
+  }, {
+    "@language" : "de",
+    "@value" : "Konsistorialrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Kreisjugendwart"
+  }, {
+    "@language" : "de",
+    "@value" : "Kustos"
+  }, {
+    "@language" : "de",
+    "@value" : "Lehrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Ludimoderator"
+  }, {
+    "@language" : "de",
+    "@value" : "Magister"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberkirchenrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberkonsistorialrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberlandeskirchenrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Presbyter"
+  }, {
+    "@language" : "de",
+    "@value" : "Prinzenerzieher"
+  }, {
+    "@language" : "de",
+    "@value" : "Privatdozent"
+  }, {
+    "@language" : "de",
+    "@value" : "Privatlehrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Professor"
+  }, {
+    "@language" : "de",
+    "@value" : "Präzeptor"
+  }, {
+    "@language" : "de",
+    "@value" : "Rektor"
+  }, {
+    "@language" : "de",
+    "@value" : "Religionslehrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Schulkollege"
+  }, {
+    "@language" : "de",
+    "@value" : "Senior"
+  }, {
+    "@language" : "de",
+    "@value" : "Studieninspektor"
+  }, {
+    "@language" : "de",
+    "@value" : "Studienrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Subkonrektor"
+  }, {
+    "@language" : "de",
+    "@value" : "Subrektor"
+  }, {
+    "@language" : "de",
+    "@value" : "Waisenhausinspektor"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Andere Tätigkeit."
@@ -357,6 +475,96 @@
     "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"
   } ]
 }, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Bischof"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchenpräsident"
+  }, {
+    "@language" : "de",
+    "@value" : "Landesbischof"
+  }, {
+    "@language" : "de",
+    "@value" : "Präses"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Leitende Ebene einer Institution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Leitende Ebene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung"
+  } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Dekanat"
+  }, {
+    "@language" : "de",
+    "@value" : "Ephorus"
+  }, {
+    "@language" : "de",
+    "@value" : "Generalinspektion"
+  }, {
+    "@language" : "de",
+    "@value" : "Generalsuperintendent"
+  }, {
+    "@language" : "de",
+    "@value" : "Inspektion"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchenkreis"
+  }, {
+    "@language" : "de",
+    "@value" : "Kreisoberpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Kreispfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Landessuperintendent"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Propstei"
+  }, {
+    "@language" : "de",
+    "@value" : "Propsteisprengel"
+  }, {
+    "@language" : "de",
+    "@value" : "Prälat"
+  }, {
+    "@language" : "de",
+    "@value" : "Regionalbischof"
+  }, {
+    "@language" : "de",
+    "@value" : "Superintendentur"
+  }, {
+    "@language" : "de",
+    "@value" : "Superintendenturbezirk"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "de",
+    "@value" : "Mittlere leitende Ebene einer Institution."
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "de",
+    "@value" : "Mittlere leitende Ebene"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung"
+  } ]
+}, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
@@ -439,6 +647,214 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Adjunkt"
+  }, {
+    "@language" : "de",
+    "@value" : "Anstaltspfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Archidiakon(us)"
+  }, {
+    "@language" : "de",
+    "@value" : "Bischof"
+  }, {
+    "@language" : "de",
+    "@value" : "Dekan"
+  }, {
+    "@language" : "de",
+    "@value" : "Diakon(us)"
+  }, {
+    "@language" : "de",
+    "@value" : "Diakonatsverwalter"
+  }, {
+    "@language" : "de",
+    "@value" : "Divisionspfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Domprediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Feldprediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Geistlicher"
+  }, {
+    "@language" : "de",
+    "@value" : "Gemeindediakon"
+  }, {
+    "@language" : "de",
+    "@value" : "Generalsuperintendent"
+  }, {
+    "@language" : "de",
+    "@value" : "Hilfsprediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Hofdiakon(us)"
+  }, {
+    "@language" : "de",
+    "@value" : "Hofkaplan"
+  }, {
+    "@language" : "de",
+    "@value" : "Hofprediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Kandidat"
+  }, {
+    "@language" : "de",
+    "@value" : "Kaplan"
+  }, {
+    "@language" : "de",
+    "@value" : "Kaplanvikar"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchenkandidat"
+  }, {
+    "@language" : "de",
+    "@value" : "Koadjutor"
+  }, {
+    "@language" : "de",
+    "@value" : "Kollaborator"
+  }, {
+    "@language" : "de",
+    "@value" : "Kreisoberpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Kreispfarrvikar"
+  }, {
+    "@language" : "de",
+    "@value" : "Landesbischof"
+  }, {
+    "@language" : "de",
+    "@value" : "Landesjugendpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Landesoberpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Landespfarrer für Diakonie"
+  }, {
+    "@language" : "de",
+    "@value" : "Missionar"
+  }, {
+    "@language" : "de",
+    "@value" : "Missionspfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberprediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Pastor"
+  }, {
+    "@language" : "de",
+    "@value" : "Pastor Primarius"
+  }, {
+    "@language" : "de",
+    "@value" : "Pastor im Angestelltenverhältnis"
+  }, {
+    "@language" : "de",
+    "@value" : "Pastor im Hilfsdienst"
+  }, {
+    "@language" : "de",
+    "@value" : "Pestprediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarradjunkt"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrer im Hilfsdienst"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrsubstitut"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrverwalter"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrverwalter im Angestelltenverhältnis"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrvikar"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrvikarinnen"
+  }, {
+    "@language" : "de",
+    "@value" : "Prediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Prediger im Hilfsdienst"
+  }, {
+    "@language" : "de",
+    "@value" : "Prediger im Probedienst"
+  }, {
+    "@language" : "de",
+    "@value" : "Probst"
+  }, {
+    "@language" : "de",
+    "@value" : "Propst"
+  }, {
+    "@language" : "de",
+    "@value" : "Provinzialpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Provinzialvikar"
+  }, {
+    "@language" : "de",
+    "@value" : "Prädikant"
+  }, {
+    "@language" : "de",
+    "@value" : "Präses"
+  }, {
+    "@language" : "de",
+    "@value" : "Schlossgeistlicher"
+  }, {
+    "@language" : "de",
+    "@value" : "Schlossprediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Schuldekan"
+  }, {
+    "@language" : "de",
+    "@value" : "Sonderpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Spezialvikar"
+  }, {
+    "@language" : "de",
+    "@value" : "Stiftssuperintendent"
+  }, {
+    "@language" : "de",
+    "@value" : "Strafanstaltsprediger"
+  }, {
+    "@language" : "de",
+    "@value" : "Studentenpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Subdiakon(us)"
+  }, {
+    "@language" : "de",
+    "@value" : "Substitut"
+  }, {
+    "@language" : "de",
+    "@value" : "Superintendent"
+  }, {
+    "@language" : "de",
+    "@value" : "Superintendentvikar"
+  }, {
+    "@language" : "de",
+    "@value" : "Vikar"
+  }, {
+    "@language" : "de",
+    "@value" : "Zuchthausprediger"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Von einer Pfarrerin oder einem Pfarrer besetzte Stelle."
@@ -535,6 +951,22 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Diakoniepfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Funktionspfarrstelle"
+  }, {
+    "@language" : "de",
+    "@value" : "Kinder- und Jugendpfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Landesgartenschaupfarrer"
+  }, {
+    "@language" : "de",
+    "@value" : "Vereinsgeistlicher"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Sonderpfarramt."
@@ -551,6 +983,22 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Anstaltsseelsorge"
+  }, {
+    "@language" : "de",
+    "@value" : "Gefängnisseelsorge"
+  }, {
+    "@language" : "de",
+    "@value" : "Krankenhausseelsorge"
+  }, {
+    "@language" : "de",
+    "@value" : "Militärseelsorge"
+  }, {
+    "@language" : "de",
+    "@value" : "Notfallseelsorge"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Spezialseelsorge: Krankenhausseelsorge, Anstaltsseelsorge, Gefängnisseelsorge, Notfallseelsorge usw."
@@ -714,6 +1162,19 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Doktor (D., Dr.)"
+  }, {
+    "@language" : "de",
+    "@value" : "Lizenziat"
+  }, {
+    "@language" : "de",
+    "@value" : "Magister"
+  }, {
+    "@language" : "de",
+    "@value" : "Professor"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Akademischer Titel einer Person"
@@ -731,6 +1192,49 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel",
   "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Abt"
+  }, {
+    "@language" : "de",
+    "@value" : "Bischof"
+  }, {
+    "@language" : "de",
+    "@value" : "Generalsuperintendent"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchenrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Konsistorialrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Landesbischof"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberkirchenrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberkonsistorialrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Oberlandeskirchenrat"
+  }, {
+    "@language" : "de",
+    "@value" : "Prior"
+  }, {
+    "@language" : "de",
+    "@value" : "Probst"
+  }, {
+    "@language" : "de",
+    "@value" : "Propst"
+  }, {
+    "@language" : "de",
+    "@value" : "Regionalbischof"
+  }, {
+    "@language" : "de",
+    "@value" : "Superintendent"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Amtlicher Titel einer Person (z.B. Kirchenrat, Superintendent)"
@@ -952,6 +1456,49 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Diakonat"
+  }, {
+    "@language" : "de",
+    "@value" : "Diözese"
+  }, {
+    "@language" : "de",
+    "@value" : "Filia"
+  }, {
+    "@language" : "de",
+    "@value" : "Filialgemeinde"
+  }, {
+    "@language" : "de",
+    "@value" : "Kapellengemeinde"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchengemeindeverband"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchspiel"
+  }, {
+    "@language" : "de",
+    "@value" : "Mater"
+  }, {
+    "@language" : "de",
+    "@value" : "Mater combinata"
+  }, {
+    "@language" : "de",
+    "@value" : "Parochie"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrgemeinde"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrverband"
+  }, {
+    "@language" : "de",
+    "@value" : "Regionalkirchengemeinde"
+  }, {
+    "@language" : "de",
+    "@value" : "Sprengel"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."
@@ -1101,6 +1648,9 @@
     "@language" : "de",
     "@value" : "nicht-binär"
   } ]
+}, {
+  "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#verbundeneKirchengemeinde",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],

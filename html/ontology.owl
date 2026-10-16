@@ -7,7 +7,8 @@
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:vocabulary="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#">
     <owl:Ontology rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#">
         <ns:attributionName>Participants of Workshop</ns:attributionName>
         <terms:license>http://creativecommons.org/licenses/by/4.0/</terms:license>
@@ -37,6 +38,13 @@
 
 
     <owl:AnnotationProperty rdf:about="http://creativecommons.org/ns#attributionName"/>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym -->
+
+
+    <owl:AnnotationProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym"/>
     
 
 
@@ -200,6 +208,20 @@
         <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung"/>
         <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination"/>
         <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde"/>
+        <synonym xml:lang="de">Diakonat</synonym>
+        <synonym xml:lang="de">Diözese</synonym>
+        <synonym xml:lang="de">Filia</synonym>
+        <synonym xml:lang="de">Filialgemeinde</synonym>
+        <synonym xml:lang="de">Kapellengemeinde</synonym>
+        <synonym xml:lang="de">Kirchengemeindeverband</synonym>
+        <synonym xml:lang="de">Kirchspiel</synonym>
+        <synonym xml:lang="de">Mater</synonym>
+        <synonym xml:lang="de">Mater combinata</synonym>
+        <synonym xml:lang="de">Parochie</synonym>
+        <synonym xml:lang="de">Pfarrgemeinde</synonym>
+        <synonym xml:lang="de">Pfarrverband</synonym>
+        <synonym xml:lang="de">Regionalkirchengemeinde</synonym>
+        <synonym xml:lang="de">Sprengel</synonym>
         <rdfs:comment xml:lang="de">Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird.</rdfs:comment>
         <rdfs:label xml:lang="de">in einer Kirchengemeinde</rdfs:label>
     </owl:ObjectProperty>
@@ -287,6 +309,10 @@
     <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#akademischerTitel">
         <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <synonym xml:lang="de">Doktor (D., Dr.)</synonym>
+        <synonym xml:lang="de">Lizenziat</synonym>
+        <synonym xml:lang="de">Magister</synonym>
+        <synonym xml:lang="de">Professor</synonym>
         <rdfs:comment xml:lang="de">Akademischer Titel einer Person</rdfs:comment>
         <rdfs:label xml:lang="de">Akademischer Titel</rdfs:label>
     </owl:DatatypeProperty>
@@ -299,6 +325,20 @@
     <owl:DatatypeProperty rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#amtlicherTitel">
         <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Person"/>
         <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+        <synonym xml:lang="de">Abt</synonym>
+        <synonym xml:lang="de">Bischof</synonym>
+        <synonym xml:lang="de">Generalsuperintendent</synonym>
+        <synonym xml:lang="de">Kirchenrat</synonym>
+        <synonym xml:lang="de">Konsistorialrat</synonym>
+        <synonym xml:lang="de">Landesbischof</synonym>
+        <synonym xml:lang="de">Oberkirchenrat</synonym>
+        <synonym xml:lang="de">Oberkonsistorialrat</synonym>
+        <synonym xml:lang="de">Oberlandeskirchenrat</synonym>
+        <synonym xml:lang="de">Prior</synonym>
+        <synonym xml:lang="de">Probst</synonym>
+        <synonym xml:lang="de">Propst</synonym>
+        <synonym xml:lang="de">Regionalbischof</synonym>
+        <synonym xml:lang="de">Superintendent</synonym>
         <rdfs:comment xml:lang="de">Amtlicher Titel einer Person (z.B. Kirchenrat, Superintendent)</rdfs:comment>
         <rdfs:label xml:lang="de">Amtlicher Titel</rdfs:label>
     </owl:DatatypeProperty>
@@ -419,6 +459,45 @@
     <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit">
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <synonym xml:lang="de">Direktor</synonym>
+        <synonym xml:lang="de">Dozent</synonym>
+        <synonym xml:lang="de">Gehilfe</synonym>
+        <synonym xml:lang="de">Gemeindepädagoge</synonym>
+        <synonym xml:lang="de">Hauptkatechet</synonym>
+        <synonym xml:lang="de">Hauslehrer</synonym>
+        <synonym xml:lang="de">Hofmeister</synonym>
+        <synonym xml:lang="de">Informator</synonym>
+        <synonym xml:lang="de">Inspektor</synonym>
+        <synonym xml:lang="de">Kantor</synonym>
+        <synonym xml:lang="de">Katechet</synonym>
+        <synonym xml:lang="de">Kirchenrat</synonym>
+        <synonym xml:lang="de">Konrektor</synonym>
+        <synonym xml:lang="de">Konsistorialassessor</synonym>
+        <synonym xml:lang="de">Konsistorialpräsident</synonym>
+        <synonym xml:lang="de">Konsistorialrat</synonym>
+        <synonym xml:lang="de">Kreisjugendwart</synonym>
+        <synonym xml:lang="de">Kustos</synonym>
+        <synonym xml:lang="de">Lehrer</synonym>
+        <synonym xml:lang="de">Ludimoderator</synonym>
+        <synonym xml:lang="de">Magister</synonym>
+        <synonym xml:lang="de">Oberkirchenrat</synonym>
+        <synonym xml:lang="de">Oberkonsistorialrat</synonym>
+        <synonym xml:lang="de">Oberlandeskirchenrat</synonym>
+        <synonym xml:lang="de">Presbyter</synonym>
+        <synonym xml:lang="de">Prinzenerzieher</synonym>
+        <synonym xml:lang="de">Privatdozent</synonym>
+        <synonym xml:lang="de">Privatlehrer</synonym>
+        <synonym xml:lang="de">Professor</synonym>
+        <synonym xml:lang="de">Präzeptor</synonym>
+        <synonym xml:lang="de">Rektor</synonym>
+        <synonym xml:lang="de">Religionslehrer</synonym>
+        <synonym xml:lang="de">Schulkollege</synonym>
+        <synonym xml:lang="de">Senior</synonym>
+        <synonym xml:lang="de">Studieninspektor</synonym>
+        <synonym xml:lang="de">Studienrat</synonym>
+        <synonym xml:lang="de">Subkonrektor</synonym>
+        <synonym xml:lang="de">Subrektor</synonym>
+        <synonym xml:lang="de">Waisenhausinspektor</synonym>
         <rdfs:comment xml:lang="de">Andere Tätigkeit.</rdfs:comment>
         <rdfs:label xml:lang="de">Andere Tätigkeit</rdfs:label>
     </owl:Class>
@@ -673,6 +752,48 @@
     
 
 
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1 -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-1">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung"/>
+        <synonym xml:lang="de">Bischof</synonym>
+        <synonym xml:lang="de">Kirchenpräsident</synonym>
+        <synonym xml:lang="de">Landesbischof</synonym>
+        <synonym xml:lang="de">Präses</synonym>
+        <rdfs:comment xml:lang="de">Leitende Ebene einer Institution.</rdfs:comment>
+        <rdfs:label xml:lang="de">Leitende Ebene</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2 -->
+
+
+    <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung-Ebene-2">
+        <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung"/>
+        <synonym xml:lang="de">Dekanat</synonym>
+        <synonym xml:lang="de">Ephorus</synonym>
+        <synonym xml:lang="de">Generalinspektion</synonym>
+        <synonym xml:lang="de">Generalsuperintendent</synonym>
+        <synonym xml:lang="de">Inspektion</synonym>
+        <synonym xml:lang="de">Kirchenkreis</synonym>
+        <synonym xml:lang="de">Kreisoberpfarrer</synonym>
+        <synonym xml:lang="de">Kreispfarrer</synonym>
+        <synonym xml:lang="de">Landessuperintendent</synonym>
+        <synonym xml:lang="de">Oberpfarrer</synonym>
+        <synonym xml:lang="de">Propstei</synonym>
+        <synonym xml:lang="de">Propsteisprengel</synonym>
+        <synonym xml:lang="de">Prälat</synonym>
+        <synonym xml:lang="de">Regionalbischof</synonym>
+        <synonym xml:lang="de">Superintendentur</synonym>
+        <synonym xml:lang="de">Superintendenturbezirk</synonym>
+        <rdfs:comment xml:lang="de">Mittlere leitende Ebene einer Institution.</rdfs:comment>
+        <rdfs:label xml:lang="de">Mittlere leitende Ebene</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination -->
 
 
@@ -744,6 +865,75 @@
     <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Pfarrstelle">
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <synonym xml:lang="de">Adjunkt</synonym>
+        <synonym xml:lang="de">Anstaltspfarrer</synonym>
+        <synonym xml:lang="de">Archidiakon(us)</synonym>
+        <synonym xml:lang="de">Bischof</synonym>
+        <synonym xml:lang="de">Dekan</synonym>
+        <synonym xml:lang="de">Diakon(us)</synonym>
+        <synonym xml:lang="de">Diakonatsverwalter</synonym>
+        <synonym xml:lang="de">Divisionspfarrer</synonym>
+        <synonym xml:lang="de">Domprediger</synonym>
+        <synonym xml:lang="de">Feldprediger</synonym>
+        <synonym xml:lang="de">Geistlicher</synonym>
+        <synonym xml:lang="de">Gemeindediakon</synonym>
+        <synonym xml:lang="de">Generalsuperintendent</synonym>
+        <synonym xml:lang="de">Hilfsprediger</synonym>
+        <synonym xml:lang="de">Hofdiakon(us)</synonym>
+        <synonym xml:lang="de">Hofkaplan</synonym>
+        <synonym xml:lang="de">Hofprediger</synonym>
+        <synonym xml:lang="de">Kandidat</synonym>
+        <synonym xml:lang="de">Kaplan</synonym>
+        <synonym xml:lang="de">Kaplanvikar</synonym>
+        <synonym xml:lang="de">Kirchenkandidat</synonym>
+        <synonym xml:lang="de">Koadjutor</synonym>
+        <synonym xml:lang="de">Kollaborator</synonym>
+        <synonym xml:lang="de">Kreisoberpfarrer</synonym>
+        <synonym xml:lang="de">Kreispfarrvikar</synonym>
+        <synonym xml:lang="de">Landesbischof</synonym>
+        <synonym xml:lang="de">Landesjugendpfarrer</synonym>
+        <synonym xml:lang="de">Landesoberpfarrer</synonym>
+        <synonym xml:lang="de">Landespfarrer für Diakonie</synonym>
+        <synonym xml:lang="de">Missionar</synonym>
+        <synonym xml:lang="de">Missionspfarrer</synonym>
+        <synonym xml:lang="de">Oberpfarrer</synonym>
+        <synonym xml:lang="de">Oberprediger</synonym>
+        <synonym xml:lang="de">Pastor</synonym>
+        <synonym xml:lang="de">Pastor Primarius</synonym>
+        <synonym xml:lang="de">Pastor im Angestelltenverhältnis</synonym>
+        <synonym xml:lang="de">Pastor im Hilfsdienst</synonym>
+        <synonym xml:lang="de">Pestprediger</synonym>
+        <synonym xml:lang="de">Pfarradjunkt</synonym>
+        <synonym xml:lang="de">Pfarrer</synonym>
+        <synonym xml:lang="de">Pfarrer im Hilfsdienst</synonym>
+        <synonym xml:lang="de">Pfarrsubstitut</synonym>
+        <synonym xml:lang="de">Pfarrverwalter</synonym>
+        <synonym xml:lang="de">Pfarrverwalter im Angestelltenverhältnis</synonym>
+        <synonym xml:lang="de">Pfarrvikar</synonym>
+        <synonym xml:lang="de">Pfarrvikarinnen</synonym>
+        <synonym xml:lang="de">Prediger</synonym>
+        <synonym xml:lang="de">Prediger im Hilfsdienst</synonym>
+        <synonym xml:lang="de">Prediger im Probedienst</synonym>
+        <synonym xml:lang="de">Probst</synonym>
+        <synonym xml:lang="de">Propst</synonym>
+        <synonym xml:lang="de">Provinzialpfarrer</synonym>
+        <synonym xml:lang="de">Provinzialvikar</synonym>
+        <synonym xml:lang="de">Prädikant</synonym>
+        <synonym xml:lang="de">Präses</synonym>
+        <synonym xml:lang="de">Schlossgeistlicher</synonym>
+        <synonym xml:lang="de">Schlossprediger</synonym>
+        <synonym xml:lang="de">Schuldekan</synonym>
+        <synonym xml:lang="de">Sonderpfarrer</synonym>
+        <synonym xml:lang="de">Spezialvikar</synonym>
+        <synonym xml:lang="de">Stiftssuperintendent</synonym>
+        <synonym xml:lang="de">Strafanstaltsprediger</synonym>
+        <synonym xml:lang="de">Studentenpfarrer</synonym>
+        <synonym xml:lang="de">Subdiakon(us)</synonym>
+        <synonym xml:lang="de">Substitut</synonym>
+        <synonym xml:lang="de">Superintendent</synonym>
+        <synonym xml:lang="de">Superintendentvikar</synonym>
+        <synonym xml:lang="de">Vikar</synonym>
+        <synonym xml:lang="de">Zuchthausprediger</synonym>
         <rdfs:comment xml:lang="de">Von einer Pfarrerin oder einem Pfarrer besetzte Stelle.</rdfs:comment>
         <rdfs:label xml:lang="de">Pfarrstelle</rdfs:label>
     </owl:Class>
@@ -816,6 +1006,11 @@
     <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Sonderpfarramt">
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <synonym xml:lang="de">Diakoniepfarrer</synonym>
+        <synonym xml:lang="de">Funktionspfarrstelle</synonym>
+        <synonym xml:lang="de">Kinder- und Jugendpfarrer</synonym>
+        <synonym xml:lang="de">Landesgartenschaupfarrer</synonym>
+        <synonym xml:lang="de">Vereinsgeistlicher</synonym>
         <rdfs:comment xml:lang="de">Sonderpfarramt.</rdfs:comment>
         <rdfs:label xml:lang="de">Sonderpfarramt</rdfs:label>
     </owl:Class>
@@ -828,6 +1023,11 @@
     <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Spezialseelsorge">
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Dienstlich"/>
         <rdfs:subClassOf rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Periode"/>
+        <synonym xml:lang="de">Anstaltsseelsorge</synonym>
+        <synonym xml:lang="de">Gefängnisseelsorge</synonym>
+        <synonym xml:lang="de">Krankenhausseelsorge</synonym>
+        <synonym xml:lang="de">Militärseelsorge</synonym>
+        <synonym xml:lang="de">Notfallseelsorge</synonym>
         <rdfs:comment xml:lang="de">Spezialseelsorge: Krankenhausseelsorge, Anstaltsseelsorge, Gefängnisseelsorge, Notfallseelsorge usw.</rdfs:comment>
         <rdfs:label xml:lang="de">Spezialseelsorge</rdfs:label>
     </owl:Class>
