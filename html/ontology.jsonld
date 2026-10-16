@@ -22,6 +22,9 @@
   "http://purl.org/dc/terms/title" : [ {
     "@language" : "de",
     "@value" : "Vokabular Pfarrerbücher"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@value" : "2.0.0"
   } ]
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#AndereTaetigkeit",

@@ -7,6 +7,7 @@
       "de" : "Vokabular Pfarrerb?cher"
     },
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#",
+    "version" : "2.0.0",
     "other" : {
       "license" : [ {
         "identifier" : "license",
@@ -23,22 +24,28 @@
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
+        "value" : "2026-07-17",
+        "type" : "label"
+      }, {
+        "identifier" : "modified",
+        "language" : "undefined",
         "value" : "2023-09-12",
         "type" : "label"
       }, {
         "identifier" : "modified",
         "language" : "undefined",
-        "value" : "2026-07-17",
+        "value" : "2026-06-01",
         "type" : "label"
       }, {
         "identifier" : "modified",
         "language" : "undefined",
         "value" : "2026-10-09",
         "type" : "label"
-      }, {
-        "identifier" : "modified",
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
         "language" : "undefined",
-        "value" : "2026-06-01",
+        "value" : "2.0.0",
         "type" : "label"
       } ],
       "title" : [ {
@@ -87,16 +94,16 @@
     "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "46",
+    "id" : "44",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "15",
+    "id" : "52",
     "type" : "owl:Class"
   }, {
-    "id" : "52",
+    "id" : "15",
     "type" : "owl:Class"
   }, {
     "id" : "32",
@@ -120,10 +127,10 @@
     "id" : "73",
     "type" : "owl:Class"
   }, {
-    "id" : "69",
+    "id" : "29",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "69",
     "type" : "owl:Class"
   }, {
     "id" : "23",
@@ -174,7 +181,7 @@
     "id" : "114",
     "type" : "owl:Class"
   }, {
-    "id" : "45",
+    "id" : "46",
     "type" : "owl:Class"
   }, {
     "id" : "4",
@@ -398,7 +405,7 @@
     "comment" : {
       "de" : "Tod."
     },
-    "id" : "46",
+    "id" : "44",
     "superClasses" : [ "1", "2" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
@@ -408,24 +415,12 @@
       "de" : "Ereignis",
       "IRI-based" : "Ereignis"
     },
-    "subClasses" : [ "27", "0", "48", "42", "37", "39", "46", "32", "49", "23", "17", "50", "51" ],
+    "subClasses" : [ "27", "0", "48", "42", "37", "39", "44", "32", "49", "23", "17", "50", "51" ],
     "comment" : {
       "de" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
     },
     "id" : "1",
     "superClasses" : [ "47" ]
-  }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "label" : {
-      "de" : "Kirchengemeinde",
-      "IRI-based" : "Kirchengemeinde"
-    },
-    "comment" : {
-      "de" : "Kirchengemeinde."
-    },
-    "id" : "15"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Leitung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -439,6 +434,18 @@
     },
     "id" : "52",
     "superClasses" : [ "6", "7" ]
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Kirchengemeinde",
+      "IRI-based" : "Kirchengemeinde"
+    },
+    "comment" : {
+      "de" : "Kirchengemeinde."
+    },
+    "id" : "15"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -482,18 +489,18 @@
         "IRI-based" : "agender"
       }
     }, {
-      "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#weiblich",
-      "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-      "labels" : {
-        "de" : "weiblich",
-        "IRI-based" : "weiblich"
-      }
-    }, {
       "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nicht-binaer",
       "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
       "labels" : {
         "de" : "nicht-bin?r",
         "IRI-based" : "nicht-binaer"
+      }
+    }, {
+      "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#weiblich",
+      "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+      "labels" : {
+        "de" : "weiblich",
+        "IRI-based" : "weiblich"
       }
     } ],
     "comment" : {
@@ -516,36 +523,23 @@
   }, {
     "instances" : 0,
     "union" : [ "15", "14", "63", "47" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "62"
   }, {
     "instances" : 0,
     "union" : [ "68", "48", "69", "20", "42", "49", "70", "51" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "67"
   }, {
     "instances" : 0,
     "union" : [ "50", "72" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "71"
   }, {
     "instances" : 0,
     "union" : [ "1", "6" ],
-    "attributes" : [ "union", "anonymous" ],
+    "attributes" : [ "anonymous", "union" ],
     "id" : "73"
-  }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "label" : {
-      "de" : "Ausbildung",
-      "IRI-based" : "Ausbildung"
-    },
-    "comment" : {
-      "de" : "Ausbildung."
-    },
-    "id" : "69",
-    "superClasses" : [ "21", "6" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Konfession",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -559,6 +553,19 @@
     },
     "id" : "29",
     "superClasses" : [ "2", "6" ]
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ausbildung",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "label" : {
+      "de" : "Ausbildung",
+      "IRI-based" : "Ausbildung"
+    },
+    "comment" : {
+      "de" : "Ausbildung."
+    },
+    "id" : "69",
+    "superClasses" : [ "21", "6" ]
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Eheschliessung",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -698,7 +705,7 @@
       "de" : "Pers?nliche Angaben",
       "IRI-based" : "Persoenlich"
     },
-    "subClasses" : [ "27", "0", "32", "29", "23", "17", "4", "46" ],
+    "subClasses" : [ "27", "0", "32", "29", "23", "17", "4", "44" ],
     "comment" : {
       "de" : "Pers?nliche Angaben im Leben ener Pfarrerin bzw. eines Pfarrers."
     },
@@ -796,7 +803,7 @@
     "comment" : {
       "de" : "Beschreibt eine Familienkonstellation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"
     },
-    "id" : "45"
+    "id" : "46"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1023,7 +1030,7 @@
     "id" : "40",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "44",
+    "id" : "45",
     "type" : "owl:objectProperty"
   }, {
     "id" : "53",
@@ -1359,7 +1366,7 @@
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "45",
+    "range" : "46",
     "label" : {
       "de" : "zugeordnete Familie",
       "IRI-based" : "inFamilie"
@@ -1369,7 +1376,7 @@
       "de" : "zugeordnete Familie."
     },
     "attributes" : [ "object" ],
-    "id" : "44"
+    "id" : "45"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1379,7 +1386,7 @@
       "IRI-based" : "istPartner-in"
     },
     "superproperty" : [ "54" ],
-    "domain" : "45",
+    "domain" : "46",
     "comment" : {
       "de" : "Partner bzw. Partnerin in einer Familie (Ehe oder Lebenspartnerschaft)."
     },
@@ -1439,7 +1446,7 @@
       "IRI-based" : "istKind"
     },
     "superproperty" : [ "54" ],
-    "domain" : "45",
+    "domain" : "46",
     "comment" : {
       "de" : "Kind, Adoptivkind oder Stiefkind in einer Familie"
     },
@@ -1520,7 +1527,7 @@
     "id" : "89"
   }, {
     "range" : "1",
-    "domain" : "46",
+    "domain" : "44",
     "attributes" : [ "anonymous", "object" ],
     "id" : "90"
   }, {
@@ -1597,7 +1604,7 @@
     "id" : "102"
   }, {
     "range" : "2",
-    "domain" : "46",
+    "domain" : "44",
     "attributes" : [ "anonymous", "object" ],
     "id" : "103"
   }, {
@@ -1854,7 +1861,7 @@
       "de" : "geh?rt zu Familie",
       "IRI-based" : "gehoertzuFamilie"
     },
-    "domain" : "45",
+    "domain" : "46",
     "subproperty" : [ "53", "77" ],
     "comment" : {
       "de" : "Geh?rt einer Herkunftsfamilie an (Kind von). (Dom?nen-/Range-Richtung ggf. pr?fen.) Bildet eine Familie."

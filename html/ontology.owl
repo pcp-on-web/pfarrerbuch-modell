@@ -16,6 +16,7 @@
         <terms:modified>2026-07-17</terms:modified>
         <terms:modified>2026-10-09</terms:modified>
         <terms:title xml:lang="de">Vokabular Pfarrerbücher</terms:title>
+        <owl:versionInfo>2.0.0</owl:versionInfo>
     </owl:Ontology>
     
 

@@ -6,6 +6,7 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://purl.org/dc/terms/modified> "2026-07-17" .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://purl.org/dc/terms/modified> "2026-10-09" .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://purl.org/dc/terms/title> "Vokabular Pfarrerbücher"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#> <http://www.w3.org/2002/07/owl#versionInfo> "2.0.0" .
 # 
 # 
 # #################################################################

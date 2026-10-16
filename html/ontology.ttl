@@ -13,7 +13,8 @@
                                                                                                    "2026-06-01" ,
                                                                                                    "2026-07-17" ,
                                                                                                    "2026-10-09" ;
-                                                               <http://purl.org/dc/terms/title> "Vokabular Pfarrerbücher"@de .
+                                                               <http://purl.org/dc/terms/title> "Vokabular Pfarrerbücher"@de ;
+                                                               owl:versionInfo "2.0.0" .
 
 #################################################################
 #    Annotation properties
