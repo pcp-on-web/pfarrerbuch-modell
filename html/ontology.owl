@@ -208,20 +208,6 @@
         <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung"/>
         <rdfs:domain rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination"/>
         <rdfs:range rdf:resource="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde"/>
-        <synonym xml:lang="de">Diakonat</synonym>
-        <synonym xml:lang="de">Diözese</synonym>
-        <synonym xml:lang="de">Filia</synonym>
-        <synonym xml:lang="de">Filialgemeinde</synonym>
-        <synonym xml:lang="de">Kapellengemeinde</synonym>
-        <synonym xml:lang="de">Kirchengemeindeverband</synonym>
-        <synonym xml:lang="de">Kirchspiel</synonym>
-        <synonym xml:lang="de">Mater</synonym>
-        <synonym xml:lang="de">Mater combinata</synonym>
-        <synonym xml:lang="de">Parochie</synonym>
-        <synonym xml:lang="de">Pfarrgemeinde</synonym>
-        <synonym xml:lang="de">Pfarrverband</synonym>
-        <synonym xml:lang="de">Regionalkirchengemeinde</synonym>
-        <synonym xml:lang="de">Sprengel</synonym>
         <rdfs:comment xml:lang="de">Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird.</rdfs:comment>
         <rdfs:label xml:lang="de">in einer Kirchengemeinde</rdfs:label>
     </owl:ObjectProperty>
@@ -700,6 +686,20 @@
 
 
     <owl:Class rdf:about="http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde">
+        <synonym xml:lang="de">Diakonat</synonym>
+        <synonym xml:lang="de">Diözese</synonym>
+        <synonym xml:lang="de">Filia</synonym>
+        <synonym xml:lang="de">Filialgemeinde</synonym>
+        <synonym xml:lang="de">Kapellengemeinde</synonym>
+        <synonym xml:lang="de">Kirchengemeindeverband</synonym>
+        <synonym xml:lang="de">Kirchspiel</synonym>
+        <synonym xml:lang="de">Mater</synonym>
+        <synonym xml:lang="de">Mater combinata</synonym>
+        <synonym xml:lang="de">Parochie</synonym>
+        <synonym xml:lang="de">Pfarrgemeinde</synonym>
+        <synonym xml:lang="de">Pfarrverband</synonym>
+        <synonym xml:lang="de">Regionalkirchengemeinde</synonym>
+        <synonym xml:lang="de">Sprengel</synonym>
         <rdfs:comment xml:lang="de">Kirchengemeinde.</rdfs:comment>
         <rdfs:label xml:lang="de">Kirchengemeinde</rdfs:label>
     </owl:Class>

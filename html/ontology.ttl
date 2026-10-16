@@ -127,20 +127,6 @@ xsd:gYear rdf:type rdfs:Datatype .
                    rdfs:domain :Entsendung ,
                                :Ordination ;
                    rdfs:range :Kirchengemeinde ;
-                   :synonym "Diakonat"@de ,
-                            "Diözese"@de ,
-                            "Filia"@de ,
-                            "Filialgemeinde"@de ,
-                            "Kapellengemeinde"@de ,
-                            "Kirchengemeindeverband"@de ,
-                            "Kirchspiel"@de ,
-                            "Mater"@de ,
-                            "Mater combinata"@de ,
-                            "Parochie"@de ,
-                            "Pfarrgemeinde"@de ,
-                            "Pfarrverband"@de ,
-                            "Regionalkirchengemeinde"@de ,
-                            "Sprengel"@de ;
                    rdfs:comment "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de ;
                    rdfs:label "in einer Kirchengemeinde"@de .
 
@@ -467,6 +453,20 @@ xsd:gYear rdf:type rdfs:Datatype .
 
 ###  http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde
 :Kirchengemeinde rdf:type owl:Class ;
+                 :synonym "Diakonat"@de ,
+                          "Diözese"@de ,
+                          "Filia"@de ,
+                          "Filialgemeinde"@de ,
+                          "Kapellengemeinde"@de ,
+                          "Kirchengemeindeverband"@de ,
+                          "Kirchspiel"@de ,
+                          "Mater"@de ,
+                          "Mater combinata"@de ,
+                          "Parochie"@de ,
+                          "Pfarrgemeinde"@de ,
+                          "Pfarrverband"@de ,
+                          "Regionalkirchengemeinde"@de ,
+                          "Sprengel"@de ;
                  rdfs:comment "Kirchengemeinde."@de ;
                  rdfs:label "Kirchengemeinde"@de .
 

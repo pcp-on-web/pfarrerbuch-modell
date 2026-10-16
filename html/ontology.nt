@@ -119,20 +119,6 @@
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Entsendung> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#domain> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ordination> .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#range> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diakonat"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diözese"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Filia"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Filialgemeinde"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kapellengemeinde"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchengemeindeverband"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchspiel"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Mater"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Mater combinata"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Parochie"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrgemeinde"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrverband"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Regionalkirchengemeinde"@de .
-<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Sprengel"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#label> "in einer Kirchengemeinde"@de .
 # 
@@ -435,6 +421,20 @@
 # 
 # http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diakonat"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Diözese"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Filia"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Filialgemeinde"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kapellengemeinde"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchengemeindeverband"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Kirchspiel"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Mater"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Mater combinata"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Parochie"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrgemeinde"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Pfarrverband"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Regionalkirchengemeinde"@de .
+<http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym> "Sprengel"@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#comment> "Kirchengemeinde."@de .
 <http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde> <http://www.w3.org/2000/01/rdf-schema#label> "Kirchengemeinde"@de .
 # 

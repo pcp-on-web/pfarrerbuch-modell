@@ -407,6 +407,49 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
   "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
+    "@language" : "de",
+    "@value" : "Diakonat"
+  }, {
+    "@language" : "de",
+    "@value" : "Diözese"
+  }, {
+    "@language" : "de",
+    "@value" : "Filia"
+  }, {
+    "@language" : "de",
+    "@value" : "Filialgemeinde"
+  }, {
+    "@language" : "de",
+    "@value" : "Kapellengemeinde"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchengemeindeverband"
+  }, {
+    "@language" : "de",
+    "@value" : "Kirchspiel"
+  }, {
+    "@language" : "de",
+    "@value" : "Mater"
+  }, {
+    "@language" : "de",
+    "@value" : "Mater combinata"
+  }, {
+    "@language" : "de",
+    "@value" : "Parochie"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrgemeinde"
+  }, {
+    "@language" : "de",
+    "@value" : "Pfarrverband"
+  }, {
+    "@language" : "de",
+    "@value" : "Regionalkirchengemeinde"
+  }, {
+    "@language" : "de",
+    "@value" : "Sprengel"
+  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Kirchengemeinde."
@@ -1456,49 +1499,6 @@
 }, {
   "@id" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inKirchengemeinde",
   "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
-  "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#synonym" : [ {
-    "@language" : "de",
-    "@value" : "Diakonat"
-  }, {
-    "@language" : "de",
-    "@value" : "Diözese"
-  }, {
-    "@language" : "de",
-    "@value" : "Filia"
-  }, {
-    "@language" : "de",
-    "@value" : "Filialgemeinde"
-  }, {
-    "@language" : "de",
-    "@value" : "Kapellengemeinde"
-  }, {
-    "@language" : "de",
-    "@value" : "Kirchengemeindeverband"
-  }, {
-    "@language" : "de",
-    "@value" : "Kirchspiel"
-  }, {
-    "@language" : "de",
-    "@value" : "Mater"
-  }, {
-    "@language" : "de",
-    "@value" : "Mater combinata"
-  }, {
-    "@language" : "de",
-    "@value" : "Parochie"
-  }, {
-    "@language" : "de",
-    "@value" : "Pfarrgemeinde"
-  }, {
-    "@language" : "de",
-    "@value" : "Pfarrverband"
-  }, {
-    "@language" : "de",
-    "@value" : "Regionalkirchengemeinde"
-  }, {
-    "@language" : "de",
-    "@value" : "Sprengel"
-  } ],
   "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
     "@language" : "de",
     "@value" : "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."
