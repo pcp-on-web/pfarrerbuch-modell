@@ -94,16 +94,16 @@
     "id" : "39",
     "type" : "owl:Class"
   }, {
-    "id" : "46",
-    "type" : "owl:Class"
-  }, {
-    "id" : "12",
+    "id" : "44",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
     "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "12",
     "type" : "owl:Class"
   }, {
     "id" : "32",
@@ -187,7 +187,7 @@
     "id" : "54",
     "type" : "owl:Class"
   }, {
-    "id" : "45",
+    "id" : "46",
     "type" : "owl:Class"
   }, {
     "id" : "4",
@@ -265,77 +265,7 @@
       "synonym" : [ {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Stiftssuperintendent",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Landespfarrer f?r Diakonie",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Dekan",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pfarrvikarinnen",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Prediger im Probedienst",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Missionspfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Adjunkt",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Oberpfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Landesoberpfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Hofdiakon(us)",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Hilfsprediger",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pastor im Angestelltenverh?ltnis",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Schuldekan",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Prediger",
+        "value" : "Feldprediger",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -345,77 +275,17 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Diakon(us)",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kollaborator",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Sonderpfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pastor im Hilfsdienst",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Feldprediger",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Domprediger",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Landesjugendpfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
         "value" : "Divisionspfarrer",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Koadjutor",
+        "value" : "Hilfsprediger",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Pfarradjunkt",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Probst",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pestprediger",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pastor Primarius",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Strafanstaltsprediger",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pfarrverwalter",
+        "value" : "Missionspfarrer",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -425,57 +295,7 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Gemeindediakon",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Landesbischof",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Provinzialpfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Provinzialvikar",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kaplanvikar",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kreispfarrvikar",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pr?dikant",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pastor",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Subdiakon(us)",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Schlossprediger",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Spezialvikar",
+        "value" : "Pfarradjunkt",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -485,27 +305,12 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Superintendent",
+        "value" : "Archidiakon(us)",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Vikar",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kirchenkandidat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Studentenpfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Hofkaplan",
+        "value" : "Prediger im Probedienst",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -515,82 +320,7 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Pfarrverwalter im Angestelltenverh?ltnis",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Bischof",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Generalsuperintendent",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Superintendentvikar",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Archidiakon(us)",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Anstaltspfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Oberprediger",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Prediger im Hilfsdienst",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Propst",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Zuchthausprediger",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pfarrsubstitut",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Missionar",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Diakonatsverwalter",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kandidat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pfarrvikar",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pr?ses",
+        "value" : "Stiftssuperintendent",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -600,12 +330,282 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Schlossgeistlicher",
+        "value" : "Pfarrverwalter",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Gemeindediakon",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pr?dikant",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pr?ses",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kollaborator",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landespfarrer f?r Diakonie",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Sonderpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kreispfarrvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pastor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Vikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Anstaltspfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Adjunkt",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Provinzialpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kandidat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pastor im Angestelltenverh?ltnis",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Prediger im Hilfsdienst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hofkaplan",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Superintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Provinzialvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Probst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Superintendentvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hofdiakon(us)",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesbischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Subdiakon(us)",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
         "value" : "Geistlicher",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pastor Primarius",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Propst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Schlossgeistlicher",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Bischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Studentenpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Diakonatsverwalter",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Diakon(us)",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Missionar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pastor im Hilfsdienst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kaplanvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Zuchthausprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Schlossprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Schuldekan",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Strafanstaltsprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrsubstitut",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesjugendpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Landesoberpfarrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Domprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Spezialvikar",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrvikarinnen",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Koadjutor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrverwalter im Angestelltenverh?ltnis",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Dekan",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Prediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pestprediger",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Generalsuperintendent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchenkandidat",
         "type" : "label"
       } ]
     },
@@ -644,22 +644,22 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Anstaltsseelsorge",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
         "value" : "Notfallseelsorge",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Krankenhausseelsorge",
+        "value" : "Gef?ngnisseelsorge",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Gef?ngnisseelsorge",
+        "value" : "Anstaltsseelsorge",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Krankenhausseelsorge",
         "type" : "label"
       } ]
     },
@@ -787,93 +787,8 @@
     "comment" : {
       "de" : "Tod."
     },
-    "id" : "46",
+    "id" : "44",
     "superClasses" : [ "1", "2" ]
-  }, {
-    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
-    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "instances" : 0,
-    "annotations" : {
-      "synonym" : [ {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Mater",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kirchspiel",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Mater combinata",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Filia",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pfarrgemeinde",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Parochie",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Regionalkirchengemeinde",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kirchengemeindeverband",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Filialgemeinde",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Sprengel",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Di?zese",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Diakonat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kapellengemeinde",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pfarrverband",
-        "type" : "label"
-      } ]
-    },
-    "label" : {
-      "de" : "Kirchengemeinde",
-      "IRI-based" : "Kirchengemeinde"
-    },
-    "comment" : {
-      "de" : "Kirchengemeinde."
-    },
-    "id" : "12"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Ereignis",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -882,7 +797,7 @@
       "de" : "Ereignis",
       "IRI-based" : "Ereignis"
     },
-    "subClasses" : [ "27", "0", "48", "42", "37", "39", "46", "32", "49", "23", "17", "50", "51" ],
+    "subClasses" : [ "27", "0", "48", "42", "37", "39", "44", "32", "49", "23", "17", "50", "51" ],
     "comment" : {
       "de" : "Ereignis im Leben einer Pfarrerin oder eines Pfarrers bzw. einer Pastorin oder eines Pastors."
     },
@@ -902,6 +817,91 @@
     },
     "id" : "52",
     "superClasses" : [ "6", "7" ]
+  }, {
+    "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Kirchengemeinde",
+    "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+    "instances" : 0,
+    "annotations" : {
+      "synonym" : [ {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchengemeindeverband",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Mater combinata",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrgemeinde",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Sprengel",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Mater",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Filialgemeinde",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Parochie",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pfarrverband",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kapellengemeinde",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Filia",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Diakonat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kirchspiel",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Di?zese",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Regionalkirchengemeinde",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "de" : "Kirchengemeinde",
+      "IRI-based" : "Kirchengemeinde"
+    },
+    "comment" : {
+      "de" : "Kirchengemeinde."
+    },
+    "id" : "12"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Taufe",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -945,18 +945,18 @@
         "IRI-based" : "agender"
       }
     }, {
-      "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nicht-binaer",
-      "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-      "labels" : {
-        "de" : "nicht-bin?r",
-        "IRI-based" : "nicht-binaer"
-      }
-    }, {
       "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#weiblich",
       "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
       "labels" : {
         "de" : "weiblich",
         "IRI-based" : "weiblich"
+      }
+    }, {
+      "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#nicht-binaer",
+      "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
+      "labels" : {
+        "de" : "nicht-bin?r",
+        "IRI-based" : "nicht-binaer"
       }
     } ],
     "comment" : {
@@ -1082,12 +1082,7 @@
       "synonym" : [ {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Kirchenrat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Oberkirchenrat",
+        "value" : "Direktor",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -1097,102 +1092,7 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Studienrat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Konsistorialpr?sident",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Subkonrektor",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Oberkonsistorialrat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Gemeindep?dagoge",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Rektor",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Konrektor",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Privatlehrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Waisenhausinspektor",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kreisjugendwart",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Direktor",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Schulkollege",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Privatdozent",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Ludimoderator",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Prinzenerzieher",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Hofmeister",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Dozent",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Magister",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kantor",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Professor",
+        "value" : "Kustos",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -1202,12 +1102,22 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Studieninspektor",
+        "value" : "Informator",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Informator",
+        "value" : "Kirchenrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Presbyter",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Konsistorialpr?sident",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -1217,7 +1127,127 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Pr?zeptor",
+        "value" : "Privatlehrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Schulkollege",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Professor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Katechet",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hofmeister",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Inspektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kantor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberlandeskirchenrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Lehrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Dozent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberkonsistorialrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Magister",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Studieninspektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Privatdozent",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Prinzenerzieher",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Hauslehrer",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Subkonrektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Senior",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Gehilfe",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Rektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kreisjugendwart",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Waisenhausinspektor",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Gemeindep?dagoge",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Ludimoderator",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Studienrat",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -1232,47 +1262,17 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Presbyter",
+        "value" : "Konrektor",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Lehrer",
+        "value" : "Pr?zeptor",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Inspektor",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kustos",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Gehilfe",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Oberlandeskirchenrat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Katechet",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Hauslehrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Senior",
+        "value" : "Oberkirchenrat",
         "type" : "label"
       } ]
     },
@@ -1359,7 +1359,7 @@
       "de" : "Pers?nliche Angaben",
       "IRI-based" : "Persoenlich"
     },
-    "subClasses" : [ "27", "0", "32", "29", "23", "17", "4", "46" ],
+    "subClasses" : [ "27", "0", "32", "29", "23", "17", "4", "44" ],
     "comment" : {
       "de" : "Pers?nliche Angaben im Leben ener Pfarrerin bzw. eines Pfarrers."
     },
@@ -1454,12 +1454,17 @@
       "synonym" : [ {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Regionalbischof",
+        "value" : "Propstei",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Propstei",
+        "value" : "Superintendenturbezirk",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Pr?lat",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -1474,32 +1479,7 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Superintendenturbezirk",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
         "value" : "Kirchenkreis",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Oberpfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Dekanat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Generalinspektion",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Propsteisprengel",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -1514,22 +1494,42 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Pr?lat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
         "value" : "Ephorus",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Generalsuperintendent",
+        "value" : "Oberpfarrer",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
         "value" : "Superintendentur",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Propsteisprengel",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Generalinspektion",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Regionalbischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Dekanat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Generalsuperintendent",
         "type" : "label"
       } ]
     },
@@ -1550,17 +1550,17 @@
       "synonym" : [ {
         "identifier" : "synonym",
         "language" : "de",
+        "value" : "Pr?ses",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
         "value" : "Kirchenpr?sident",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
         "value" : "Landesbischof",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Pr?ses",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -1589,7 +1589,7 @@
     "comment" : {
       "de" : "Beschreibt eine Familienkonstellation bestehend aus Kindern und Eltern (inkl. Pflegekindern, Adoptivkindern)"
     },
-    "id" : "45"
+    "id" : "46"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#Familienzugehoerigkeit",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -1624,17 +1624,7 @@
       "synonym" : [ {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Vereinsgeistlicher",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
         "value" : "Landesgartenschaupfarrer",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Kinder- und Jugendpfarrer",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -1645,6 +1635,16 @@
         "identifier" : "synonym",
         "language" : "de",
         "value" : "Funktionspfarrstelle",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Vereinsgeistlicher",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Kinder- und Jugendpfarrer",
         "type" : "label"
       } ]
     },
@@ -1844,7 +1844,7 @@
     "id" : "40",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "44",
+    "id" : "45",
     "type" : "owl:objectProperty"
   }, {
     "id" : "56",
@@ -2118,12 +2118,12 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Doktor (D., Dr.)",
+        "value" : "Lizenziat",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Lizenziat",
+        "value" : "Doktor (D., Dr.)",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -2209,7 +2209,7 @@
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#inFamilie",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
-    "range" : "45",
+    "range" : "46",
     "label" : {
       "de" : "zugeordnete Familie",
       "IRI-based" : "inFamilie"
@@ -2219,7 +2219,7 @@
       "de" : "zugeordnete Familie."
     },
     "attributes" : [ "object" ],
-    "id" : "44"
+    "id" : "45"
   }, {
     "iri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary#istPartner-in",
     "baseIri" : "http://meta-pfarrerbuch.evangelische-archive.de/vocabulary",
@@ -2229,7 +2229,7 @@
       "IRI-based" : "istPartner-in"
     },
     "superproperty" : [ "57" ],
-    "domain" : "45",
+    "domain" : "46",
     "comment" : {
       "de" : "Partner bzw. Partnerin in einer Familie (Ehe oder Lebenspartnerschaft)."
     },
@@ -2289,7 +2289,7 @@
       "IRI-based" : "istKind"
     },
     "superproperty" : [ "57" ],
-    "domain" : "45",
+    "domain" : "46",
     "comment" : {
       "de" : "Kind, Adoptivkind oder Stiefkind in einer Familie"
     },
@@ -2322,17 +2322,7 @@
       "synonym" : [ {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Oberlandeskirchenrat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Konsistorialrat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Prior",
+        "value" : "Oberkirchenrat",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -2342,22 +2332,7 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Oberkonsistorialrat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
         "value" : "Landesbischof",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Oberkirchenrat",
-        "type" : "label"
-      }, {
-        "identifier" : "synonym",
-        "language" : "de",
-        "value" : "Regionalbischof",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -2367,12 +2342,17 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Probst",
+        "value" : "Prior",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Superintendent",
+        "value" : "Oberkonsistorialrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Bischof",
         "type" : "label"
       }, {
         "identifier" : "synonym",
@@ -2382,12 +2362,32 @@
       }, {
         "identifier" : "synonym",
         "language" : "de",
+        "value" : "Konsistorialrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Probst",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
         "value" : "Propst",
         "type" : "label"
       }, {
         "identifier" : "synonym",
         "language" : "de",
-        "value" : "Bischof",
+        "value" : "Regionalbischof",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Oberlandeskirchenrat",
+        "type" : "label"
+      }, {
+        "identifier" : "synonym",
+        "language" : "de",
+        "value" : "Superintendent",
         "type" : "label"
       } ]
     },
@@ -2443,7 +2443,7 @@
     "id" : "91"
   }, {
     "range" : "1",
-    "domain" : "46",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
     "id" : "92"
   }, {
@@ -2520,7 +2520,7 @@
     "id" : "104"
   }, {
     "range" : "2",
-    "domain" : "46",
+    "domain" : "44",
     "attributes" : [ "object", "anonymous" ],
     "id" : "105"
   }, {
@@ -2787,7 +2787,7 @@
       "de" : "geh?rt zu Familie",
       "IRI-based" : "gehoertzuFamilie"
     },
-    "domain" : "45",
+    "domain" : "46",
     "subproperty" : [ "56", "79" ],
     "comment" : {
       "de" : "Geh?rt einer Herkunftsfamilie an (Kind von). (Dom?nen-/Range-Richtung ggf. pr?fen.) Bildet eine Familie."
