@@ -97,7 +97,10 @@ pbv: rdf:type owl:Ontology ;
 
 :Kirchengemeinde rdf:type owl:Class ;
 	rdfs:label "Kirchengemeinde"@de ;
-	rdfs:comment "Kirchengemeinde."@de .
+	rdfs:comment "Kirchengemeinde."@de ;
+	:synonym "Diakonat"@de , "Diözese"@de , "Filia"@de , "Filialgemeinde"@de , "Kapellengemeinde"@de , "Kirchengemeindeverband"@de ,
+		"Kirchspiel"@de , "Mater"@de , "Mater combinata"@de , "Parochie"@de , "Pfarrgemeinde"@de , "Pfarrverband"@de , "Regionalkirchengemeinde"@de , "Sprengel"@de .
+
 
 ### Bildungseinrichtung
 
@@ -110,6 +113,12 @@ pbv: rdf:type owl:Ontology ;
 :Stelle rdf:type owl:Class ;
 	rdfs:label "Stelle"@de ;
 	rdfs:comment "Eine Stelle (Amt,Pfarrstelle) innerhalb einer Kirchengemeinde"@de .
+
+:hatStelle rdf:type owl:ObjectProperty ;
+	rdfs:domain	:Pfarrstelle ;
+	rdfs:range	:Stelle ;
+	rdfs:label "zugeordnete Stelle"@de ;
+	rdfs:comment "Über einen Zeitraum wahrgenommene Stelle."@de .
 
 :zugeordneteKirchengemeinde rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Stelle ;
@@ -127,9 +136,7 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain	:Entsendung, :Ordination ;
 	rdfs:range	:Kirchengemeinde ;
 	rdfs:label "in einer Kirchengemeinde"@de ;
-	rdfs:comment "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de ;
-	:synonym "Diakonat"@de , "Diözese"@de , "Filia"@de , "Filialgemeinde"@de , "Kapellengemeinde"@de , "Kirchengemeindeverband"@de ,
-	"Kirchspiel"@de , "Mater"@de , "Mater combinata"@de , "Parochie"@de , "Pfarrgemeinde"@de , "Pfarrverband"@de , "Regionalkirchengemeinde"@de , "Sprengel"@de .
+	rdfs:comment "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de .
 
 
 :hatOrt rdf:type owl:ObjectProperty ;
@@ -359,12 +366,6 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:label "Sonderpfarramt"@de ;
 	rdfs:comment "Sonderpfarramt."@de ;
 	:synonym "Diakoniepfarrer"@de , "Funktionspfarrstelle"@de , "Kinder- und Jugendpfarrer"@de , "Landesgartenschaupfarrer"@de , "Vereinsgeistlicher"@de .
-
-:hatStelle rdf:type owl:ObjectProperty ;
-	rdfs:domain	:Pfarrstelle ;
-	rdfs:range	:Stelle ;
-	rdfs:label "zugeordnete Stelle"@de ;
-	rdfs:comment "Über einen Zeitraum wahrgenommene Stelle."@de .
 
 :AndereTaetigkeit rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
