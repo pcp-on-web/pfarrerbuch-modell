@@ -1,0 +1,9 @@
+# HTML-Section-Dateien ignorieren
+html/sections/references-en.html
+html/sections/references-de.html
+html/sections/introduction-en.html
+html/sections/introduction-de.html
+html/sections/description-en.html
+html/sections/description-de.html
+html/sections/abstract-en.html
+html/sections/abstract-de.html
