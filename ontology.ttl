@@ -42,13 +42,16 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain :Person ;
 	rdfs:range rdfs:Literal ;
 	rdfs:label "Akademischer Titel"@de ;
-	rdfs:comment "Akademischer Titel einer Person"@de .
+	rdfs:comment "Akademischer Titel einer Person"@de ;
+	:synonym "Doktor (D., Dr.)"@de , "Lizenziat"@de , "Magister"@de , "Professor"@de .
 
 :amtlicherTitel rdf:type owl:DatatypeProperty ;
 	rdfs:domain :Person ;
 	rdfs:range rdfs:Literal ;
 	rdfs:label "Amtlicher Titel"@de ;
-	rdfs:comment "Amtlicher Titel einer Person (z.B. Kirchenrat, Superintendent)"@de .
+	rdfs:comment "Amtlicher Titel einer Person (z.B. Kirchenrat, Superintendent)"@de ;
+	:synonym "Abt"@de , "Bischof"@de , "Generalsuperintendent"@de , "Kirchenrat"@de , "Konsistorialrat"@de , "Landesbischof"@de , "Oberkirchenrat"@de,
+		 "Oberkonsistorialrat"@de , "Oberlandeskirchenrat"@de , "Prior"@de , "Probst"@de , "Propst"@de , "Regionalbischof"@de , "Superintendent"@de .
 
 ### Geschlecht
 
@@ -124,7 +127,9 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:domain	:Entsendung, :Ordination ;
 	rdfs:range	:Kirchengemeinde ;
 	rdfs:label "in einer Kirchengemeinde"@de ;
-	rdfs:comment "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de .
+	rdfs:comment "Kirchengemeinde, in die ein Pfarrer, eine Pfarrerin berufen, entsendet oder in der er oder sie ordiniert wird."@de ;
+	:synonym "Diakonat"@de , "Diözese"@de , "Filia"@de , "Filialgemeinde"@de , "Kapellengemeinde"@de , "Kirchengemeindeverband"@de ,
+	"Kirchspiel"@de , "Mater"@de , "Mater combinata"@de , "Parochie"@de , "Pfarrgemeinde"@de , "Pfarrverband"@de , "Regionalkirchengemeinde"@de , "Sprengel"@de .
 
 
 :hatOrt rdf:type owl:ObjectProperty ;
@@ -338,12 +343,22 @@ pbv: rdf:type owl:Ontology ;
 :Pfarrstelle rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
 	rdfs:label "Pfarrstelle"@de ;
-	rdfs:comment "Von einer Pfarrerin oder einem Pfarrer besetzte Stelle."@de .
+	rdfs:comment "Von einer Pfarrerin oder einem Pfarrer besetzte Stelle."@de;
+	:synonym "Adjunkt"@de , "Anstaltspfarrer"@de , "Archidiakon(us)"@de , "Bischof"@de , "Dekan"@de , "Diakon(us)"@de , "Diakonatsverwalter"@de , "Divisionspfarrer"@de ,
+		"Domprediger"@de , "Feldprediger"@de , "Geistlicher"@de , "Gemeindediakon"@de , "Generalsuperintendent"@de , "Hilfsprediger"@de , "Hofdiakon(us)"@de , "Hofkaplan"@de ,
+		"Hofprediger"@de , "Kandidat"@de , "Kaplan"@de , "Kaplanvikar"@de , "Kollaborator"@de , "Kirchenkandidat"@de , "Koadjutor"@de , "Kreisoberpfarrer"@de ,
+		"Kreispfarrvikar"@de , "Landesbischof"@de , "Landesjugendpfarrer"@de , "Landesoberpfarrer"@de , "Landespfarrer für Diakonie"@de , "Missionar"@de , "Missionspfarrer"@de ,
+		"Oberpfarrer"@de , "Oberprediger"@de , "Pastor"@de , "Pastor im Hilfsdienst"@de , "Pastor im Angestelltenverhältnis"@de , "Pastor Primarius"@de , "Pestprediger"@de ,
+		"Pfarradjunkt"@de , "Pfarrer"@de , "Pfarrer im Hilfsdienst"@de , "Pfarrsubstitut"@de , "Pfarrverwalter"@de , "Pfarrverwalter im Angestelltenverhältnis"@de ,
+		"Pfarrvikar"@de , "Pfarrvikarinnen"@de , "Prädikant"@de , "Präses"@de , "Prediger"@de , "Prediger im Hilfsdienst"@de , "Prediger im Probedienst"@de , "Probst"@de ,
+		"Propst"@de , "Provinzialpfarrer"@de , "Provinzialvikar"@de , "Schlossgeistlicher"@de , "Schlossprediger"@de , "Schuldekan"@de , "Sonderpfarrer"@de , "Spezialvikar"@de ,
+		"Stiftssuperintendent"@de , "Strafanstaltsprediger"@de , "Studentenpfarrer"@de , "Subdiakon(us)"@de , "Substitut"@de , "Superintendent"@de , "Superintendentvikar"@de , "Vikar"@de , "Zuchthausprediger"@de.
 
 :Sonderpfarramt rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
 	rdfs:label "Sonderpfarramt"@de ;
-	rdfs:comment "Sonderpfarramt."@de .
+	rdfs:comment "Sonderpfarramt."@de ;
+	:synonym "Diakoniepfarrer"@de , "Funktionspfarrstelle"@de , "Kinder- und Jugendpfarrer"@de , "Landesgartenschaupfarrer"@de , "Vereinsgeistlicher"@de .
 
 :hatStelle rdf:type owl:ObjectProperty ;
 	rdfs:domain	:Pfarrstelle ;
@@ -354,12 +369,18 @@ pbv: rdf:type owl:Ontology ;
 :AndereTaetigkeit rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode; 
 	rdfs:label "Andere Tätigkeit"@de ;
-	rdfs:comment "Andere Tätigkeit."@de .
+	rdfs:comment "Andere Tätigkeit."@de ;
+	:synonym "Direktor"@de , "Dozent"@de , "Gehilfe"@de , "Gemeindepädagoge"@de , "Hauptkatechet"@de , "Hauslehrer"@de , "Hofmeister"@de , "Informator"@de , "Inspektor"@de , "Kantor"@de ,
+		"Katechet"@de , "Kirchenrat"@de , "Konrektor"@de , "Konsistorialrat"@de , "Konsistorialassessor"@de , "Konsistorialpräsident"@de , "Kreisjugendwart"@de , "Kustos"@de ,
+		"Lehrer"@de , "Ludimoderator"@de , "Magister"@de , "Oberkirchenrat"@de , "Oberkonsistorialrat"@de , "Oberlandeskirchenrat"@de , "Präzeptor"@de , "Presbyter"@de ,
+		"Prinzenerzieher"@de , "Privatdozent"@de , "Privatlehrer"@de , "Professor"@de , "Rektor"@de , "Religionslehrer"@de , "Schulkollege"@de , "Senior"@de , "Studieninspektor"@de ,
+		"Studienrat"@de , "Subkonrektor"@de , "Subrektor"@de , "Waisenhausinspektor"@de .
 
 :Spezialseelsorge rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode;
 	rdfs:label "Spezialseelsorge"@de ;
-	rdfs:comment "Spezialseelsorge: Krankenhausseelsorge, Anstaltsseelsorge, Gefängnisseelsorge, Notfallseelsorge usw."@de .
+	rdfs:comment "Spezialseelsorge: Krankenhausseelsorge, Anstaltsseelsorge, Gefängnisseelsorge, Notfallseelsorge usw."@de ;
+	:synonym "Anstaltsseelsorge"@de , "Gefängnisseelsorge"@de , "Krankenhausseelsorge"@de , "Militärseelsorge"@de , "Notfallseelsorge"@de .
 
 :Referent rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode;
@@ -375,6 +396,20 @@ pbv: rdf:type owl:Ontology ;
 	rdfs:subClassOf :Dienstlich, :Periode;
 	rdfs:label "Leitung"@de ;
 	rdfs:comment "Leitung einer Institution."@de .
+
+:Leitung-Ebene-1 rdf:type owl:Class ; 
+	rdfs:subClassOf :Leitung;
+	rdfs:label "Leitende Ebene"@de ;
+	rdfs:comment "Leitende Ebene einer Institution."@de ;
+	:synonym "Bischof"@de , "Kirchenpräsident"@de , "Landesbischof"@de , "Präses"@de .
+
+
+:Leitung-Ebene-2 rdf:type owl:Class ; 
+	rdfs:subClassOf :Leitung;
+	rdfs:label "Mittlere leitende Ebene"@de ;
+	rdfs:comment "Mittlere leitende Ebene einer Institution."@de ;
+	:synonym "Dekanat"@de , "Ephorus"@de , "Generalinspektion"@de , "Generalsuperintendent"@de , "Inspektion"@de , "Kirchenkreis"@de , "Kreispfarrer"@de , "Kreisoberpfarrer"@de ,
+		"Landessuperintendent"@de , "Oberpfarrer"@de , "Prälat"@de , "Propstei"@de , "Propsteisprengel"@de , "Regionalbischof"@de , "Superintendentur"@de , "Superintendenturbezirk"@de .
 
 :Ruhestand rdf:type owl:Class ; 
 	rdfs:subClassOf :Dienstlich, :Periode;
